@@ -1,5 +1,5 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-11-22T16:53:45Z",
   "collection": "Xbox Series X|S / Scarlett",
   "methodology": "GitHub API activity + manually evidence-reviewed compatibility milestones",
   "projects": [
@@ -14,7 +14,49 @@
       "description": "GTA VI-specific native PC recompilation research",
       "priority": "GTA VI direct",
       "url": "https://github.com/ItsNotRexed/Leonida",
+      "branch_scanned": "main",
+      "description_upstream": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "archived": false,
+      "stars": 12009,
+      "forks": 940,
+      "open_prs": 484,
+      "open_issues_estimate": 47,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-22T16:31:20Z",
+      "last_commit_sha": "49475796c226c8511b9470bf97a4daf57b8af323",
+      "last_push_at": "2026-11-22T16:37:17Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "49475796c226c8511b9470bf97a4daf57b8af323",
+          "message": "Fix tests the round-39 merges broke",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/49475796c226c8511b9470bf97a4daf57b8af323",
+          "date": "2026-11-22T16:31:20Z"
+        },
+        {
+          "sha": "9f03fc31e1d612be45fe7fc4c6e19ed5a74c2fe2",
+          "message": "run_gpu_tests: ps_m3_query belongs to d3d12_m3_frame_test (OTHER_HARNESS)",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/9f03fc31e1d612be45fe7fc4c6e19ed5a74c2fe2",
+          "date": "2026-11-22T16:22:00Z"
+        },
+        {
+          "sha": "b1d7e4107496c8893e230d2c7f0be5455ca7c332",
+          "message": "Fix the runtime build after the merge round: custom border colour chain, lds_bytes CLI check",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/b1d7e4107496c8893e230d2c7f0be5455ca7c332",
+          "date": "2026-11-22T16:14:21Z"
+        },
+        {
+          "sha": "e65b624932a48de1ea9defb41ae6a371d65b48f6",
+          "message": "Merge pull request #2030 from itsRevela",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/e65b624932a48de1ea9defb41ae6a371d65b48f6",
+          "date": "2026-11-22T15:40:36Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -28,7 +70,52 @@
       "description": "GTA VI-specific Xbox Series to Windows recompilation research",
       "priority": "GTA VI direct",
       "url": "https://github.com/R0Y00/Xbox2Windows",
+      "branch_scanned": "main",
+      "description_upstream": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
+      "archived": false,
+      "stars": 1212,
+      "forks": 117,
+      "open_prs": 69,
+      "open_issues_estimate": 26,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 960,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T16:53:15Z",
+      "last_commit_sha": "c9431ca356f6bef7d0d5c0bccb289c0a130ed1fc",
+      "last_push_at": "2026-11-22T16:53:16Z",
+      "new_commits_since_scan": null,
+      "latest_release": {
+        "tag": "gpu-check-v0.1.0",
+        "url": "https://github.com/R0Y00/Xbox2Windows/releases/tag/gpu-check-v0.1.0"
+      },
+      "recent_commits": [
+        {
+          "sha": "c9431ca356f6bef7d0d5c0bccb289c0a130ed1fc",
+          "message": "shader: lower gfx1013 v_mad_legacy_f32 in pixel_aot (#358)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/c9431ca356f6bef7d0d5c0bccb289c0a130ed1fc",
+          "date": "2026-11-22T16:53:15Z"
+        },
+        {
+          "sha": "14daa49f10b700b3434e1298225e4b0fdbfc1863",
+          "message": "cpu: lower baseline 128-bit SSE2 shifts, packs, unpacks, shuffles, and movemask (#371)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/14daa49f10b700b3434e1298225e4b0fdbfc1863",
+          "date": "2026-11-22T16:49:48Z"
+        },
+        {
+          "sha": "1947e972060e2df15cc6df42fe9ec42e6c0cfd25",
+          "message": "cpu: lower AVX2 128-bit lane ops, dword blends, and cross-lane permutes (#344)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/1947e972060e2df15cc6df42fe9ec42e6c0cfd25",
+          "date": "2026-11-22T16:42:35Z"
+        },
+        {
+          "sha": "84c1506f345e3712e166d9492561e5f08e12322a",
+          "message": "disasm_rdna2: decode v_madmk_f32 and v_madak_f32 with their literal (#615)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/84c1506f345e3712e166d9492561e5f08e12322a",
+          "date": "2026-11-22T16:34:07Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -42,7 +129,49 @@
       "description": "Xbox Series GDK runtime and RDNA2 shader translation",
       "priority": "Core runtime",
       "url": "https://github.com/ivall/xcl",
+      "branch_scanned": "main",
+      "description_upstream": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "archived": false,
+      "stars": 172,
+      "forks": 11,
+      "open_prs": 2,
+      "open_issues_estimate": 0,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 148,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T16:37:54Z",
+      "last_commit_sha": "550d979b01727664a35e7ea2ac520cc77029e91c",
+      "last_push_at": "2026-11-22T16:38:00Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "550d979b01727664a35e7ea2ac520cc77029e91c",
+          "message": "Minecraft's create-world screen: helper lanes of other quads, unread VS inputs, PLS drive",
+          "url": "https://github.com/ivall/xcl/commit/550d979b01727664a35e7ea2ac520cc77029e91c",
+          "date": "2026-11-22T16:37:54Z"
+        },
+        {
+          "sha": "e80ce8d9f9fe7b26b8b32a3e36ed9c3a962b50fd",
+          "message": "Whole shader pack: effect-qualified records, far jumps, every program translates",
+          "url": "https://github.com/ivall/xcl/commit/e80ce8d9f9fe7b26b8b32a3e36ed9c3a962b50fd",
+          "date": "2026-11-22T15:44:53Z"
+        },
+        {
+          "sha": "1903ff6876363f22ad9100507aeeab64cd6d40b8",
+          "message": "No Xbox Live tokens by default: titles take their offline paths",
+          "url": "https://github.com/ivall/xcl/commit/1903ff6876363f22ad9100507aeeab64cd6d40b8",
+          "date": "2026-11-22T13:54:23Z"
+        },
+        {
+          "sha": "9e759de1f2ef93a2f69dc98fcb7c286a3f034377",
+          "message": "Minecraft reaches its main menu: title window as the console screen, heap buffers in unified memory",
+          "url": "https://github.com/ivall/xcl/commit/9e759de1f2ef93a2f69dc98fcb7c286a3f034377",
+          "date": "2026-11-22T13:34:17Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -56,7 +185,49 @@
       "description": "Progress research for Xbox Series titles on PC",
       "priority": "Core runtime",
       "url": "https://github.com/omonkeyz/xbox-emulator",
+      "branch_scanned": "main",
+      "description_upstream": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "archived": false,
+      "stars": 1171,
+      "forks": 72,
+      "open_prs": 10,
+      "open_issues_estimate": 21,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 188,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T16:53:37Z",
+      "last_commit_sha": "cd5817b60da3c38a99e9b93a471701fcfed7edda",
+      "last_push_at": "2026-11-22T16:53:40Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "cd5817b60da3c38a99e9b93a471701fcfed7edda",
+          "message": "Merge #150 (SchmashinPrunes), #155 (MeNoSkills), #156 (Yeetbot159): bit-exact RDNA2 f16 transcendentals with TOMBOX_XS_F16_NATIVE opt-out, shader-model skip in exec_mem, ",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/cd5817b60da3c38a99e9b93a471701fcfed7edda",
+          "date": "2026-11-22T16:53:37Z"
+        },
+        {
+          "sha": "de7e565f1491cfaf581fff59daae2c003f5657db",
+          "message": "Unpack the RDNA2 viewport index from the layer dword.",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/de7e565f1491cfaf581fff59daae2c003f5657db",
+          "date": "2026-11-22T16:52:52Z"
+        },
+        {
+          "sha": "10f9b33f11d198adc8956369b189e145c609b7cf",
+          "message": "tombox-xshader tests: skip mem cases whose shader model the host D3D12 runtime does not support",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/10f9b33f11d198adc8956369b189e145c609b7cf",
+          "date": "2026-11-22T16:52:52Z"
+        },
+        {
+          "sha": "18fca55baff18b3158d7f8d4ad50ae1763e2f4ed",
+          "message": "compat-common: build online_ready_up_replay only with tombox_backend_data, matching the online modules it uses",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/18fca55baff18b3158d7f8d4ad50ae1763e2f4ed",
+          "date": "2026-11-22T16:52:52Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -70,7 +241,49 @@
       "description": "Xbox Series system API mapping and shims",
       "priority": "Core runtime",
       "url": "https://github.com/drycheetah84/TomBox",
+      "branch_scanned": "master",
+      "description_upstream": "A Xbox Series X|S Emulator Designed to map and shim system apis to run games seamlessly",
+      "archived": false,
+      "stars": 77,
+      "forks": 11,
+      "open_prs": 1,
+      "open_issues_estimate": 2,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 136,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T02:40:52Z",
+      "last_commit_sha": "9a39de888bbdecef1cae84171464dad34176b994",
+      "last_push_at": "2026-11-22T02:49:58Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "9a39de888bbdecef1cae84171464dad34176b994",
+          "message": "Translator: group barriers for one-wave compute shaders that rely on lockstep LDS",
+          "url": "https://github.com/drycheetah84/TomBox/commit/9a39de888bbdecef1cae84171464dad34176b994",
+          "date": "2026-11-22T02:40:52Z"
+        },
+        {
+          "sha": "140195574d75be4f78fae6237833676e05568b42",
+          "message": "UE importer: normal maps, larger textures, surroundings ring, Lumen volume",
+          "url": "https://github.com/drycheetah84/TomBox/commit/140195574d75be4f78fae6237833676e05568b42",
+          "date": "2026-11-22T01:47:52Z"
+        },
+        {
+          "sha": "3cae0cfd3f49eb3c5d079f3d39857cbe1b575a03",
+          "message": "ue: TomBoxLevelImport editor plugin - import a map area from the TomBox map server",
+          "url": "https://github.com/drycheetah84/TomBox/commit/3cae0cfd3f49eb3c5d079f3d39857cbe1b575a03",
+          "date": "2026-11-22T01:08:33Z"
+        },
+        {
+          "sha": "6ce59360e06b8acab9f4a114699ca94956a4a30b",
+          "message": "Merge upstream: PSO-aware bindings, v_cmpx decoding, capture diagnostics",
+          "url": "https://github.com/drycheetah84/TomBox/commit/6ce59360e06b8acab9f4a114699ca94956a4a30b",
+          "date": "2026-11-22T00:48:04Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -84,7 +297,49 @@
       "description": "Clean-room Scarlett high-level emulation and compatibility layer",
       "priority": "Core runtime",
       "url": "https://github.com/Freminet/ScarlettX",
+      "branch_scanned": "main",
+      "description_upstream": "Experimental, clean-room Xbox Series X|S (Scarlett) HLE and compatibility layer for Windows x64.",
+      "archived": false,
+      "stars": 154,
+      "forks": 17,
+      "open_prs": 26,
+      "open_issues_estimate": 1,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 57,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T10:38:04Z",
+      "last_commit_sha": "01c642cf62a6d9978f535e2c438c488ebcb4cd39",
+      "last_push_at": "2026-11-22T10:38:07Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "01c642cf62a6d9978f535e2c438c488ebcb4cd39",
+          "message": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
+          "url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
+          "date": "2026-11-22T10:38:04Z"
+        },
+        {
+          "sha": "7cfc38cb9ea0fdf1fd271da4af0dcfddb814f3ca",
+          "message": "Merge pull request #3",
+          "url": "https://github.com/Freminet/ScarlettX/commit/7cfc38cb9ea0fdf1fd271da4af0dcfddb814f3ca",
+          "date": "2026-11-22T10:32:26Z"
+        },
+        {
+          "sha": "0ea46efc1db3c68e586e9dd400c68dcd5e89e0b4",
+          "message": "Borderless fullscreen on Alt+Enter and controller rumble: follow-ups and status refresh",
+          "url": "https://github.com/Freminet/ScarlettX/commit/0ea46efc1db3c68e586e9dd400c68dcd5e89e0b4",
+          "date": "2026-11-22T10:19:27Z"
+        },
+        {
+          "sha": "8e825a8be406a66cc1ef6846d1d59b7021defac1",
+          "message": "Merge pull request #4",
+          "url": "https://github.com/Freminet/ScarlettX/commit/8e825a8be406a66cc1ef6846d1d59b7021defac1",
+          "date": "2026-11-22T10:18:33Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -98,7 +353,52 @@
       "description": "Experimental Scarlett and Durango compatibility layer",
       "priority": "Core runtime",
       "url": "https://github.com/sammwyy/xvalkyrie",
+      "branch_scanned": "main",
+      "description_upstream": "Experimental Xbox One (Durango) & Series X|S (Scarlett) compatibility layer for Windows",
+      "archived": false,
+      "stars": 101,
+      "forks": 2,
+      "open_prs": 1,
+      "open_issues_estimate": 1,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 186,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T10:58:03Z",
+      "last_commit_sha": "15f42fdfc70e7d8f0f9055097731b66efca46e45",
+      "last_push_at": "2026-11-22T10:58:11Z",
+      "new_commits_since_scan": null,
+      "latest_release": {
+        "tag": "0.0.3",
+        "url": "https://github.com/sammwyy/xvalkyrie/releases/tag/0.0.3"
+      },
+      "recent_commits": [
+        {
+          "sha": "15f42fdfc70e7d8f0f9055097731b66efca46e45",
+          "message": "chore: bump version to 0.0.3",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/15f42fdfc70e7d8f0f9055097731b66efca46e45",
+          "date": "2026-11-22T10:58:03Z"
+        },
+        {
+          "sha": "c95e01814010c7bb75a56636526402ea5970bd06",
+          "message": "feat(launcher): a profiles page in the settings and a language of the console's own",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/c95e01814010c7bb75a56636526402ea5970bd06",
+          "date": "2026-11-22T10:55:53Z"
+        },
+        {
+          "sha": "8a66d795a91083fe32dc785d63a199796efac5b1",
+          "message": "fix(gameinput): report the gamepad after its user association so titles mark it connected",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/8a66d795a91083fe32dc785d63a199796efac5b1",
+          "date": "2026-11-22T10:26:33Z"
+        },
+        {
+          "sha": "56b88e8439e91018c87531b5626b54fa11256cbd",
+          "message": "refactor(launcher): no migration of the user and saves from before profiles",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/56b88e8439e91018c87531b5626b54fa11256cbd",
+          "date": "2026-11-22T09:45:06Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -112,7 +412,49 @@
       "description": "Unicorn-based GDK high-level emulation prototype",
       "priority": "Core runtime",
       "url": "https://github.com/LooperSalty/AnyXboxX",
+      "branch_scanned": "main",
+      "description_upstream": "AnyXboxX — prototype d'émulateur Xbox Series X (HLE du GDK sur Unicorn)",
+      "archived": false,
+      "stars": 24,
+      "forks": 1,
+      "open_prs": 1,
+      "open_issues_estimate": 13,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 130,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T15:51:46Z",
+      "last_commit_sha": "3dd19adcb8a6293b7dc378b00bfc4c8cf0ab0b8a",
+      "last_push_at": "2026-11-22T16:44:49Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "3dd19adcb8a6293b7dc378b00bfc4c8cf0ab0b8a",
+          "message": "Merge pull request #82 from LooperSalty/docs/banc-dll-a-jour",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/3dd19adcb8a6293b7dc378b00bfc4c8cf0ab0b8a",
+          "date": "2026-11-22T15:51:46Z"
+        },
+        {
+          "sha": "593da715d8d2f554a54e5535a9b2914a90c1ca06",
+          "message": "Merge pull request #84 from LooperSalty/chore/voisins-22-novembre-soir",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/593da715d8d2f554a54e5535a9b2914a90c1ca06",
+          "date": "2026-11-22T15:51:42Z"
+        },
+        {
+          "sha": "59347d63b90e24dcee14ff5a39befa930cbdd788",
+          "message": "Merge pull request #87 from LooperSalty/fix/gdk-photo-profil",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/59347d63b90e24dcee14ff5a39befa930cbdd788",
+          "date": "2026-11-22T15:51:36Z"
+        },
+        {
+          "sha": "74d61a85b1a285d1a0d7705a6db9a5ab24ae15e0",
+          "message": "Merge pull request #86 from LooperSalty/feat/gdk-hdr-reseau",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/74d61a85b1a285d1a0d7705a6db9a5ab24ae15e0",
+          "date": "2026-11-22T15:51:32Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -126,7 +468,52 @@
       "description": "D3D12/Vulkan translation and Scarlett GDK shims",
       "priority": "Core runtime",
       "url": "https://github.com/californiaAlmonds/OpenScarlett",
+      "branch_scanned": "main",
+      "description_upstream": "Open-source MIT C++20 Xbox Series X|S (Scarlett) translation layer for Windows 10/11 — D3D12, Vulkan 1.4, RDNA2 shader lifting, GDK shims, and real-binary telemetry",
+      "archived": false,
+      "stars": 18,
+      "forks": 4,
+      "open_prs": 1,
+      "open_issues_estimate": 3,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 210,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T16:18:28Z",
+      "last_commit_sha": "85e2d3d16b6897b29fe8d4690bd2e9644f2aa1cf",
+      "last_push_at": "2026-11-22T16:18:22Z",
+      "new_commits_since_scan": null,
+      "latest_release": {
+        "tag": "v0.5.0-alpha",
+        "url": "https://github.com/californiaAlmonds/OpenScarlett/releases/tag/v0.5.0-alpha"
+      },
+      "recent_commits": [
+        {
+          "sha": "85e2d3d16b6897b29fe8d4690bd2e9644f2aa1cf",
+          "message": "fix(dstorage): eliminate lost-wakeup race in DStoragePriorityScheduler::NotifyWorkAvailable",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/85e2d3d16b6897b29fe8d4690bd2e9644f2aa1cf",
+          "date": "2026-11-22T16:18:28Z"
+        },
+        {
+          "sha": "fe86185556fe67b26f7cea5ea3d7c7fd39446e42",
+          "message": "fix(gdkx): remove UNICODE macro on ANSI GDKX samples so DefWindowProcA matches RegisterClassExA under Clang-CL",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/fe86185556fe67b26f7cea5ea3d7c7fd39446e42",
+          "date": "2026-11-22T15:21:31Z"
+        },
+        {
+          "sha": "5e72a2ce514648acfa3e2143dc1119d7ca0f7707",
+          "message": "chore(ci): trace USER32 RegisterClassExA/CreateWindowExA under OPENSCARLETT_TRACE_ODS",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/5e72a2ce514648acfa3e2143dc1119d7ca0f7707",
+          "date": "2026-11-22T14:47:26Z"
+        },
+        {
+          "sha": "cd7f16375bb61ca9ff2bbc3dddad578ed5a826a2",
+          "message": "chore(ci): trace GDKX startup checkpoints under OPENSCARLETT_TRACE_ODS for Clang-CL diagnosis",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/cd7f16375bb61ca9ff2bbc3dddad578ed5a826a2",
+          "date": "2026-11-22T14:37:25Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -141,7 +528,49 @@
       "description": "Native-first Xbox Series compatibility layer",
       "priority": "Core runtime",
       "url": "https://github.com/brcly/TuxBox",
+      "branch_scanned": "main",
+      "description_upstream": "TuxBox is a new, native-first compatibility layer for running unpacked, decrypted Xbox Series X|S games on x86-64 Linux and Windows.",
+      "archived": false,
+      "stars": 10,
+      "forks": 0,
+      "open_prs": 0,
+      "open_issues_estimate": 0,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 12,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T10:30:03Z",
+      "last_commit_sha": "346b50ee06c28d8ac40d53884e85cdc10b45a832",
+      "last_push_at": "2026-11-22T10:30:05Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "346b50ee06c28d8ac40d53884e85cdc10b45a832",
+          "message": "Preserve integer page-table reads in Xbox street materials",
+          "url": "https://github.com/brcly/TuxBox/commit/346b50ee06c28d8ac40d53884e85cdc10b45a832",
+          "date": "2026-11-22T10:30:03Z"
+        },
+        {
+          "sha": "393f4858556f4a4cd0741c4e2634f84f946fa2f7",
+          "message": "Measure Frosty’s shooting tutorial and menu texture detail on stock Proton",
+          "url": "https://github.com/brcly/TuxBox/commit/393f4858556f4a4cd0741c4e2634f84f946fa2f7",
+          "date": "2026-11-22T10:18:56Z"
+        },
+        {
+          "sha": "521a7415269c044cb628922db7c6f4f55ffd9df6",
+          "message": "Reduce branch overhead when translating Xbox pixel shaders",
+          "url": "https://github.com/brcly/TuxBox/commit/521a7415269c044cb628922db7c6f4f55ffd9df6",
+          "date": "2026-11-22T10:09:07Z"
+        },
+        {
+          "sha": "77642e1408b5670ac49c6aef21dea500b23afe51",
+          "message": "Improve Frosty’s menu glyphs and prepare shaders through the chase",
+          "url": "https://github.com/brcly/TuxBox/commit/77642e1408b5670ac49c6aef21dea500b23afe51",
+          "date": "2026-11-22T05:24:12Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -155,7 +584,49 @@
       "description": "Experimental Windows x64 and D3D12 GDK layer",
       "priority": "Core runtime",
       "url": "https://github.com/jadeowaowa/scarlett-layer",
+      "branch_scanned": "main",
+      "description_upstream": "Experimental Windows x64 / D3D12 compatibility layer for unpacked, unencrypted Xbox Series X|S (GDK) executables",
+      "archived": false,
+      "stars": 20,
+      "forks": 1,
+      "open_prs": 0,
+      "open_issues_estimate": 0,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 147,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T12:52:32Z",
+      "last_commit_sha": "f4f0d7e124921b2d2253f23ecc9ea10cc879be36",
+      "last_push_at": "2026-11-22T12:55:17Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "f4f0d7e124921b2d2253f23ecc9ea10cc879be36",
+          "message": "Sprint 71: RDNA2 independent-oracle suite (28 cases) & 255-ELF gfx1030 corpus sweep",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/f4f0d7e124921b2d2253f23ecc9ea10cc879be36",
+          "date": "2026-11-22T12:52:32Z"
+        },
+        {
+          "sha": "2de878fa642eae92f0089ff09b0d138fe92ad845",
+          "message": "Merge sprint-70-xvd-and-parser-hardening: real XVD geometry, parser hardening, and status CI (74/74)",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/2de878fa642eae92f0089ff09b0d138fe92ad845",
+          "date": "2026-11-22T08:04:39Z"
+        },
+        {
+          "sha": "385b503b45362df8d26035736db87473f02da4c5",
+          "message": "feat(xvd,loader,ci): migrate real 12 KiB XVD geometry, harden PE/GameConfig parsers, add status drift check",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/385b503b45362df8d26035736db87473f02da4c5",
+          "date": "2026-11-22T08:04:39Z"
+        },
+        {
+          "sha": "45eafbfcf9bfb6ea0ec36a8586f1e82412349823",
+          "message": "Merge docs/truth-reset-s69: truthful baseline docs and Sprint 70-73 roadmap",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/45eafbfcf9bfb6ea0ec36a8586f1e82412349823",
+          "date": "2026-11-22T07:37:37Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -169,7 +640,37 @@
       "description": "Scarlett GDK API implementation",
       "priority": "Supporting technology",
       "url": "https://github.com/Ender-0001/GDKScarlett",
+      "branch_scanned": "main",
+      "description_upstream": null,
+      "archived": false,
+      "stars": 12,
+      "forks": 0,
+      "open_prs": 0,
+      "open_issues_estimate": 1,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 2,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-21T18:55:26Z",
+      "last_commit_sha": "e703bc3a11ad2780c9167f98c25b9867c7b08797",
+      "last_push_at": "2026-11-21T18:55:25Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "e703bc3a11ad2780c9167f98c25b9867c7b08797",
+          "message": "init d3d12_xs",
+          "url": "https://github.com/Ender-0001/GDKScarlett/commit/e703bc3a11ad2780c9167f98c25b9867c7b08797",
+          "date": "2026-11-21T18:55:26Z"
+        },
+        {
+          "sha": "f016f6f08874216c50a5554b2af246c55ddee445",
+          "message": "Revise README",
+          "url": "https://github.com/Ender-0001/GDKScarlett/commit/f016f6f08874216c50a5554b2af246c55ddee445",
+          "date": "2026-11-21T18:22:40Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     },
     {
@@ -184,7 +685,49 @@
       "description": "Xbox Series-specific GPU shader translation research branch",
       "priority": "Supporting technology",
       "url": "https://github.com/realdody/americas-recomp",
+      "branch_scanned": "xbox-series",
+      "description_upstream": null,
+      "archived": false,
+      "stars": 447,
+      "forks": 81,
+      "open_prs": 7,
+      "open_issues_estimate": 9,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-22T15:50:45Z",
+      "last_commit_sha": "498a06a12d77d29f176872b21024e066c1f07dc2",
+      "last_push_at": "2026-11-22T15:50:46Z",
+      "new_commits_since_scan": null,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "498a06a12d77d29f176872b21024e066c1f07dc2",
+          "message": "Relicense 21 more files under MIT: replies in #179 (85 in total)",
+          "url": "https://github.com/realdody/americas-recomp/commit/498a06a12d77d29f176872b21024e066c1f07dc2",
+          "date": "2026-11-22T15:50:45Z"
+        },
+        {
+          "sha": "8df05a4aa95d503056b474ca473bc2df30d9ff5a",
+          "message": "Relicense 14 more files under MIT: replies in #179 (64 in total)",
+          "url": "https://github.com/realdody/americas-recomp/commit/8df05a4aa95d503056b474ca473bc2df30d9ff5a",
+          "date": "2026-11-22T15:13:54Z"
+        },
+        {
+          "sha": "73136eb14522b3ca4e84820bf3b6b680784c066e",
+          "message": "Relicense 50 files under MIT: every author agreed in #179",
+          "url": "https://github.com/realdody/americas-recomp/commit/73136eb14522b3ca4e84820bf3b6b680784c066e",
+          "date": "2026-11-22T14:37:22Z"
+        },
+        {
+          "sha": "cb280c7c8b4ca1972ad294388861104734836bf4",
+          "message": "README and AGENTS.md: notice for the MIT consent issue (#179) and closed pull requests",
+          "url": "https://github.com/realdody/americas-recomp/commit/cb280c7c8b4ca1972ad294388861104734836bf4",
+          "date": "2026-11-22T14:27:37Z"
+        }
+      ],
       "milestones": [],
+      "last_successful_scan": "2026-11-22T16:53:45Z",
       "scan_error": null
     }
   ]

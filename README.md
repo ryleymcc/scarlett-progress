@@ -15,7 +15,23 @@ There is no reliable single percentage for “GTA VI emulation progress.” Comm
 ## Master status
 
 <!-- TRACKER_TABLE_START -->
-Activity is pending the first GitHub Actions sync. See [`projects.json`](projects.json) for all 13 tracked repositories.
+Latest snapshot: **2026-11-22T16:53:45Z**. Every count is upstream activity, **not** game compatibility.
+
+| Project | Commits (30d) | Last code commit | Open PRs | Stars | Evidence |
+|---|---:|---|---:|---:|---|
+| [Leonida](https://github.com/ItsNotRexed/Leonida) | 1000+ | 2026-11-22 | 484 | 12009 | Unreviewed |
+| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | 960 | 2026-11-22 | 69 | 1212 | Unreviewed |
+| [XCL](https://github.com/ivall/xcl) | 148 | 2026-11-22 | 2 | 172 | Unreviewed |
+| [Xbox Emulator](https://github.com/omonkeyz/xbox-emulator) | 188 | 2026-11-22 | 10 | 1171 | Unreviewed |
+| [TomBox](https://github.com/drycheetah84/TomBox) | 136 | 2026-11-22 | 1 | 77 | Unreviewed |
+| [ScarlettX](https://github.com/Freminet/ScarlettX) | 57 | 2026-11-22 | 26 | 154 | Unreviewed |
+| [xvalkyrie](https://github.com/sammwyy/xvalkyrie) | 186 | 2026-11-22 | 1 | 101 | Unreviewed |
+| [AnyXboxX](https://github.com/LooperSalty/AnyXboxX) | 130 | 2026-11-22 | 1 | 24 | Unreviewed |
+| [OpenScarlett](https://github.com/californiaAlmonds/OpenScarlett) | 210 | 2026-11-22 | 1 | 18 | Unreviewed |
+| [TuxBox](https://github.com/brcly/TuxBox) | 12 | 2026-11-22 | 0 | 10 | Unreviewed |
+| [scarlett-layer](https://github.com/jadeowaowa/scarlett-layer) | 147 | 2026-11-22 | 0 | 20 | Unreviewed |
+| [GDKScarlett](https://github.com/Ender-0001/GDKScarlett) | 2 | 2026-11-21 | 0 | 12 | Unreviewed |
+| [americas-recomp](https://github.com/realdody/americas-recomp) (`xbox-series` branch) | 1000+ | 2026-11-22 | 7 | 447 | Unreviewed |
 <!-- TRACKER_TABLE_END -->
 
 ## Start a new repository
