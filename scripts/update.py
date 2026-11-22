@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build an evidence-conscious, GitHub-only Xbox Series X|S activity index.
+"""Build a fully automated, GitHub-only Xbox Series X|S progress index.
 
 Uses Python standard library; a public GITHUB_TOKEN is strongly recommended to
 avoid the anonymous API quota. Run from any directory.
@@ -24,11 +24,6 @@ PER_PAGE = 100
 MAX_COMMIT_PAGES = 10
 MAX_PR_PAGES = 5
 TOKEN = os.getenv("GITHUB_TOKEN", "")
-ALLOWED_STATUSES = {"claimed", "independently_verified", "disputed"}
-ALLOWED_MILESTONES = {
-    "loader", "gdk_runtime", "gpu_translation", "sample_rendering",
-    "commercial_title_boot", "commercial_gameplay", "gta_vi_boot", "gta_vi_gameplay"
-}
 TABLE_START = "<!-- TRACKER_TABLE_START -->"
 TABLE_END = "<!-- TRACKER_TABLE_END -->"
 
@@ -64,20 +59,6 @@ def valid_projects(projects: list[dict]) -> None:
         seen.add(repo.lower())
         if project.get("scope", "").find("Xbox Series") == -1:
             raise ValueError(f"Not explicitly Xbox Series scoped: {repo}")
-
-
-def verified_milestones(raw: dict, repo: str) -> list[dict]:
-    output = []
-    for item in raw.get("milestones", {}).get(repo, []):
-        if item.get("status") not in ALLOWED_STATUSES:
-            raise ValueError(f"Invalid milestone status for {repo}: {item}")
-        if item.get("milestone") not in ALLOWED_MILESTONES:
-            raise ValueError(f"Invalid milestone type for {repo}: {item}")
-        source = item.get("source", "")
-        if not source.startswith("https://"):
-            raise ValueError(f"Missing evidence source for {repo}: {item}")
-        output.append({key: item.get(key) for key in ("milestone", "status", "summary", "source", "reviewed_at")})
-    return output
 
 
 def api_get(path: str, params: dict | None = None, missing_ok: bool = False):
@@ -138,7 +119,7 @@ def delta_since_previous(repo: str, old_sha: str | None, new_sha: str | None):
     return None  # force-push, divergence or API failure: not interpretable as 0
 
 
-def snapshot_project(project: dict, previous: dict | None, milestones: list, now: dt.datetime):
+def snapshot_project(project: dict, previous: dict | None, now: dt.datetime):
     repo = project["repo"]
     path = f"/repos/{repo}"
     info, _ = api_get(path)
@@ -188,7 +169,6 @@ def snapshot_project(project: dict, previous: dict | None, milestones: list, now
             }
             for c in commits[:4]
         ],
-        "milestones": milestones,
         "last_successful_scan": utc_iso(now),
         "scan_error": None
     }
@@ -198,8 +178,8 @@ def render_readme_table(projects: list, scanned: str) -> str:
     if not scanned:
         return "Activity is pending the first GitHub Actions sync. See [`projects.json`](projects.json)."
     lines = [f"Latest snapshot: **{scanned}**. Every count is upstream activity, **not** game compatibility.\n",
-             "| Project | Commits (30d) | Last code commit | Open PRs | Stars | Evidence |",
-             "|---|---:|---|---:|---:|---|"]
+             "| Project | Commits (30d) | Last code commit | Open PRs | Stars | Published metrics |",
+             "|---|---:|---|---:|---:|---:|"]
     for p in projects:
         repo = p["repo"]
         def fmt(x):
@@ -208,10 +188,11 @@ def render_readme_table(projects: list, scanned: str) -> str:
         commit_date = (p.get("last_commit_at") or "")[:10] or "?"
         if p.get("scan_error"):
             commit_date += " ⚠ stale"
-        milestones = p.get("milestones") or []
-        evidence = f"{len(milestones)} sourced" if milestones else "Unreviewed"
+        cov = p.get("coverage") or {}
+        published = len(cov.get("reported_metrics") or []) + bool(cov.get("checklist"))
+        summary = f"{published} tracked" if cov else "Pending"
         branch = f" (`{p['branch']}` branch)" if p.get("branch") else ""
-        lines.append(f"| [{p['name']}](https://github.com/{repo}){branch} | {cm} | {commit_date} | {fmt(p.get('open_prs'))} | {fmt(p.get('stars'))} | {evidence} |")
+        lines.append(f"| [{p['name']}](https://github.com/{repo}){branch} | {cm} | {commit_date} | {fmt(p.get('open_prs'))} | {fmt(p.get('stars'))} | {summary} |")
     return "\n".join(lines)
 
 
@@ -231,21 +212,18 @@ def run() -> None:
     valid_projects(projects)
     catalog = load_json(ROOT / "data/capabilities.json")
     capability_scan.validate_catalog(catalog)
-    implementation_file = load_json(ROOT / "data/implementations.json", {"entries": {}})
     metrics_rules = load_json(ROOT / "data/declared_metrics.json", {"rules": {}})
-    milestone_file = load_json(ROOT / "data/milestones.json", {"milestones": {}})
     previous = load_json(ROOT / "data/latest.json", {})
     previous_by_repo = {p["repo"]: p for p in previous.get("projects", [])}
     now = utcnow()
     updated = []
     for project in projects:
         repo = project["repo"]
-        milestones = verified_milestones(milestone_file, repo)
         print("Fetching", repo, flush=True)
         try:
-            fresh = snapshot_project(project, previous_by_repo.get(repo), milestones, now)
+            fresh = snapshot_project(project, previous_by_repo.get(repo), now)
             fresh["coverage"] = capability_scan.enrich_project(
-                repo, fresh["branch_scanned"], catalog, implementation_file, api_get, metrics_rules
+                repo, fresh["branch_scanned"], catalog, api_get, metrics_rules
             )
             updated.append(fresh)
         except (RuntimeError, KeyError, ValueError) as exc:
@@ -254,18 +232,20 @@ def run() -> None:
             old = previous_by_repo.get(repo)
             preserved = old.copy() if old else {**project}
             preserved.update(project)
-            preserved["milestones"] = milestones
+            preserved.pop("milestones", None)
+            if "coverage" in preserved:
+                preserved["coverage"].pop("reviewed", None)
+                preserved["coverage"].pop("verified_implemented", None)
+                preserved["coverage"].pop("claimed_implemented", None)
+                preserved["coverage"].pop("forecast", None)
             preserved["scan_error"] = str(exc)
             updated.append(preserved)
-    # Daily history is used only for guarded, independently verified catalog trends.
+    # Daily snapshots support automatic forecasts for stable upstream-reported denominators.
     history_paths = sorted((ROOT / "data/history").glob("????-??-??.json"))[-180:]
     histories = [load_json(p, {}) for p in history_paths]
     for row in updated:
         cov = row.get("coverage")
         if cov:
-            cov["forecast"] = capability_scan.estimate_catalog_eta(
-                row["repo"], cov["verified_implemented"], cov["catalog_total"], histories, now
-            )
             metrics = list(cov.get("reported_metrics") or [])
             if cov.get("checklist"):
                 metrics.append({"id": "readme_tasks", **cov["checklist"]})
@@ -282,7 +262,7 @@ def run() -> None:
         "overlap": capability_scan.build_overlap(updated, catalog),
         "generated_at": utc_iso(now),
         "collection": "Xbox Series X|S / Scarlett",
-        "methodology": "GitHub API activity, source-file-path signals, upstream README task checklists and manually reviewed capability evidence; these are distinct measures",
+        "methodology": "Fully automated GitHub API activity, source-tree path signals, and upstream README progress metrics; no manual compatibility certification",
         "projects": updated
     }
     write_json(ROOT / "data/latest.json", payload)
