@@ -30,3 +30,4 @@ jobs:
         run: |
           node --check docs/app.js
           node --check docs/coverage.js
+          node --check docs/api-grid.js
