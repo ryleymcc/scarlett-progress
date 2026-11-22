@@ -34,8 +34,9 @@ API_NAME = re.compile(
 )
 COMMENT = re.compile(r"/\*[\s\S]*?\*/|^[ \t]*//[^\n]*", re.MULTILINE)
 STUB = re.compile(
-    r"\b(?:E_NOTIMPL|STATUS_NOT_IMPLEMENTED|ERROR_CALL_NOT_IMPLEMENTED|"
-    r"ERROR_NOT_SUPPORTED|ENOSYS|todo!|unimplemented!|NotImplementedException)\b",
+    r"\\b(?:E_NOTIMPL|STATUS_NOT_IMPLEMENTED|ERROR_CALL_NOT_IMPLEMENTED|"
+    r"ERROR_NOT_SUPPORTED|ENOSYS|NotImplementedException)\\b|"
+    r"\\b(?:todo|unimplemented)!\\s*\\(",
     re.IGNORECASE,
 )
 PRIORITY = {"reference": 1, "stub_candidate": 2, "definition_candidate": 3}
