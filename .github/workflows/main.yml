@@ -1,6 +1,14 @@
 name: Sync Xbox Series projects
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/capabilities.json"
+      - "data/declared_metrics.json"
+      - "projects.json"
+      - ".github/workflows/main.yml"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
