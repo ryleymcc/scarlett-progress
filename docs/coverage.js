@@ -23,7 +23,7 @@ function renderCoverage(data) {
   comparison.innerHTML = ps.map(p => {
     const cov = p.coverage || {}, inv = cov.inventory || {}, checklist = cov.checklist;
     const detected = inv.status === 'ok' ? `${num((inv.features || []).length)} / ${num(catalog.length)}${inv.truncated?'*':''}` : 'Unavailable';
-    const metrics = [...(cov.reported_metrics || []), ...(checklist ? [{...checklist,label:'README task boxes'}] : [])];
+    const metrics = [...(cov.reported_metrics || []), ...(checklist ? [{...checklist,id:'readme_tasks',label:'README task boxes'}] : [])];
     const todo = metrics.length ? metrics.map(m => {
       const estimate = cov.metric_forecasts?.[m.id]?.status === 'experimental'
         ? `Experimental scope ETA: ${e(cov.metric_forecasts[m.id].target_date)}`
