@@ -18,7 +18,7 @@
         <span class="brand-copy"><strong>SCARLETT<span>PROGRESS</span></strong><small>XBOX SERIES X|S RESEARCH</small></span>
       </a>
       <nav class="toplinks" aria-label="sections">
-        <a href="#projects">Repositories</a><a href="#coverage">Implementation</a><a href="#activity">Activity</a><a href="#evidence">Evidence</a>
+        <a href="#projects">Repositories</a><a href="#coverage">Implementation</a><a href="#activity">Activity</a>
         <a href="https://github.com/topics/xbox-series-x" target="_blank" rel="noopener noreferrer" class="external">Discover projects ↗</a>
       </nav>
     </header>
@@ -42,11 +42,11 @@
         <div class="metric"><span class="metric-caption">TRACKED REPOSITORIES</span><strong id="metricRepos">13</strong><span class="metric-bottom">Series X|S only, including dual-gen</span></div>
         <div class="metric"><span class="metric-caption">30-DAY COMMITS</span><strong id="metricCommits">—</strong><span class="metric-bottom">Across tracked upstream branches</span></div>
         <div class="metric"><span class="metric-caption">ACTIVE THIS WEEK</span><strong id="metricActive">—</strong><span class="metric-bottom">Projects with recent commits</span></div>
-        <div class="metric"><span class="metric-caption">REVIEWED EVIDENCE</span><strong id="metricEvidence">0</strong><span class="metric-bottom">Source-linked compatibility entries</span></div>
+        <div class="metric"><span class="metric-caption">REPORTED PROGRESS</span><strong id="metricReported">—</strong><span class="metric-bottom">Automatically collected upstream measures</span></div>
       </section>
 
       <section id="projects" class="section">
-        <div class="section-header"><div><div class="section-kicker">01 / MASTER INDEX</div><h2>Project watchlist</h2><p>Changes are measured. Compatibility requires evidence.</p></div><div class="data-info" id="dataInfo">Scheduled refresh every 6h</div></div>
+        <div class="section-header"><div><div class="section-kicker">01 / MASTER INDEX</div><h2>Project watchlist</h2><p>Upstream GitHub activity refreshed automatically.</p></div><div class="data-info" id="dataInfo">Scheduled refresh every 6h</div></div>
         <div class="toolbar">
           <div class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg><input id="query" type="search" placeholder="Search a project, developer or technology…" aria-label="Search projects"></div>
           <select id="kind" aria-label="Filter priority"><option value="all">All project types</option><option value="GTA VI direct">GTA VI direct</option><option value="Core runtime">Core runtime</option><option value="Supporting technology">Supporting technology</option></select>
@@ -60,30 +60,26 @@
 
       <section id="coverage" class="section lower-section">
         <div class="section-header"><div><div class="section-kicker">02 / IMPLEMENTATION INTELLIGENCE</div>
-          <h2>Implementation &amp; overlap</h2><p>Code signals, upstream checklists and individually verified capabilities, each measured separately.</p></div></div>
+          <h2>Implementation &amp; overlap</h2><p>Automatically extracted source-code signals and upstream progress measurements.</p></div></div>
         <div id="coverageSummary" class="coverage-summary" aria-live="polite"></div>
         <p id="coverageCaveat" class="coverage-note">The defined reference catalog is not a complete console API inventory.</p>
         <div class="coverage-block">
           <div class="coverage-block-header"><div><h3>Project implementation comparison</h3><p>Implemented / total from upstream README checklists where published, not independently verified.</p></div></div>
-          <div class="coverage-scroll"><table class="coverage-table"><thead><tr><th>Project</th><th>Upstream reported done / total</th><th>Source areas / catalog</th><th>Verified / catalog</th><th>Experimental catalog ETA</th></tr></thead><tbody id="coverageComparison"></tbody></table></div>
+          <div class="coverage-scroll"><table class="coverage-table"><thead><tr><th>Project</th><th>Upstream reported done / total</th><th>Source areas / catalog</th><th>Scope forecast</th></tr></thead><tbody id="coverageComparison"></tbody></table></div>
         </div>
         <div class="coverage-block">
           <div class="coverage-block-header"><div><h3>Capability map</h3><p>Files matching a capability's paths suggest investigation, not implementation.</p></div><select id="coverageProject" aria-label="Filter capability map by project"><option value="all">All repositories</option></select></div>
           <div id="coverageMatrix"></div>
         </div>
         <div class="coverage-block"><div class="coverage-block-header"><div><h3>Overlapping research areas</h3><p>Shared areas do not imply shared code, duplicate implementations or interoperability.</p></div></div><div id="overlapPairs" class="overlap-list"></div></div>
-        <div class="coverage-block"><div class="coverage-block-header"><div><h3>Time-to-completion forecast</h3></div></div><div id="forecastExplanation" class="forecast-note"></div></div>
+        <div class="coverage-block"><div class="coverage-block-header"><div><h3>Estimated completion of tracked scopes</h3></div></div><div id="forecastExplanation" class="forecast-note"></div></div>
       </section>
 
       <section id="activity" class="section lower-section">
-        <div class="section-header"><div><div class="section-kicker">02 / LIVE SIGNALS</div><h2>Recent development</h2><p>Latest commit messages from the monitored branches. Titles come from their authors.</p></div></div>
+        <div class="section-header"><div><div class="section-kicker">03 / LIVE SIGNALS</div><h2>Recent development</h2><p>Latest commit messages from the monitored branches. Titles come from their authors.</p></div></div>
         <div class="activity-panel"><div class="panel-caption"><span>UPSTREAM COMMIT FEED</span><span id="feedCount">Awaiting data</span></div><div id="commitFeed" class="commit-feed"><div class="pending">The first scheduled sync will populate this feed.</div></div></div>
       </section>
 
-      <section id="evidence" class="section lower-section">
-        <div class="section-header"><div><div class="section-kicker">03 / VERIFIED VS CLAIMED</div><h2>Compatibility evidence</h2><p>These entries are deliberately reviewed by a human. An upstream README claim does not count as an independent test.</p></div></div>
-        <div id="evidenceList" class="evidence-list"><div class="evidence-empty"><div class="evidence-icon">◈</div><strong>No reviewed milestones yet</strong><span>The repository starts with no assumed compatibility milestones. Add sourced findings in <code>data/milestones.json</code>.</span></div></div>
-      </section>
     </main>
     <footer><span>SCARLETT<span class="muted-brand">PROGRESS</span> <b>·</b> Community research index</span><span>Independent project. Not affiliated with Microsoft or Rockstar. No game binaries hosted.</span></footer>
   </div>
