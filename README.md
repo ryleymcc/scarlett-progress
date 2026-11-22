@@ -15,14 +15,14 @@ There is no reliable single percentage for “GTA VI emulation progress.” Comm
 ## Master status
 
 <!-- TRACKER_TABLE_START -->
-Latest snapshot: **2026-11-22T17:41:17Z**. Every count is upstream activity, **not** game compatibility.
+Latest snapshot: **2026-11-22T17:45:17Z**. Every count is upstream activity, **not** game compatibility.
 
 | Project | Commits (30d) | Last code commit | Open PRs | Stars | Published metrics |
 |---|---:|---|---:|---:|---:|
-| [Leonida](https://github.com/ItsNotRexed/Leonida) | 1000+ | 2026-11-22 | ? | 12430 | 1 tracked |
-| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | 977 | 2026-11-22 | 69 | 1225 | 2 tracked |
+| [Leonida](https://github.com/ItsNotRexed/Leonida) | 1000+ | 2026-11-22 | ? | 12451 | 1 tracked |
+| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | 977 | 2026-11-22 | 69 | 1226 | 2 tracked |
 | [XCL](https://github.com/ivall/xcl) | 150 | 2026-11-22 | 2 | 182 | 1 tracked |
-| [Xbox Emulator](https://github.com/omonkeyz/xbox-emulator) | 212 | 2026-11-22 | 6 | 1191 | 2 tracked |
+| [Xbox Emulator](https://github.com/omonkeyz/xbox-emulator) | 212 | 2026-11-22 | 7 | 1191 | 2 tracked |
 | [TomBox](https://github.com/drycheetah84/TomBox) | 136 | 2026-11-22 | 1 | 77 | 0 tracked |
 | [ScarlettX](https://github.com/Freminet/ScarlettX) | 57 | 2026-11-22 | 26 | 158 | 2 tracked |
 | [xvalkyrie](https://github.com/sammwyy/xvalkyrie) | 186 | 2026-11-22 | 1 | 102 | 2 tracked |
