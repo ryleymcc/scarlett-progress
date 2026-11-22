@@ -12,10 +12,6 @@ const ago = v => {
   if (days === 1) return '1 day ago';
   return `${days} days ago`;
 };
-const safeUrl = value => {
-  try { const u = new URL(value);return u.protocol === 'https:' ? u.href : '#'; }
-  catch { return '#'; }
-};
 const githubUrl = value => {
   try { const u = new URL(value);return u.hostname === 'github.com' && u.protocol === 'https:' ? u.href : '#'; }
   catch { return '#'; }
