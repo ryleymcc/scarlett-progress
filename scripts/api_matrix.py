@@ -32,7 +32,7 @@ API_NAME = re.compile(
     r"|XCurl[A-Z][A-Za-z0-9_]{2,}"
     r")\b"
 )
-COMMENT = re.compile(r"/\*[\s\S]*?\*/|(?m)^[ \t]*//[^\n]*")
+COMMENT = re.compile(r"/\*[\s\S]*?\*/|^[ \t]*//[^\n]*", re.MULTILINE)
 STUB = re.compile(
     r"\b(?:E_NOTIMPL|STATUS_NOT_IMPLEMENTED|ERROR_CALL_NOT_IMPLEMENTED|"
     r"ERROR_NOT_SUPPORTED|ENOSYS|todo!|unimplemented!|NotImplementedException)\b",
