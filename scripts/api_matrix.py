@@ -124,7 +124,7 @@ def definition_match(name, text):
                 # Python's indentation-based body. Stop before next top-level
                 # declaration to avoid attributing unrelated TODOs.
                 remainder = text[match.end():]
-                next_def = re.search(r"(?m)^\\S.*\\b(?:def|class)\\s+", remainder)
+                next_def = re.search(r"(?m)^\S.*\b(?:def|class)\s+", remainder)
                 body = remainder[:next_def.start()] if next_def else remainder[:240]
             return ("stub_candidate" if STUB.search(body) else "definition_candidate", match.start())
     return None
@@ -177,15 +177,16 @@ def scan_repository(repo, ref, api_get, tree=None):
     selected = candidates[:MAX_FILES]
     results, failures = [], 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-        futures = [pool.submit(fetch_source, row, repo, ref, api_get) for row in selected]
+        futures = {pool.submit(fetch_source, row, repo, ref, api_get): row["path"] for row in selected}
         for future in concurrent.futures.as_completed(futures):
             try:
-                results.append(future.result())
+                results.append((futures[future], future.result()))
             except Exception:
                 failures += 1
 
     combined = {}
-    for result in results:
+    # Stable source selection prevents random data diffs on repeat scans.
+    for _path, result in sorted(results):
         for symbol, evidence in result.items():
             old = combined.get(symbol)
             if old is None or PRIORITY[evidence["status"]] > PRIORITY[old["status"]]:
