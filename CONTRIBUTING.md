@@ -1,15 +1,19 @@
 # Contributing
 
-## Repository additions
+## Add a repository
 
-Open a pull request changing `projects.json` with a link to a public upstream GitHub repository and an explanation of its **actual Xbox Series X|S emulation/translation purpose**. Do not add emulators only for the original Xbox or Xbox 360. Do not duplicate forks without independent development.
+Open a PR updating `projects.json` with a public project genuinely targeting **Xbox Series X|S**, including work that also supports Xbox One. Original Xbox and Xbox 360-only emulators are out of scope. Avoid redundant forks unless they have independent development.
 
-## Compatibility milestone review
+## Improve automatic progress tracking
 
-Add claims in `data/milestones.json`, keyed by exact `owner/repo` and selected from the documented values. Every entry needs a direct source URL and a short, neutral summary. Keep `claimed` and `independently_verified` strictly separate. Independent verification means an external reviewer could reproduce the behavior or inspect compelling test evidence. Treat README progress bars and developer assertions as claims, not verified functionality. Include a UTC review date.
+All progress is collected by `scripts/update.py` from GitHub API activity, source tree paths, and upstream published README counts. No human verification of capabilities is required to refresh the dashboard.
 
-Do not conflate a sample or other game's ability to boot with GTA VI compatibility. Keep branches in `projects.json` when work is limited to a non-default branch.
+- Add an explicitly scoped, unambiguous pattern to `data/declared_metrics.json` when a project publishes a meaningful new done/total measure. Document the unit: exported functions, shader records, test cases, and so on.
+- Update `data/capabilities.json` when a source-path matcher is misleading; keep documentation, test files, and third-party code excluded.
+- Add regression tests for parsing changes. Do not infer feature completeness from a filename or add together unrelated denominators.
 
-## Security and copyright
+The scope forecasts require sufficient historical evidence from unchanged upstream denominators. A source-tree match or a high GitHub commit count is not a compatibility benchmark.
 
-Never submit copyright-protected game images, licensed SDKs, proprietary keys, circumvention tooling, account credentials or suspicious executables. The tracker links to public project metadata only. All contributions should describe research accurately and avoid exposing private data.
+## Legal and security
+
+Never submit game dumps, proprietary SDKs, keys, account credentials, or suspicious executables. All collected data is public GitHub metadata and source-file paths. This is an independent research index, not an emulator.

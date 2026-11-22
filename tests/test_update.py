@@ -17,20 +17,15 @@ class TrackerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             update.valid_projects([{"repo": "foo/bar", "scope": "Xbox 360"}])
 
-    def test_no_unsubstantiated_claims(self):
-        evidence = update.load_json(update.ROOT / "data/milestones.json")
-        for p in update.load_json(update.ROOT / "projects.json"):
-            self.assertEqual(update.verified_milestones(evidence, p["repo"]), [])
-
-    def test_milestone_needs_source(self):
-        data = {"milestones": {"foo/bar": [{"milestone": "gta_vi_boot", "status": "claimed"}]}}
-        with self.assertRaises(ValueError):
-            update.verified_milestones(data, "foo/bar")
+    def test_no_manual_review_module(self):
+        self.assertFalse(hasattr(update, 'verified_milestones'))
 
     def test_readme_table_does_not_infer_progress(self):
         txt = update.render_readme_table([{"repo": "foo/bar", "name": "Foo", "commits_30d": 42}], "2026-11-22T00:00:00Z")
         self.assertIn("not** game compatibility", txt)
         self.assertNotIn("42%", txt)
+        self.assertIn("Published metrics", txt)
+        self.assertNotIn("Unreviewed", txt)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # Scarlett Progress · Xbox Series X|S emulator tracker
 
-A **master tracking dashboard** for open-source work targeting **Xbox Series X|S (Scarlett)**, with particular attention to GTA VI PC compatibility. This project **does not emulate Xbox games or merge upstream source code**. It compares upstream repository activity and stores separately sourced, reviewable compatibility milestones.
+A **master tracking dashboard** for open-source work targeting **Xbox Series X|S (Scarlett)**, with particular attention to GTA VI PC compatibility. This project **does not emulate Xbox games or merge upstream source code**. It automatically compares upstream repository activity, code-path research areas, and upstream-published progress metrics.
 
 **[Dashboard source](docs/index.html)** · For a live GitHub Pages site, enable Pages under **Settings → Pages → Deploy from a branch → main /docs**. The URL will then be `https://<username>.github.io/<repo>/`.
 
@@ -9,7 +9,7 @@ A **master tracking dashboard** for open-source work targeting **Xbox Series X|S
 There is no reliable single percentage for “GTA VI emulation progress.” Commit volume, GitHub stars, prototype demos, and developer statements measure different things. This tracker keeps them separate:
 
 - **Measured automatically:** last commit, last upstream push, commits over 30 days (capped at 1,000), open PR count, estimated open issues, stars, forks, releases, and new commits since the previous scan.
-- **Recorded manually with direct evidence:** loading an executable, GDK runtime, GPU translation, sample rendering, commercial-title boot, gameplay, GTA VI boot and GTA VI gameplay.
+- **Measured automatically:** project-published implemented/total ratios (within named scopes), 20 source-tree research areas and cross-project overlaps, plus history-based scope forecasts.
 - **Not claimed:** that GTA VI is playable or that one repository has “90% compatibility.” No activity metric is a compatibility score.
 
 ## Master status
@@ -17,21 +17,21 @@ There is no reliable single percentage for “GTA VI emulation progress.” Comm
 <!-- TRACKER_TABLE_START -->
 Latest snapshot: **2026-11-22T16:53:45Z**. Every count is upstream activity, **not** game compatibility.
 
-| Project | Commits (30d) | Last code commit | Open PRs | Stars | Evidence |
+| Project | Commits (30d) | Last code commit | Open PRs | Stars | Published metrics |
 |---|---:|---|---:|---:|---|
-| [Leonida](https://github.com/ItsNotRexed/Leonida) | 1000+ | 2026-11-22 | 484 | 12009 | Unreviewed |
-| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | 960 | 2026-11-22 | 69 | 1212 | Unreviewed |
-| [XCL](https://github.com/ivall/xcl) | 148 | 2026-11-22 | 2 | 172 | Unreviewed |
-| [Xbox Emulator](https://github.com/omonkeyz/xbox-emulator) | 188 | 2026-11-22 | 10 | 1171 | Unreviewed |
-| [TomBox](https://github.com/drycheetah84/TomBox) | 136 | 2026-11-22 | 1 | 77 | Unreviewed |
-| [ScarlettX](https://github.com/Freminet/ScarlettX) | 57 | 2026-11-22 | 26 | 154 | Unreviewed |
-| [xvalkyrie](https://github.com/sammwyy/xvalkyrie) | 186 | 2026-11-22 | 1 | 101 | Unreviewed |
-| [AnyXboxX](https://github.com/LooperSalty/AnyXboxX) | 130 | 2026-11-22 | 1 | 24 | Unreviewed |
-| [OpenScarlett](https://github.com/californiaAlmonds/OpenScarlett) | 210 | 2026-11-22 | 1 | 18 | Unreviewed |
-| [TuxBox](https://github.com/brcly/TuxBox) | 12 | 2026-11-22 | 0 | 10 | Unreviewed |
-| [scarlett-layer](https://github.com/jadeowaowa/scarlett-layer) | 147 | 2026-11-22 | 0 | 20 | Unreviewed |
-| [GDKScarlett](https://github.com/Ender-0001/GDKScarlett) | 2 | 2026-11-21 | 0 | 12 | Unreviewed |
-| [americas-recomp](https://github.com/realdody/americas-recomp) (`xbox-series` branch) | 1000+ | 2026-11-22 | 7 | 447 | Unreviewed |
+| [Leonida](https://github.com/ItsNotRexed/Leonida) | 1000+ | 2026-11-22 | 484 | 12009 | Pending sync |
+| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | 960 | 2026-11-22 | 69 | 1212 | Pending sync |
+| [XCL](https://github.com/ivall/xcl) | 148 | 2026-11-22 | 2 | 172 | Pending sync |
+| [Xbox Emulator](https://github.com/omonkeyz/xbox-emulator) | 188 | 2026-11-22 | 10 | 1171 | Pending sync |
+| [TomBox](https://github.com/drycheetah84/TomBox) | 136 | 2026-11-22 | 1 | 77 | Pending sync |
+| [ScarlettX](https://github.com/Freminet/ScarlettX) | 57 | 2026-11-22 | 26 | 154 | Pending sync |
+| [xvalkyrie](https://github.com/sammwyy/xvalkyrie) | 186 | 2026-11-22 | 1 | 101 | Pending sync |
+| [AnyXboxX](https://github.com/LooperSalty/AnyXboxX) | 130 | 2026-11-22 | 1 | 24 | Pending sync |
+| [OpenScarlett](https://github.com/californiaAlmonds/OpenScarlett) | 210 | 2026-11-22 | 1 | 18 | Pending sync |
+| [TuxBox](https://github.com/brcly/TuxBox) | 12 | 2026-11-22 | 0 | 10 | Pending sync |
+| [scarlett-layer](https://github.com/jadeowaowa/scarlett-layer) | 147 | 2026-11-22 | 0 | 20 | Pending sync |
+| [GDKScarlett](https://github.com/Ender-0001/GDKScarlett) | 2 | 2026-11-21 | 0 | 12 | Pending sync |
+| [americas-recomp](https://github.com/realdody/americas-recomp) (`xbox-series` branch) | 1000+ | 2026-11-22 | 7 | 447 | Pending sync |
 <!-- TRACKER_TABLE_END -->
 
 ## Start a new repository
@@ -48,26 +48,14 @@ Scheduled scans run every six hours, subject to GitHub Actions scheduling and pe
 
 Edit [`projects.json`](projects.json) and rerun the sync. Entries must target Xbox Series X|S itself (projects targeting only the original Xbox or Xbox 360 are out of scope). The optional `branch` field tracks a particular research branch rather than unrelated default-branch commits.
 
-## Add compatibility evidence
+## Implementation tracking
 
-Edit [`data/milestones.json`](data/milestones.json), adding entries inside `milestones` keyed by `owner/repo`:
+Implementation measures and overlaps are **fully automated**. Every sync reads the public source tree and published README counters. For details on what those counters mean and when an experimental ETA appears, see [IMPLEMENTATION.md](IMPLEMENTATION.md).
 
-```json
-"owner/repo": [
-  {
-    "milestone": "sample_rendering",
-    "status": "claimed",
-    "summary": "Developer reports a rendering demo; independent reproduction pending",
-    "source": "https://github.com/owner/repo/issues/123",
-    "reviewed_at": "2026-11-22"
-  }
-]
-```
-
-A claim is NOT independently verified simply because it appears in a project's README. Use `claimed` unless there is reproducible evidence, preferably a test build, logs and a demonstration. See [CONTRIBUTING.md](CONTRIBUTING.md).
+No manual milestone or verification queue is required. The dashboard does not claim that all tracked tasks imply playable GTA VI.
 
 ## Data details
 
-`data/latest.json` is the current machine-readable snapshot; `docs/data.json` is the mirrored static dashboard feed. `data/history/YYYY-MM-DD.json` records one snapshot per UTC day. The dashboard uses plain HTML/CSS/JS and no third-party JavaScript, analytics or external CDNs. All upstream links are to GitHub. An API outage is shown as an error rather than as zero activity.
+`data/latest.json` is the current machine-readable snapshot; `docs/data.json` is the mirrored static dashboard feed. `data/history/YYYY-MM-DD.json` records one snapshot per UTC day. The dashboard uses plain HTML/CSS/JS and no third-party JavaScript, analytics or external CDNs. All implementation data is collected from GitHub automatically. All upstream links are to GitHub. An API outage is shown as an error rather than as zero activity.
 
 This is an unofficial research index, unaffiliated with Microsoft, Rockstar, or the upstream developers. Do not submit copyrighted game dumps, decryption keys, or proprietary SDK files.

@@ -1,0 +1,32 @@
+name: Validate tracker
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate JSON configuration
+        run: |
+          python -m json.tool data/capabilities.json > /dev/null
+          python -m json.tool data/declared_metrics.json > /dev/null
+          python -m json.tool projects.json > /dev/null
+      - name: Check Python syntax and unit tests
+        run: |
+          python -m compileall -q scripts tests
+          python -m unittest discover -s tests -v
+      - name: Check JavaScript syntax
+        run: |
+          node --check docs/app.js
+          node --check docs/coverage.js

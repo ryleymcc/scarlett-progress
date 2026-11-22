@@ -1,6 +1,0 @@
-{
-  "_about": "Human-reviewed per-project capability states. Empty is unknown, not not-started. Every assertion requires a direct public evidence URL. Source-path hits are tracked separately and NEVER marked implemented automatically.",
-  "entries": {},
-  "state_values": ["implemented", "partial", "stub", "not_started"],
-  "evidence_values": ["claimed", "independently_verified"]
-}

@@ -12,10 +12,6 @@ const ago = v => {
   if (days === 1) return '1 day ago';
   return `${days} days ago`;
 };
-const safeUrl = value => {
-  try { const u = new URL(value);return u.protocol === 'https:' ? u.href : '#'; }
-  catch { return '#'; }
-};
 const githubUrl = value => {
   try { const u = new URL(value);return u.hostname === 'github.com' && u.protocol === 'https:' ? u.href : '#'; }
   catch { return '#'; }
@@ -65,20 +61,14 @@ function renderFeed() {
   $('commitFeed').innerHTML=items.length?items.map(c=>`<div class="commit-entry"><div class="commit-node"></div><div><strong>${esc(c.message)}</strong><span>${esc(c.project)} · ${esc(c.sha?.slice(0,7)||'')}</span></div><div class="commit-time">${esc(ago(c.date))} · <a href="${githubUrl(c.url)}" target="_blank" rel="noopener noreferrer">Commit ↗</a></div></div>`).join(''):'<div class="pending">No commit feed yet. Run the Sync workflow in GitHub Actions.</div>';
 }
 
-function renderEvidence() {
-  const rows=dataset.projects.flatMap(p=>(p.milestones||[]).map(m=>({...m,project:p.name,repo:p.repo})))
-    .sort((a,b)=>(b.reviewed_at||'').localeCompare(a.reviewed_at||''));
-  $('metricEvidence').textContent=text(rows.length);
-  if(!rows.length)return;
-  $('evidenceList').innerHTML=rows.map(m=>`<div class="evidence-row"><strong>${esc(m.project)} · ${esc((m.milestone||'').replaceAll('_',' '))}</strong><span class="evidence-status ${m.status==='independently_verified'?'verified':''}">${esc(m.status==='independently_verified'?'Independently verified':m.status)}</span><p>${esc(m.summary)}</p><a href="${safeUrl(m.source)}" target="_blank" rel="noopener noreferrer">View evidence ↗</a> <span style="color:var(--muted);font-size:10px;margin-left:12px">Reviewed ${esc(m.reviewed_at||'unknown')}</span></div>`).join('');
-}
-
 function renderMetrics() {
   const ps=dataset.projects;
   $('metricRepos').textContent=ps.length;
   const scanned=ps.filter(p=>p.commits_30d!==undefined&&p.commits_30d!==null);
   $('metricCommits').textContent=scanned.length?text(scanned.reduce((n,p)=>n+(p.commits_30d||0),0)):'—';
   $('metricActive').textContent=scanned.length?text(ps.filter(p=>recent(p.last_commit_at)).length):'—';
+  const measures=ps.reduce((n,p)=>n+(p.coverage?.reported_metrics?.length||0)+(p.coverage?.checklist?1:0),0);
+  $('metricReported').textContent=dataset.generated_at?text(measures):'—';
   if (dataset.generated_at) {
     $('syncTime').textContent=date(dataset.generated_at);
     $('dataInfo').textContent=`Snapshot: ${new Date(dataset.generated_at).toLocaleString()}`;
@@ -91,7 +81,7 @@ async function load() {
     if (!res.ok) throw Error(`HTTP ${res.status}`);
     dataset=await res.json();
     if (!Array.isArray(dataset.projects))throw Error('Malformed feed');
-    renderMetrics();renderGrid();renderFeed();renderEvidence();
+    renderMetrics();renderGrid();renderFeed();
     if (typeof window.renderCoverage === 'function') window.renderCoverage(dataset);
   } catch(e) {
     $('dataInfo').textContent='Could not load feed: '+e.message;

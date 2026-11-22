@@ -34,19 +34,21 @@ class CapabilityScanTests(unittest.TestCase):
         self.assertEqual(len(CATALOG['features']), 20)
 
     def test_source_hits_are_never_implementations(self):
-        result = cap.enrich_project('owner/repo','main',CATALOG,{'entries':{}},mock_api)
-        self.assertEqual(result['verified_implemented'], 0)
-        self.assertEqual(result['claimed_implemented'], 0)
+        result = cap.enrich_project('owner/repo','main',CATALOG,mock_api)
+        self.assertNotIn('reviewed', result)
+        self.assertNotIn('verified_implemented', result)
         self.assertEqual(result['inventory']['source_files'], 3)
         self.assertEqual(result['inventory']['status'], 'ok')
         self.assertEqual(result['checklist']['implemented'], 2)
         self.assertEqual(result['checklist']['total'], 3)
         self.assertTrue(any(x['id']=='shaders' for x in result['inventory']['features']))
 
-    def test_review_requires_source(self):
-        invalid = {'entries': {'owner/repo': {'shaders': {'state':'implemented','evidence':'independently_verified','reviewed_at':'2026-11-22'}}}}
-        with self.assertRaises(ValueError):
-            cap.reviewed_features(invalid, 'owner/repo', CATALOG)
+    def test_enrichment_needs_no_manual_evidence_file(self):
+        output = cap.enrich_project('owner/repo', 'main', CATALOG, mock_api)
+        self.assertIn('inventory', output)
+        self.assertIn('checklist', output)
+        self.assertNotIn('forecast', output)
+        self.assertNotIn('reviewed', output)
 
     def test_overlap_excludes_missing_scans(self):
         items = [
@@ -56,21 +58,6 @@ class CapabilityScanTests(unittest.TestCase):
         ]
         overlap = cap.build_overlap(items,CATALOG)
         self.assertEqual(next(x for x in overlap if x['id']=='shaders')['project_count'], 2)
-
-    def test_no_eta_without_history(self):
-        today = dt.datetime(2026,11,22,tzinfo=dt.timezone.utc)
-        est = cap.estimate_catalog_eta('a/a',10,20,[],today)
-        self.assertEqual(est['status'],'insufficient_data')
-
-    def test_eta_is_only_experimental_catalog_extrapolation(self):
-        today = dt.datetime(2026,11,22,tzinfo=dt.timezone.utc)
-        hist=[]
-        for i, completed in enumerate((5, 7, 9, 11)):
-            day=dt.date(2026,10,1)+dt.timedelta(days=10*i)
-            hist.append({'generated_at':day.isoformat()+'T00:00:00Z','projects':[{'repo':'a/a','coverage':{'catalog_total':20,'verified_implemented':completed}}]})
-        est=cap.estimate_catalog_eta('a/a',12,20,hist,today)
-        self.assertEqual(est['status'],'experimental')
-        self.assertIn('NOT full',est['scope'])
 
 if __name__=='__main__':
     unittest.main()
@@ -91,7 +78,7 @@ class DeclaredMetricTests(unittest.TestCase):
                 vals = cap.parse_published_metrics(text, rules[repo], 'https://github.com/example/repo/blob/main/README.md')
                 self.assertTrue(vals)
                 self.assertEqual((vals[0]['implemented'],vals[0]['total']), (expected_done, expected_total))
-                self.assertEqual(vals[0]['status'],'upstream_claim')
+                self.assertEqual(vals[0]['status'],'upstream_reported')
 
     def test_invalid_ratio_ignored(self):
         vals = cap.parse_published_metrics('99 of 3 tracked functions', [{'id':'a','label':'test','pattern':r'(\d+) of (\d+) tracked functions'}], 'https://github.com/a/b')
