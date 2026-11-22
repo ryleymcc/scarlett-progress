@@ -38,3 +38,7 @@ The **Code grid** on the live dashboard combines candidate Xbox Series/GDK API s
 Cell labels are intentionally cautious: **Def** means a body matching common C/C++/Rust/Python function syntax, **Stub?** means an apparent body with an unimplemented marker, **Ref** means a mere mention or export table entry, and **·** means not observed in the limited sample. None of these states prove functional compatibility, and absence is not failure. Every detected cell links to the corresponding upstream file and line.
 
 The grid offers subsystem, search, and overlap filters with horizontal scrolling across all tracked repos. It does not merge any copyrighted/proprietary code or download executable binaries. The set of discovered function names is not a comprehensive platform API denominator, so the grid deliberately does not claim a global completion percentage or estimate a GTA VI boot date.
+
+### Data-file size and caching
+
+The unified index is published separately as `docs/api_matrix.json`. The main `docs/data.json`, `data/latest.json`, and daily history retain only API-scan counts and diagnostics, not duplicated per-symbol maps. The matrix is loaded on demand with no browser caching. This prevents a 1+ MB main feed from delaying the rest of the dashboard.
