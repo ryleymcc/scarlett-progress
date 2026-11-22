@@ -208,6 +208,15 @@ def update_readme(data: dict) -> None:
     path.write_text(pre + TABLE_START + "\n" + table + "\n" + TABLE_END + post, encoding="utf-8")
 
 
+def compact_api_scans(rows: list[dict]) -> None:
+    """Leave collection diagnostics in the main feed, not duplicated symbol maps."""
+    for project in rows:
+        scan = project.get("api_scan")
+        if scan:
+            symbols = scan.pop("symbols", {})
+            scan["symbols_found"] = len(symbols)
+
+
 def run() -> None:
     projects = load_json(ROOT / "projects.json")
     valid_projects(projects)
@@ -270,8 +279,13 @@ def run() -> None:
                 )
                 for metric in metrics
             }
+    detailed_matrix = api_matrix.build_matrix(updated)
+    detailed_matrix["generated_at"] = utc_iso(now)
+    # A dedicated file avoids shipping the same source evidence twice. Both
+    # dashboard JSON feeds are written in the same sync commit.
+    compact_api_scans(updated)
     payload = {
-        "api_matrix": api_matrix.build_matrix(updated),
+        "api_matrix_feed": "api_matrix.json",
         "catalog": {"version": catalog["version"], "scope_note": catalog["scope_note"], "features": [
             {k: v for k, v in feature.items() if k != "patterns"} for feature in catalog["features"]
         ]},
@@ -283,6 +297,7 @@ def run() -> None:
     }
     write_json(ROOT / "data/latest.json", payload)
     write_json(ROOT / "docs/data.json", payload)
+    write_json(ROOT / "docs/api_matrix.json", detailed_matrix)
     write_json(ROOT / "data/history" / f"{now.date().isoformat()}.json", payload)
     update_readme(payload)
     print(f"Done: {len(updated)} projects; {sum(bool(p.get('scan_error')) for p in updated)} errors")
