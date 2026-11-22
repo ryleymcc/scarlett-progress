@@ -12,9 +12,19 @@ const sourceUrl = s => {
   catch { return '#'; }
 };
 
-function renderApiGrid(data) {
-  snapshot = data;
-  const matrix = data.api_matrix;
+async function renderApiGrid(data) {
+  let matrix = data.api_matrix;
+  if (!matrix) {
+    try {
+      const feed = data.api_matrix_feed || 'api_matrix.json';
+      const res = await fetch('./' + feed, {cache: 'no-store'});
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      matrix = await res.json();
+    } catch (error) {
+      $('apiGridUpdated').textContent = 'API matrix not published yet';
+    }
+  }
+  snapshot = {...data, api_matrix: matrix};
   const ps = data.projects || [];
   if (!matrix || !Array.isArray(matrix.rows)) {
     $('apiGridStats').innerHTML = '<div class="api-stat"><b>Pending</b><small>First automated API source scan</small></div>';

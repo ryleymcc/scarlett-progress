@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data/latest.json data/history/ docs/data.json
+          git add README.md data/latest.json data/history/ docs/data.json docs/api_matrix.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh Xbox Series tracker"
             git push
