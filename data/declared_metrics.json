@@ -1,0 +1,112 @@
+{
+  "_about": "Repo-specific README regexes for upstream-published done/total counts. These are developer claims, not independently verified game compatibility. The source is always that repository's README at the scanned ref.",
+  "rules": {
+    "ItsNotRexed/Leonida": [
+      {
+        "id": "translated_shader_count",
+        "label": "RDNA2 shaders translated (all known shader records)",
+        "pattern": "All ([\\d,]+) translated",
+        "done_group": 1,
+        "total_group": 1
+      }
+    ],
+    "R0Y00/Xbox2Windows": [
+      {
+        "id": "ps_compiled",
+        "label": "Pixel shader records compiled and checked",
+        "pattern": "([\\d,]+) of ([\\d,]+) PS records compiled",
+        "done_group": 1,
+        "total_group": 2
+      },
+      {
+        "id": "cs_executed",
+        "label": "Compute shader records executed under tested bindings",
+        "pattern": "Of ([\\d,]+) package records, ([\\d,]+) ran",
+        "done_group": 2,
+        "total_group": 1
+      }
+    ],
+    "ivall/xcl": [
+      {
+        "id": "shader_pack",
+        "label": "Retail shader programs translated (developer-reported)",
+        "pattern": "([\\d, ]+)\\s*/\\s*([\\d, ]+) programs of the retail pack",
+        "done_group": 1,
+        "total_group": 2
+      }
+    ],
+    "omonkeyz/xbox-emulator": [
+      {
+        "id": "system_imports",
+        "label": "Imported system functions covered",
+        "pattern": "All imported system functions covered \\(([\\d,]+)\\s*/\\s*([\\d,]+)\\)",
+        "done_group": 1,
+        "total_group": 2
+      },
+      {
+        "id": "shader_sweep",
+        "label": "Shader records translated in examined title",
+        "pattern": "Full title shader sweep translated \\(([\\d,]+)\\s*/\\s*([\\d,]+)\\)",
+        "done_group": 1,
+        "total_group": 2
+      }
+    ],
+    "Freminet/ScarlettX": [
+      {
+        "id": "tracked_functions",
+        "label": "Functions in its declared emulator status catalog",
+        "pattern": "\\(([\\d,]+) of ([\\d,]+) tracked functions",
+        "done_group": 1,
+        "total_group": 2
+      },
+      {
+        "id": "game_milestones",
+        "label": "Concept Destruction bring-up milestones",
+        "pattern": "\\(([\\d,]+) of ([\\d,]+) bring-up milestones",
+        "done_group": 1,
+        "total_group": 2
+      }
+    ],
+    "sammwyy/xvalkyrie": [
+      {
+        "id": "series_gdk_samples",
+        "label": "Series GDK samples drawing a picture",
+        "pattern": "([\\d,]+) of the ([\\d,]+) public GDK samples",
+        "done_group": 1,
+        "total_group": 2
+      },
+      {
+        "id": "shaders_compiling",
+        "label": "Retail-title shader programs translating and compiling",
+        "pattern": "of the ([\\d,]+) shaders one retail title creates[\\s\\S]{0,140}?([\\d,]+) translate and compile",
+        "done_group": 2,
+        "total_group": 1
+      }
+    ],
+    "LooperSalty/AnyXboxX": [
+      {
+        "id": "dll_init",
+        "label": "Package DLLs initialized",
+        "pattern": "([\\d,]+)\\s*/\\s*([\\d,]+) DLLs of a Scarlett package initialized",
+        "done_group": 1,
+        "total_group": 2
+      }
+    ],
+    "californiaAlmonds/OpenScarlett": [
+      {
+        "id": "rdna2_opcode_decoding",
+        "label": "RDNA2/GFX10.3 opcode forms decoded",
+        "pattern": "RDNA2 Opcodes Decoded:\\*\\*\\s*`?([\\d,]+)\\s*/\\s*([\\d,]+)",
+        "done_group": 1,
+        "total_group": 2
+      },
+      {
+        "id": "shipping_gdk_thunks",
+        "label": "Shipping GDK thunks in upstream test catalog",
+        "pattern": "Shipping GDK Thunks:\\*\\*\\s*`?([\\d,]+)\\s*/\\s*([\\d,]+)",
+        "done_group": 1,
+        "total_group": 2
+      }
+    ]
+  }
+}

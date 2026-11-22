@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "scope_note": "Reference taxonomy of 20 research areas, not an exhaustive count of Xbox Series APIs, features, or work remaining in any one project.",
+  "features": [
+    {"id":"executable_loader","title":"Executable loader","group":"Runtime","description":"Load and map console executables and modules","patterns":["(^|[/_.-])(xex|executable|pe_loader|module_loader|loader)([/_.-]|$)"]},
+    {"id":"kernel_services","title":"Kernel services","group":"Runtime","description":"Kernel calls, native APIs and exception handling","patterns":["(^|[/_.-])(xboxkrnl|kernel|ntdll|syscall)([/_.-]|$)"]},
+    {"id":"memory_management","title":"Memory management","group":"Runtime","description":"Address spaces, virtual memory, allocation and mapping","patterns":["(^|[/_.-])(vmem|memory|allocator|paging)([/_.-]|$)"]},
+    {"id":"threads_scheduling","title":"Threads and scheduling","group":"Runtime","description":"Threads, scheduling and fibers","patterns":["(^|[/_.-])(thread|threading|scheduler|fiber)([/_.-]|$)"]},
+    {"id":"synchronization","title":"Synchronization","group":"Runtime","description":"Locks, waits, semaphores and events","patterns":["(^|[/_.-])(mutex|semaphore|spinlock|waitqueue|sync)([/_.-]|$)"]},
+    {"id":"file_system","title":"File system","group":"Runtime","description":"Virtual file system, mounts and file I/O","patterns":["(^|[/_.-])(filesystem|file_system|fileio|mount|vfs)([/_.-]|$)"]},
+    {"id":"gdk_services","title":"GDK / GameCore","group":"Services","description":"Xbox GDK and GameCore runtime services","patterns":["(^|[/_.-])(gdk|xgdk|gamecore)([/_.-]|$)"]},
+    {"id":"users_accounts","title":"Users and accounts","group":"Services","description":"Identity, profile and user services","patterns":["(^|[/_.-])(xuser|account|signin|user_service)([/_.-]|$)"]},
+    {"id":"input","title":"Input","group":"Services","description":"Gamepad, controllers and other input","patterns":["(^|[/_.-])(xinput|gamepad|controller|input)([/_.-]|$)"]},
+    {"id":"audio","title":"Audio","group":"Services","description":"XAudio and audio playback pipelines","patterns":["(^|[/_.-])(xaudio|audio|sound)([/_.-]|$)"]},
+    {"id":"networking","title":"Networking","group":"Services","description":"Socket, multiplayer and networking support","patterns":["(^|[/_.-])(xnet|network|socket|netcode)([/_.-]|$)"]},
+    {"id":"save_storage","title":"Saved data","group":"Services","description":"Save games, storage and persistence","patterns":["(^|[/_.-])(savegame|save_data|savedata|storage)([/_.-]|$)"]},
+    {"id":"d3d12","title":"D3D12 interface","group":"Graphics","description":"D3D12 or console graphics API translation","patterns":["(^|[/_.-])(d3d12|direct3d|d3d_?12|gfx)([/_.-]|$)"]},
+    {"id":"shaders","title":"Shader translation","group":"Graphics","description":"Shader formats, IR and translation","patterns":["(^|[/_.-])(shader|dxil|spirv|hlsl)([/_.-]|$)"]},
+    {"id":"textures_resources","title":"Textures and resources","group":"Graphics","description":"GPU resources, tiled textures and memory layouts","patterns":["(^|[/_.-])(texture|tiling|tiled_resource|gpu_memory)([/_.-]|$)"]},
+    {"id":"gpu_sync","title":"GPU commands and sync","group":"Graphics","description":"Command buffers, GPU fences and synchronization","patterns":["(^|[/_.-])(commandqueue|command_buffer|gpu_fence|gpu_sync)([/_.-]|$)"]},
+    {"id":"media_decode","title":"Media decoding","group":"Graphics","description":"Video and media codecs","patterns":["(^|[/_.-])(video_decode|media_decode|video_decoder)([/_.-]|$)"]},
+    {"id":"recompilation","title":"Static recompilation","group":"Toolchain","description":"Binary translation, recompilation and disassembly","patterns":["(^|[/_.-])(recomp|recompiler|translator|disasm|decompiler)([/_.-]|$)"]},
+    {"id":"conformance_tests","title":"Compatibility tests","group":"Toolchain","description":"Conformance tests and repeatable compatibility test harnesses","patterns":["(^|[/_.-])(conformance|compat_test|compatibility_test|harness)([/_.-]|$)"]},
+    {"id":"game_boot","title":"Commercial game boot","group":"Validation","description":"Observed boot and gameplay milestones, requires independent evidence","patterns":[]}
+  ]
+}

@@ -1,0 +1,17 @@
+/* Capability and overlapping-source research panels */
+.coverage-note{color:var(--sub);font-size:12px;line-height:1.7;max-width:1000px;margin:5px 0 22px}
+.coverage-summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}
+.coverage-stat{border:1px solid var(--border);background:var(--panel);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:6px}
+.coverage-stat b{font-size:23px;color:var(--mint);line-height:1.1}.coverage-stat span{font-size:11px;color:var(--sub)}
+.coverage-block{border:1px solid var(--border);background:#111a2bdc;border-radius:12px;padding:19px;margin-top:15px}
+.coverage-block-header{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px}.coverage-block h3{font-size:17px;margin:0}.coverage-block-header p{font-size:11px;color:var(--muted);margin:6px 0 0}
+.coverage-block select{min-height:36px}.coverage-scroll{overflow:auto;max-width:100%}
+.coverage-table{border-collapse:collapse;width:100%;min-width:690px;text-align:left}.coverage-table th,.coverage-table td{padding:12px 10px;border-bottom:1px solid var(--border);font-size:12px}.coverage-table thead th{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.6px}.coverage-table tbody th a,.coverage-table td a{color:var(--blue)}.coverage-table tbody th{font-weight:650}.coverage-table td small{color:var(--muted);font-size:10px}
+.cap-row{padding:16px 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:20px}.cap-row:last-child{border:0}.cap-main h3{font-size:14px;margin:2px 0 4px}.cap-main p{color:var(--sub);font-size:12px;margin:0 0 5px}.cap-main small,.cap-none{color:var(--muted);font-size:10px}.cap-group{color:var(--mint);font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase}.cap-links{display:flex;align-content:center;align-items:center;gap:7px;flex-wrap:wrap}.coverage-chip,.review-chip{display:inline-flex;border:1px solid #355265;background:#182737;border-radius:6px;padding:7px 9px;color:#cedef0;font-size:11px;gap:8px;align-items:center}.coverage-chip small{font-size:9px;color:var(--mint)}.review-chip{border-color:#8e7442;color:var(--warn)}.review-chip.independent{border-color:#286853;color:var(--mint)}
+.overlap-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.overlap-pair{padding:12px;border:1px solid var(--border);border-radius:9px;display:flex;flex-direction:column;gap:5px}.overlap-pair strong{font-size:12px}.overlap-pair strong span{color:var(--muted)}.overlap-pair b{color:var(--mint);font-size:11px}.overlap-pair small{font-size:10px;color:var(--muted);line-height:1.6}
+.forecast-note{border:1px dashed #4a5565;padding:18px;border-radius:10px;color:var(--sub);font-size:12px;line-height:1.8}
+@media(max-width:800px){.coverage-summary{grid-template-columns:repeat(2,minmax(0,1fr))}.cap-row{grid-template-columns:1fr;gap:10px}.overlap-list{grid-template-columns:1fr}}
+JS
+node --check /mnt/data/scarlett-upgrade/coverage.js && wc -c /mnt/data/scarlett-upgrade/*
+
+.published-metric{display:flex;flex-direction:column;gap:2px;margin-bottom:8px}.published-metric:last-child{margin-bottom:0}.published-metric a{font-weight:750}.published-metric small{line-height:1.35;max-width:245px}
