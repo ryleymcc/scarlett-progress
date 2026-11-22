@@ -1,0 +1,191 @@
+{
+  "generated_at": null,
+  "collection": "Xbox Series X|S / Scarlett",
+  "methodology": "GitHub API activity + manually evidence-reviewed compatibility milestones",
+  "projects": [
+    {
+      "repo": "ItsNotRexed/Leonida",
+      "name": "Leonida",
+      "kind": "GTA VI recompilation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "GTA VI-specific native PC recompilation research",
+      "priority": "GTA VI direct",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "R0Y00/Xbox2Windows",
+      "name": "Xbox2Windows",
+      "kind": "GTA VI recompilation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "GTA VI-specific Xbox Series to Windows recompilation research",
+      "priority": "GTA VI direct",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "ivall/xcl",
+      "name": "XCL",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Xbox Series GDK runtime and RDNA2 shader translation",
+      "priority": "Core runtime",
+      "url": "https://github.com/ivall/xcl",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "omonkeyz/xbox-emulator",
+      "name": "Xbox Emulator",
+      "kind": "Emulator / research",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Progress research for Xbox Series titles on PC",
+      "priority": "Core runtime",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "drycheetah84/TomBox",
+      "name": "TomBox",
+      "kind": "Emulator / compatibility",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Xbox Series system API mapping and shims",
+      "priority": "Core runtime",
+      "url": "https://github.com/drycheetah84/TomBox",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "Freminet/ScarlettX",
+      "name": "ScarlettX",
+      "kind": "High-level emulator",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Clean-room Scarlett high-level emulation and compatibility layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/Freminet/ScarlettX",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "sammwyy/xvalkyrie",
+      "name": "xvalkyrie",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S + Xbox One",
+      "description": "Experimental Scarlett and Durango compatibility layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/sammwyy/xvalkyrie",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "LooperSalty/AnyXboxX",
+      "name": "AnyXboxX",
+      "kind": "High-level emulator",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X",
+      "description": "Unicorn-based GDK high-level emulation prototype",
+      "priority": "Core runtime",
+      "url": "https://github.com/LooperSalty/AnyXboxX",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "californiaAlmonds/OpenScarlett",
+      "name": "OpenScarlett",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "D3D12/Vulkan translation and Scarlett GDK shims",
+      "priority": "Core runtime",
+      "url": "https://github.com/californiaAlmonds/OpenScarlett",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "brcly/TuxBox",
+      "name": "TuxBox",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Native-first Xbox Series compatibility layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/brcly/TuxBox",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "jadeowaowa/scarlett-layer",
+      "name": "scarlett-layer",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Experimental Windows x64 and D3D12 GDK layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/jadeowaowa/scarlett-layer",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "Ender-0001/GDKScarlett",
+      "name": "GDKScarlett",
+      "kind": "GDK reimplementation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Scarlett GDK API implementation",
+      "priority": "Supporting technology",
+      "url": "https://github.com/Ender-0001/GDKScarlett",
+      "milestones": [],
+      "scan_error": null
+    },
+    {
+      "repo": "realdody/americas-recomp",
+      "branch": "xbox-series",
+      "name": "americas-recomp",
+      "kind": "Shader recompilation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S (branch)",
+      "description": "Xbox Series-specific GPU shader translation research branch",
+      "priority": "Supporting technology",
+      "url": "https://github.com/realdody/americas-recomp",
+      "milestones": [],
+      "scan_error": null
+    }
+  ]
+}

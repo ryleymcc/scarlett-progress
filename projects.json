@@ -1,0 +1,15 @@
+[
+  {"repo":"ItsNotRexed/Leonida","name":"Leonida","kind":"GTA VI recompilation","platforms":["Windows"],"scope":"Xbox Series X|S","description":"GTA VI-specific native PC recompilation research","priority":"GTA VI direct"},
+  {"repo":"R0Y00/Xbox2Windows","name":"Xbox2Windows","kind":"GTA VI recompilation","platforms":["Windows"],"scope":"Xbox Series X|S","description":"GTA VI-specific Xbox Series to Windows recompilation research","priority":"GTA VI direct"},
+  {"repo":"ivall/xcl","name":"XCL","kind":"Compatibility layer","platforms":["Windows"],"scope":"Xbox Series X|S","description":"Xbox Series GDK runtime and RDNA2 shader translation","priority":"Core runtime"},
+  {"repo":"omonkeyz/xbox-emulator","name":"Xbox Emulator","kind":"Emulator / research","platforms":["Windows"],"scope":"Xbox Series X|S","description":"Progress research for Xbox Series titles on PC","priority":"Core runtime"},
+  {"repo":"drycheetah84/TomBox","name":"TomBox","kind":"Emulator / compatibility","platforms":["Windows"],"scope":"Xbox Series X|S","description":"Xbox Series system API mapping and shims","priority":"Core runtime"},
+  {"repo":"Freminet/ScarlettX","name":"ScarlettX","kind":"High-level emulator","platforms":["Windows"],"scope":"Xbox Series X|S","description":"Clean-room Scarlett high-level emulation and compatibility layer","priority":"Core runtime"},
+  {"repo":"sammwyy/xvalkyrie","name":"xvalkyrie","kind":"Compatibility layer","platforms":["Windows"],"scope":"Xbox Series X|S + Xbox One","description":"Experimental Scarlett and Durango compatibility layer","priority":"Core runtime"},
+  {"repo":"LooperSalty/AnyXboxX","name":"AnyXboxX","kind":"High-level emulator","platforms":["Windows"],"scope":"Xbox Series X","description":"Unicorn-based GDK high-level emulation prototype","priority":"Core runtime"},
+  {"repo":"californiaAlmonds/OpenScarlett","name":"OpenScarlett","kind":"Compatibility layer","platforms":["Windows"],"scope":"Xbox Series X|S","description":"D3D12/Vulkan translation and Scarlett GDK shims","priority":"Core runtime"},
+  {"repo":"brcly/TuxBox","name":"TuxBox","kind":"Compatibility layer","platforms":["Linux","Windows"],"scope":"Xbox Series X|S","description":"Native-first Xbox Series compatibility layer","priority":"Core runtime"},
+  {"repo":"jadeowaowa/scarlett-layer","name":"scarlett-layer","kind":"Compatibility layer","platforms":["Windows"],"scope":"Xbox Series X|S","description":"Experimental Windows x64 and D3D12 GDK layer","priority":"Core runtime"},
+  {"repo":"Ender-0001/GDKScarlett","name":"GDKScarlett","kind":"GDK reimplementation","platforms":["Windows"],"scope":"Xbox Series X|S","description":"Scarlett GDK API implementation","priority":"Supporting technology"},
+  {"repo":"realdody/americas-recomp","branch":"xbox-series","name":"americas-recomp","kind":"Shader recompilation","platforms":["Windows"],"scope":"Xbox Series X|S (branch)","description":"Xbox Series-specific GPU shader translation research branch","priority":"Supporting technology"}
+]
