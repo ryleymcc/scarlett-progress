@@ -1,55 +1,32 @@
-# Implementation intelligence (v2)
+# Automated implementation intelligence
 
-This page explains the **implementation and overlap** panel in Scarlett Progress. It is a research index, **not** an emulator or a compatibility score.
+Scarlett Progress monitors **Xbox Series X|S** research from GitHub without requiring manual compatibility reviews. The workflow collects upstream activity, scans public source file paths, reads README progress counts, and compares daily snapshots.
 
-## What the counts actually mean
+## What the dashboard measures
 
-| Metric | Source | Interpretation |
+| Measure | Automatically derived from | What it means |
 |---|---|---|
-| **Upstream reported done / total** | Repository README | A developer's published task/function/shader count for its explicitly named scope. Do not combine different measurements into one completion percentage. Does *not* independently establish correctness or game support. |
-| **Source areas / catalog** | GitHub repository file tree | Paths of first-party source files that match a rule in `data/capabilities.json`. Presence implies *investigation*, never implementation. These are 20 cross-ecosystem research topics, not all Xbox APIs. |
-| **Independently verified / catalog** | `data/implementations.json` | Count of source-linked human reviews marked `state=implemented` and `evidence=independently_verified`. No entry means *unknown*, not missing or unimplemented. |
-| **Overlapping research areas** | Overlap of source-path categories among repositories | Highlights areas being investigated by multiple projects. It does not prove duplicated code, compatible APIs, or shared implementations. |
-| **Experimental catalog ETA** | Dated daily snapshots of reviewed items | Only estimates the date all **20 fixed catalog topics** might reach *independently verified* status in a project. It **never** estimates when GTA VI or a full Xbox Series emulator will be playable. |
+| **Upstream reported done / total** | Repository README | A developer-published number for a *specific* set of tasks, functions, shader programs, or APIs. The denominator belongs to that repo and task only. |
+| **Source areas / 20-area catalog** | GitHub source-tree file paths | A code-path match suggests a repo works in an area. It **does not** prove the implementation works. |
+| **Overlapping research** | Common matched capability areas | Two repositories investigate similar subjects. It does not establish code duplication, interoperability, or equal maturity. |
+| **Experimental scope ETA** | Daily history of the same upstream done/total measure | A trend estimate for **that named measurement**, not for a complete emulator or GTA VI gameplay. |
 
-### Estimation safeguards
+All of these update with the normal scheduled sync. No review spreadsheet, claim approval or manually edited milestone log is needed.
 
-The forecast returns **Not estimable** unless there is a relevant baseline of at least 25% independently verified catalog coverage, at least four daily observations over at least 28 days, two distinct increases, no decreases, and a forward projection no longer than three years. This is intentionally conservative. Scope changes or backfills can invalidate the simple rate model; the estimate is experimental even when available. A full compatibility date cannot reliably be projected from source file counts, GitHub stars, PRs or commits.
+## ETA requirements
 
-## Manually record a tested capability
+An ETA is shown only after at least four comparable daily measurements spanning 28 days, two distinct gains, a stable denominator, no regressions, at least 10% measured, and a projection within the next three years. Otherwise the dashboard displays **Not estimable**. When the upstream counter reaches its total the dashboard reports **Declared scope completed**, not that the emulator can boot GTA VI.
 
-Edit `data/implementations.json` to add a project and its reviewed capability. Use an ID from `data/capabilities.json` and link the **direct evidence**, such as an issue with a reproducible test log, a commit with exact tests, or an independent run:
+A project may report 100% shader *translation* and still have no functioning game executable, audio, controller support, or graphics output. Progress measures from different repos are never added together into an invented global percentage.
 
-```json
-{
-  "entries": {
-    "owner/repository": {
-      "shaders": {
-        "state": "partial",
-        "evidence": "claimed",
-        "source": "https://github.com/owner/repository/issues/123",
-        "reviewed_at": "2026-11-22",
-        "note": "Only specific shader stages tested. No evidence of retail title execution."
-      }
-    }
-  }
-}
-```
+## How progress metrics are extracted
 
-The allowed `state` values are `implemented`, `partial`, `stub`, and `not_started`. The evidence values are `claimed` or `independently_verified`. Do not fill in `not_started` merely because no source was detected. An `implemented` claim needs the boundary of what was tested specified in `note`, since a single API stub should not be classified as a fully implemented subsystem.
+The collector uses repo-specific parsing patterns in `data/declared_metrics.json`. Those rules are tracking configuration, **not** a human verification queue. Every scan independently reads the current upstream README and publishes the source URL. A missing count means **Not published**; it never means 0% implemented.
 
-## How published measurements are found
+The `data/capabilities.json` file defines the 20 comparable research topics. The source-tree inventory excludes third-party and generated files, documentation, tests, and examples; truncated tree responses are flagged. The comparison is indicative, not an API-level audit.
 
-`data/declared_metrics.json` contains repository-specific, explicitly labelled README patterns. The collector refreshes each matched measurement every six hours alongside ordinary GitHub data. The upstream source URL is retained in the dashboard. A denominator may mean shader *records* in one repository and tracked *functions* in another; those values must never be summed.
+## Automatic collection
 
-To add a new rule, copy an existing one and make sure the expression names a specific unit and scope. Rules should not match generic percentages that lack a denominator or conflate external projects' numbers. Missing metrics are displayed as **Not published**, not zero.
+`scripts/update.py` writes `data/latest.json`, `docs/data.json`, and `data/history/YYYY-MM-DD.json`. The GitHub Actions workflow runs every six hours. The live dashboard reads `docs/data.json`. Existing snapshots are retained across upstream API failures, but marked stale.
 
-## Scanning and limitations
-
-The collector reads the GitHub recursive tree of the scanned branch and uses path patterns on first-party source files, excluding docs, tests, vendored dependencies, generated builds and examples. GitHub's tree API may return truncated results, in which case the UI marks an asterisk next to the source-area count. Fetch failures preserve the prior ordinary activity snapshot but surface code-scan errors. No code is run or downloaded, and API credentials remain inside GitHub Actions.
-
-For a deeper roadmap, contribute a curated API/function-level inventory with reproducible tests and known total symbols. Without such a denominator, a trustworthy global “implemented / total Xbox Series functionality” percentage simply does not exist.
-
-### Upstream scope forecasts
-
-Separately from the catalog forecast, the tracker may extrapolate one stable upstream **done/total** measure after at least four daily observations spanning 28 days, two increases, no regressions, and at least 10% of the reported denominator reached. If the denominator changes, older measurements are discarded. These estimates describe only that README's narrowly named task, function or shader corpus. A date for 100% shaders translated is **not** a date for full console emulation or GTA VI gameplay.
+You can add or remove upstream repositories in `projects.json` or add a new metric extraction rule without touching program code. The update process itself requires no manual assessment. No copyrighted games, console keys, SDK binaries, or circumvention tooling are included.
