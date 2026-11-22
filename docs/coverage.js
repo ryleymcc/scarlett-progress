@@ -11,7 +11,21 @@ function renderCoverage(data) {
   const target = document.getElementById('coverageMatrix');
   if (!target) return;
   const ps = data.projects || [];
-  const catalog = (data.catalog || {}).features || [];
+  if (!data.catalog || !Array.isArray(data.catalog.features)) {
+    const note = 'Implementation data has not been generated yet. The next GitHub Actions sync will scan the upstream projects and populate these panels.';
+    document.getElementById('coverageSummary').innerHTML =
+      '<div class="coverage-stat"><b>Pending sync</b><span>Implementation inventory</span></div>';
+    document.getElementById('coverageCaveat').textContent = note;
+    document.getElementById('coverageComparison').innerHTML =
+      '<tr><td colspan="4">Waiting for the first implementation-aware data refresh.</td></tr>';
+    target.innerHTML = '<div class="pending">Capability map will appear after the sync.</div>';
+    document.getElementById('overlapPairs').innerHTML =
+      '<div class="pending">Research overlaps will appear after the sync.</div>';
+    document.getElementById('forecastExplanation').textContent =
+      'Estimates require historical measurements from repeated automatic syncs.';
+    return;
+  }
+  const catalog = data.catalog.features;
   const overlap = data.overlap || [];
   const available = ps.filter(p => p.coverage?.inventory?.status === 'ok');
   const matched = overlap.filter(f => f.project_count > 0);
