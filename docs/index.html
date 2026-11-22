@@ -8,6 +8,7 @@
   <title>Scarlett Progress · Xbox Series X|S Research</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="coverage.css">
+  <link rel="stylesheet" href="api-grid.css">
 </head>
 <body>
   <div class="background-glow" aria-hidden="true"></div>
@@ -75,8 +76,59 @@
         <div class="coverage-block"><div class="coverage-block-header"><div><h3>Estimated completion of tracked scopes</h3></div></div><div id="forecastExplanation" class="forecast-note"></div></div>
       </section>
 
+<!-- Automated granular API matrix. Requires api_matrix in docs/data.json. -->
+<section id="api-grid" class="section lower-section">
+  <div class="section-header">
+    <div>
+      <div class="section-kicker">03 / CROSS-REPOSITORY CODE INDEX</div>
+      <h2>Unified API implementation grid</h2>
+      <p>Each row is an Xbox/GDK-related symbol found in upstream code. Columns show what was detected in each repository.</p>
+    </div>
+    <span id="apiGridUpdated" class="data-info">Awaiting code scan</span>
+  </div>
+  <div class="api-stat-grid" id="apiGridStats" aria-label="API symbol scan statistics"></div>
+  <div class="api-legend">
+    <span><i class="api-swatch api-defined"></i> Candidate definition</span>
+    <span><i class="api-swatch api-stub"></i> Possible stub</span>
+    <span><i class="api-swatch api-ref"></i> Reference / export name</span>
+    <span><i class="api-swatch api-unseen"></i> Not detected</span>
+  </div>
+  <div class="api-controls">
+    <label class="api-input-label"><span>Find API or function</span>
+      <input type="search" id="apiGridSearch" placeholder="e.g. XMemAlloc or XGameSave..." autocomplete="off">
+    </label>
+    <label><span>Subsystem</span><select id="apiGridGroup"><option value="all">All subsystems</option></select></label>
+    <label><span>Show</span><select id="apiGridFilter">
+      <option value="all">All detected symbols</option>
+      <option value="shared">Found in 2+ repositories</option>
+      <option value="definitions">Candidate definitions</option>
+      <option value="stubs">Possible stubs</option>
+    </select></label>
+    <label><span>Sort</span><select id="apiGridSort">
+      <option value="overlap">Most overlapping</option>
+      <option value="definitions">Most definitions</option>
+      <option value="name">API name</option>
+    </select></label>
+  </div>
+  <div class="api-matrix-frame" role="region" aria-label="Scrollable symbol by repository implementation matrix" tabindex="0">
+    <table class="api-matrix-table">
+      <thead id="apiMatrixHead"></thead>
+      <tbody id="apiMatrixBody">
+        <tr><td>Waiting for the next GitHub API source scan.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="api-table-footer">
+    <span id="apiMatrixCount" aria-live="polite">No symbol data yet</span>
+    <button type="button" id="apiMatrixMore" class="api-load-more" hidden>Show 50 more rows</button>
+  </div>
+  <p class="api-explainer">
+    <strong>What these cells mean:</strong> A “definition” is detected from function syntax, not from compiling or testing the project. A “stub” has a likely unimplemented return or placeholder. A “reference” may be a declaration, export table or ordinary function call. Not detected does <em>not</em> mean missing. For speed, the collector samples a limited set of likely source files per repository; counts describe the discovered union, not the total Xbox API surface. Select a colored cell to inspect the upstream source.
+  </p>
+</section>
+
       <section id="activity" class="section lower-section">
-        <div class="section-header"><div><div class="section-kicker">03 / LIVE SIGNALS</div><h2>Recent development</h2><p>Latest commit messages from the monitored branches. Titles come from their authors.</p></div></div>
+        <div class="section-header"><div><div class="section-kicker">04 / LIVE SIGNALS</div><h2>Recent development</h2><p>Latest commit messages from the monitored branches. Titles come from their authors.</p></div></div>
         <div class="activity-panel"><div class="panel-caption"><span>UPSTREAM COMMIT FEED</span><span id="feedCount">Awaiting data</span></div><div id="commitFeed" class="commit-feed"><div class="pending">The first scheduled sync will populate this feed.</div></div></div>
       </section>
 
@@ -85,5 +137,6 @@
   </div>
   <script src="app.js" defer></script>
   <script src="coverage.js" defer></script>
+  <script src="api-grid.js" defer></script>
 </body>
 </html>
