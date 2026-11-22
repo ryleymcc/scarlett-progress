@@ -17,6 +17,7 @@ from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 
 import capability_scan
+import api_matrix
 
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://api.github.com"
@@ -225,6 +226,16 @@ def run() -> None:
             fresh["coverage"] = capability_scan.enrich_project(
                 repo, fresh["branch_scanned"], catalog, api_get, metrics_rules
             )
+            try:
+                fresh["api_scan"] = api_matrix.scan_repository(
+                    repo, fresh["branch_scanned"], api_get
+                )
+            except Exception as scan_exc:
+                print(f"WARNING {repo} API symbol scan: {scan_exc}", flush=True)
+                fresh["api_scan"] = {
+                    "status": "error", "error": str(scan_exc), "symbols": {},
+                    "files_scanned": 0,
+                }
             updated.append(fresh)
         except (RuntimeError, KeyError, ValueError) as exc:
             print(f"WARNING {repo}: {exc}", flush=True)
@@ -239,6 +250,10 @@ def run() -> None:
                 preserved["coverage"].pop("claimed_implemented", None)
                 preserved["coverage"].pop("forecast", None)
             preserved["scan_error"] = str(exc)
+            preserved["api_scan"] = {
+                "status": "stale", "symbols": {},
+                "files_scanned": 0, "error": "Upstream metadata scan failed",
+            }
             updated.append(preserved)
     # Daily snapshots support automatic forecasts for stable upstream-reported denominators.
     history_paths = sorted((ROOT / "data/history").glob("????-??-??.json"))[-180:]
@@ -256,13 +271,14 @@ def run() -> None:
                 for metric in metrics
             }
     payload = {
+        "api_matrix": api_matrix.build_matrix(updated),
         "catalog": {"version": catalog["version"], "scope_note": catalog["scope_note"], "features": [
             {k: v for k, v in feature.items() if k != "patterns"} for feature in catalog["features"]
         ]},
         "overlap": capability_scan.build_overlap(updated, catalog),
         "generated_at": utc_iso(now),
         "collection": "Xbox Series X|S / Scarlett",
-        "methodology": "Fully automated GitHub API activity, source-tree path signals, and upstream README progress metrics; no manual compatibility certification",
+        "methodology": "Fully automated GitHub activity, source-code candidate symbol matrix, source-path categories, and upstream README metrics; no manual compatibility certification",
         "projects": updated
     }
     write_json(ROOT / "data/latest.json", payload)
