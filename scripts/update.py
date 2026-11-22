@@ -16,6 +16,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 
+import capability_scan
+
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://api.github.com"
 PER_PAGE = 100
@@ -227,6 +229,10 @@ def update_readme(data: dict) -> None:
 def run() -> None:
     projects = load_json(ROOT / "projects.json")
     valid_projects(projects)
+    catalog = load_json(ROOT / "data/capabilities.json")
+    capability_scan.validate_catalog(catalog)
+    implementation_file = load_json(ROOT / "data/implementations.json", {"entries": {}})
+    metrics_rules = load_json(ROOT / "data/declared_metrics.json", {"rules": {}})
     milestone_file = load_json(ROOT / "data/milestones.json", {"milestones": {}})
     previous = load_json(ROOT / "data/latest.json", {})
     previous_by_repo = {p["repo"]: p for p in previous.get("projects", [])}
@@ -237,7 +243,11 @@ def run() -> None:
         milestones = verified_milestones(milestone_file, repo)
         print("Fetching", repo, flush=True)
         try:
-            updated.append(snapshot_project(project, previous_by_repo.get(repo), milestones, now))
+            fresh = snapshot_project(project, previous_by_repo.get(repo), milestones, now)
+            fresh["coverage"] = capability_scan.enrich_project(
+                repo, fresh["branch_scanned"], catalog, implementation_file, api_get, metrics_rules
+            )
+            updated.append(fresh)
         except (RuntimeError, KeyError, ValueError) as exc:
             print(f"WARNING {repo}: {exc}", flush=True)
             # Preserve last known metrics, but never pretend an outage is 0 commits.
@@ -247,10 +257,32 @@ def run() -> None:
             preserved["milestones"] = milestones
             preserved["scan_error"] = str(exc)
             updated.append(preserved)
+    # Daily history is used only for guarded, independently verified catalog trends.
+    history_paths = sorted((ROOT / "data/history").glob("????-??-??.json"))[-180:]
+    histories = [load_json(p, {}) for p in history_paths]
+    for row in updated:
+        cov = row.get("coverage")
+        if cov:
+            cov["forecast"] = capability_scan.estimate_catalog_eta(
+                row["repo"], cov["verified_implemented"], cov["catalog_total"], histories, now
+            )
+            metrics = list(cov.get("reported_metrics") or [])
+            if cov.get("checklist"):
+                metrics.append({"id": "readme_tasks", **cov["checklist"]})
+            cov["metric_forecasts"] = {
+                metric["id"]: capability_scan.estimate_reported_metric_eta(
+                    row["repo"], metric["id"], metric["implemented"], metric["total"], histories, now
+                )
+                for metric in metrics
+            }
     payload = {
+        "catalog": {"version": catalog["version"], "scope_note": catalog["scope_note"], "features": [
+            {k: v for k, v in feature.items() if k != "patterns"} for feature in catalog["features"]
+        ]},
+        "overlap": capability_scan.build_overlap(updated, catalog),
         "generated_at": utc_iso(now),
         "collection": "Xbox Series X|S / Scarlett",
-        "methodology": "GitHub API activity + manually evidence-reviewed compatibility milestones",
+        "methodology": "GitHub API activity, source-file-path signals, upstream README task checklists and manually reviewed capability evidence; these are distinct measures",
         "projects": updated
     }
     write_json(ROOT / "data/latest.json", payload)
