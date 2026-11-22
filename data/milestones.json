@@ -1,7 +1,0 @@
-{
-  "_about": "Human-reviewed claims ONLY. Never infer boot, graphics or game support from stars, commits, keywords or README text.",
-  "milestones": {
-  },
-  "status_values": ["claimed", "independently_verified", "disputed"],
-  "milestone_values": ["loader", "gdk_runtime", "gpu_translation", "sample_rendering", "commercial_title_boot", "commercial_gameplay", "gta_vi_boot", "gta_vi_gameplay"]
-}
