@@ -15,23 +15,23 @@ There is no reliable single percentage for “GTA VI emulation progress.” Comm
 ## Master status
 
 <!-- TRACKER_TABLE_START -->
-Latest snapshot: **2026-11-22T17:25:49Z**. Every count is upstream activity, **not** game compatibility.
+Latest snapshot: **2026-11-22T17:41:17Z**. Every count is upstream activity, **not** game compatibility.
 
 | Project | Commits (30d) | Last code commit | Open PRs | Stars | Published metrics |
 |---|---:|---|---:|---:|---:|
-| [Leonida](https://github.com/ItsNotRexed/Leonida) | 1000+ | 2026-11-22 | ? | 12282 | 1 tracked |
-| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | 973 | 2026-11-22 | 67 | 1222 | 2 tracked |
-| [XCL](https://github.com/ivall/xcl) | 148 | 2026-11-22 | 2 | 180 | 1 tracked |
-| [Xbox Emulator](https://github.com/omonkeyz/xbox-emulator) | 200 | 2026-11-22 | 10 | 1185 | 2 tracked |
+| [Leonida](https://github.com/ItsNotRexed/Leonida) | 1000+ | 2026-11-22 | ? | 12430 | 1 tracked |
+| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | 977 | 2026-11-22 | 69 | 1225 | 2 tracked |
+| [XCL](https://github.com/ivall/xcl) | 150 | 2026-11-22 | 2 | 182 | 1 tracked |
+| [Xbox Emulator](https://github.com/omonkeyz/xbox-emulator) | 212 | 2026-11-22 | 6 | 1191 | 2 tracked |
 | [TomBox](https://github.com/drycheetah84/TomBox) | 136 | 2026-11-22 | 1 | 77 | 0 tracked |
-| [ScarlettX](https://github.com/Freminet/ScarlettX) | 57 | 2026-11-22 | 26 | 157 | 2 tracked |
-| [xvalkyrie](https://github.com/sammwyy/xvalkyrie) | 186 | 2026-11-22 | 1 | 101 | 2 tracked |
-| [AnyXboxX](https://github.com/LooperSalty/AnyXboxX) | 130 | 2026-11-22 | 2 | 24 | 1 tracked |
-| [OpenScarlett](https://github.com/californiaAlmonds/OpenScarlett) | 210 | 2026-11-22 | 1 | 18 | 3 tracked |
-| [TuxBox](https://github.com/brcly/TuxBox) | 13 | 2026-11-22 | 0 | 10 | 0 tracked |
-| [scarlett-layer](https://github.com/jadeowaowa/scarlett-layer) | 147 | 2026-11-22 | 0 | 20 | 0 tracked |
+| [ScarlettX](https://github.com/Freminet/ScarlettX) | 57 | 2026-11-22 | 26 | 158 | 2 tracked |
+| [xvalkyrie](https://github.com/sammwyy/xvalkyrie) | 186 | 2026-11-22 | 1 | 102 | 2 tracked |
+| [AnyXboxX](https://github.com/LooperSalty/AnyXboxX) | 134 | 2026-11-22 | 0 | 25 | 1 tracked |
+| [OpenScarlett](https://github.com/californiaAlmonds/OpenScarlett) | 210 | 2026-11-22 | 2 | 19 | 3 tracked |
+| [TuxBox](https://github.com/brcly/TuxBox) | 14 | 2026-11-22 | 0 | 11 | 0 tracked |
+| [scarlett-layer](https://github.com/jadeowaowa/scarlett-layer) | 147 | 2026-11-22 | 0 | 21 | 0 tracked |
 | [GDKScarlett](https://github.com/Ender-0001/GDKScarlett) | 2 | 2026-11-21 | 0 | 12 | 0 tracked |
-| [americas-recomp](https://github.com/realdody/americas-recomp) (`xbox-series` branch) | 1000+ | 2026-11-22 | 7 | 452 | 0 tracked |
+| [americas-recomp](https://github.com/realdody/americas-recomp) (`xbox-series` branch) | 1000+ | 2026-11-22 | 7 | 455 | 0 tracked |
 <!-- TRACKER_TABLE_END -->
 
 ## Start a new repository
