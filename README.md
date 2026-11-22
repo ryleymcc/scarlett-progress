@@ -48,6 +48,12 @@ Scheduled scans run every six hours, subject to GitHub Actions scheduling and pe
 
 Edit [`projects.json`](projects.json) and rerun the sync. Entries must target Xbox Series X|S itself (projects targeting only the original Xbox or Xbox 360 are out of scope). The optional `branch` field tracks a particular research branch rather than unrelated default-branch commits.
 
+## Unified API code matrix
+
+The dashboard's **Code grid** tab combines Xbox Series/GDK-style function names discovered in the source of all 13 tracked repositories. Each row is a symbol and each column is a repo. The grid distinguishes a likely function body, a possible unimplemented stub, a reference/exports-only mention, and no detection in sampled files. Positive cells link straight to their source lines.
+
+It is **fully automated** by the regular GitHub Actions sync. Scans are bounded to 48 likely source files per repo (with file-size and total-row limits), so a blank cell means **not detected in the scanned sample**, never proof that an API is absent. A candidate body is not independently verified functionality. The total rows represent a discovered union, **not** the complete Xbox Series API surface.
+
 ## Implementation tracking
 
 Implementation measures and overlaps are **fully automated**. Every sync reads the public source tree and published README counters. For details on what those counters mean and when an experimental ETA appears, see [IMPLEMENTATION.md](IMPLEMENTATION.md).

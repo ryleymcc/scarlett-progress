@@ -83,6 +83,7 @@ async function load() {
     if (!Array.isArray(dataset.projects))throw Error('Malformed feed');
     renderMetrics();renderGrid();renderFeed();
     if (typeof window.renderCoverage === 'function') window.renderCoverage(dataset);
+    if (typeof window.renderApiGrid === 'function') window.renderApiGrid(dataset);
   } catch(e) {
     $('dataInfo').textContent='Could not load feed: '+e.message;
     $('projectGrid').innerHTML='<div class="pending">Feed unavailable. For local testing run <code>python -m http.server 8000 -d docs</code>, then visit <code>http://localhost:8000</code>.</div>';
