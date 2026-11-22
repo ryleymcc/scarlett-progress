@@ -1,5 +1,5 @@
 {
-  "_about": "Repo-specific README regexes for upstream-published done/total counts. These are developer claims, not independently verified game compatibility. The source is always that repository's README at the scanned ref.",
+  "_about": "Automatically scanned, scope-specific README done/total measurements. They are upstream reports, not independently tested game compatibility. Every scan follows the configured repository branch.",
   "rules": {
     "ItsNotRexed/Leonida": [
       {
