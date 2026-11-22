@@ -52,6 +52,8 @@ Edit [`projects.json`](projects.json) and rerun the sync. Entries must target Xb
 
 The dashboard's **Code grid** tab combines Xbox Series/GDK-style function names discovered in the source of all 13 tracked repositories. Each row is a symbol and each column is a repo. The grid distinguishes a likely function body, a possible unimplemented stub, a reference/exports-only mention, and no detection in sampled files. Positive cells link straight to their source lines.
 
+The grid loads its detailed data from a separate `docs/api_matrix.json` file while the rest of the dashboard uses the lightweight `docs/data.json` feed. Both files are produced together by the scheduled sync.
+
 It is **fully automated** by the regular GitHub Actions sync. Scans are bounded to 48 likely source files per repo (with file-size and total-row limits), so a blank cell means **not detected in the scanned sample**, never proof that an API is absent. A candidate body is not independently verified functionality. The total rows represent a discovered union, **not** the complete Xbox Series API surface.
 
 ## Implementation tracking
