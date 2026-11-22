@@ -109,7 +109,23 @@ def definition_match(name, text):
     for pat in patterns:
         match = re.search(pat, text)
         if match:
-            body = text[match.end():match.end()+360]
+            if text[match.end() - 1] == "{":
+                # Inspect only this function body; a following stub must not
+                # accidentally mark this preceding implementation as a stub.
+                depth, end = 1, match.end()
+                while end < min(len(text), match.end() + 5000) and depth:
+                    if text[end] == "{":
+                        depth += 1
+                    elif text[end] == "}":
+                        depth -= 1
+                    end += 1
+                body = text[match.end():end - 1] if depth == 0 else text[match.end():match.end() + 240]
+            else:
+                # Python's indentation-based body. Stop before next top-level
+                # declaration to avoid attributing unrelated TODOs.
+                remainder = text[match.end():]
+                next_def = re.search(r"(?m)^\\S.*\\b(?:def|class)\\s+", remainder)
+                body = remainder[:next_def.start()] if next_def else remainder[:240]
             return ("stub_candidate" if STUB.search(body) else "definition_candidate", match.start())
     return None
 
