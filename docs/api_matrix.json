@@ -1,7 +1,7 @@
 {
   "method": "Automatic regex-based source-body/mention scan; not actual runtime compatibility",
   "files_per_repo_limit": 48,
-  "total_symbols": 997,
+  "total_symbols": 985,
   "display_limit": 700,
   "truncated": true,
   "repositories_scanned": 11,
@@ -9,8 +9,8 @@
     {
       "symbol": "XMemAlloc",
       "group": "Memory",
-      "project_count": 9,
-      "candidate_count": 7,
+      "project_count": 8,
+      "candidate_count": 6,
       "stub_count": 0,
       "sources": {
         "R0Y00/Xbox2Windows": {
@@ -21,9 +21,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L573",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L574",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 573
+          "line": 574
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -42,12 +42,6 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/gdk.py#L98",
           "file": "PrototypeScarlett/emu/hle/gdk.py",
           "line": 98
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2703",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2703
         },
         "brcly/TuxBox": {
           "status": "reference",
@@ -72,8 +66,8 @@
     {
       "symbol": "XMemAllocDefault",
       "group": "Memory",
-      "project_count": 9,
-      "candidate_count": 7,
+      "project_count": 8,
+      "candidate_count": 6,
       "stub_count": 0,
       "sources": {
         "R0Y00/Xbox2Windows": {
@@ -84,9 +78,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L534",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L535",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 534
+          "line": 535
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -105,12 +99,6 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xmem/xmem.cpp#L76",
           "file": "runtime/xmem/xmem.cpp",
           "line": 76
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2709",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2709
         },
         "brcly/TuxBox": {
           "status": "reference",
@@ -135,8 +123,8 @@
     {
       "symbol": "XMemFree",
       "group": "Memory",
-      "project_count": 9,
-      "candidate_count": 7,
+      "project_count": 8,
+      "candidate_count": 6,
       "stub_count": 0,
       "sources": {
         "R0Y00/Xbox2Windows": {
@@ -147,9 +135,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L580",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L581",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 580
+          "line": 581
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -168,12 +156,6 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/gdk.py#L103",
           "file": "PrototypeScarlett/emu/hle/gdk.py",
           "line": 103
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2722",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2722
         },
         "brcly/TuxBox": {
           "status": "reference",
@@ -198,8 +180,8 @@
     {
       "symbol": "XMemFreeDefault",
       "group": "Memory",
-      "project_count": 9,
-      "candidate_count": 7,
+      "project_count": 8,
+      "candidate_count": 6,
       "stub_count": 0,
       "sources": {
         "R0Y00/Xbox2Windows": {
@@ -210,9 +192,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L557",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L558",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 557
+          "line": 558
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -231,12 +213,6 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xmem/xmem.cpp#L90",
           "file": "runtime/xmem/xmem.cpp",
           "line": 90
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2728",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2728
         },
         "brcly/TuxBox": {
           "status": "reference",
@@ -267,15 +243,15 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L542",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L568",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 542
+          "line": 568
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L635",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L636",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 635
+          "line": 636
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -330,9 +306,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L117",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L118",
           "file": "crates/xcl/src/hle/d3d12x/mod.rs",
-          "line": 117
+          "line": 118
         },
         "omonkeyz/xbox-emulator": {
           "status": "reference",
@@ -360,9 +336,9 @@
         },
         "brcly/TuxBox": {
           "status": "reference",
-          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/lib.rs#L96",
+          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/lib.rs#L97",
           "file": "runtime/d3d12/src/lib.rs",
-          "line": 96
+          "line": 97
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -375,69 +351,6 @@
           "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/d3d12_x/DllMain.cpp#L40",
           "file": "Libraries/d3d12_x/DllMain.cpp",
           "line": 40
-        }
-      }
-    },
-    {
-      "symbol": "XMemGetWorkingSetStatistics",
-      "group": "Memory",
-      "project_count": 9,
-      "candidate_count": 3,
-      "stub_count": 3,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L111",
-          "file": "src/xmem_shim.cpp",
-          "line": 111
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L678",
-          "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 678
-        },
-        "omonkeyz/xbox-emulator": {
-          "status": "reference",
-          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtfdiaginfo/src/xmemi.rs#L47",
-          "file": "crates/compat/xtfdiaginfo/src/xmemi.rs",
-          "line": 47
-        },
-        "drycheetah84/TomBox": {
-          "status": "stub_candidate",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xmem/src/lib.rs#L251",
-          "file": "crates/compat/xmem/src/lib.rs",
-          "line": 251
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "stub_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/xmem.py#L57",
-          "file": "PrototypeScarlett/emu/hle/xmem.py",
-          "line": 57
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2824",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2824
-        },
-        "brcly/TuxBox": {
-          "status": "reference",
-          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/xmem.h#L54",
-          "file": "runtime/xmem/xmem.h",
-          "line": 54
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "stub_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L924",
-          "file": "src/shims/xmem/xmem.cpp",
-          "line": 924
-        },
-        "Ender-0001/GDKScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/xmem/DllMain.cpp#L84",
-          "file": "Libraries/xmem/DllMain.cpp",
-          "line": 84
         }
       }
     },
@@ -568,165 +481,6 @@
       }
     },
     {
-      "symbol": "AcpHalAllocateShapeContexts",
-      "group": "Audio",
-      "project_count": 7,
-      "candidate_count": 6,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L94",
-          "file": "src/startup_stubs/acphal.cpp",
-          "line": 94
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/acphal.rs#L457",
-          "file": "crates/xcl/src/hle/acphal.rs",
-          "line": 457
-        },
-        "drycheetah84/TomBox": {
-          "status": "definition_candidate",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/acphal/src/lib.rs#L184",
-          "file": "crates/compat/acphal/src/lib.rs",
-          "line": 184
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/acphal_shim.cpp#L143",
-          "file": "src/shims/acphal_shim.cpp",
-          "line": 143
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1456",
-          "file": "src/shims/acphal_shim.cpp",
-          "line": 1456
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/acphal/acphal.cpp#L96",
-          "file": "src/shims/acphal/acphal.cpp",
-          "line": 96
-        },
-        "Ender-0001/GDKScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/AcpHal/DllMain.cpp#L13",
-          "file": "Libraries/AcpHal/DllMain.cpp",
-          "line": 13
-        }
-      }
-    },
-    {
-      "symbol": "AcpHalCreate",
-      "group": "Audio",
-      "project_count": 7,
-      "candidate_count": 6,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L123",
-          "file": "src/startup_stubs/acphal.cpp",
-          "line": 123
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/acphal.rs#L623",
-          "file": "crates/xcl/src/hle/acphal.rs",
-          "line": 623
-        },
-        "drycheetah84/TomBox": {
-          "status": "definition_candidate",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/acphal/src/lib.rs#L153",
-          "file": "crates/compat/acphal/src/lib.rs",
-          "line": 153
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/acphal_shim.cpp#L197",
-          "file": "src/shims/acphal_shim.cpp",
-          "line": 197
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1427",
-          "file": "src/shims/acphal_shim.cpp",
-          "line": 1427
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/acphal/acphal.cpp#L68",
-          "file": "src/shims/acphal/acphal.cpp",
-          "line": 68
-        },
-        "Ender-0001/GDKScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/AcpHal/DllMain.cpp#L6",
-          "file": "Libraries/AcpHal/DllMain.cpp",
-          "line": 6
-        }
-      }
-    },
-    {
-      "symbol": "XGCreateTextureComputer",
-      "group": "Graphics",
-      "project_count": 8,
-      "candidate_count": 4,
-      "stub_count": 1,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/xg_xs.cpp#L342",
-          "file": "src/startup_stubs/xg_xs.cpp",
-          "line": 342
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xg.rs#L540",
-          "file": "crates/xcl/src/hle/xg.rs",
-          "line": 540
-        },
-        "omonkeyz/xbox-emulator": {
-          "status": "reference",
-          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/xone_tex.rs#L44",
-          "file": "crates/compat/d3d12_xs/src/xone_tex.rs",
-          "line": 44
-        },
-        "drycheetah84/TomBox": {
-          "status": "stub_candidate",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xg_xs/src/lib.rs#L15",
-          "file": "crates/compat/xg_xs/src/lib.rs",
-          "line": 15
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/xg.cpp#L326",
-          "file": "src/runtime/modules/xg.cpp",
-          "line": 326
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1046",
-          "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1046
-        },
-        "brcly/TuxBox": {
-          "status": "definition_candidate",
-          "source": "https://github.com/brcly/TuxBox/blob/main/tools/reference/xg-proxy/proxy.c#L52",
-          "file": "tools/reference/xg-proxy/proxy.c",
-          "line": 52
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xg_xs/xg_xs.cpp#L826",
-          "file": "src/shims/xg_xs/xg_xs.cpp",
-          "line": 826
-        }
-      }
-    },
-    {
       "symbol": "XUserAddResult",
       "group": "Users & identity",
       "project_count": 8,
@@ -735,9 +489,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L293",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L312",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 293
+          "line": 312
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -792,9 +546,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L285",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L304",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 285
+          "line": 304
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -849,9 +603,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L323",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L342",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 323
+          "line": 342
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -963,9 +717,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L297",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L316",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 297
+          "line": 316
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1020,9 +774,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L318",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L337",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 318
+          "line": 337
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1069,53 +823,59 @@
       }
     },
     {
-      "symbol": "XMemMapPhysicalPages",
+      "symbol": "XMemGetWorkingSetStatistics",
       "group": "Memory",
-      "project_count": 7,
-      "candidate_count": 5,
-      "stub_count": 0,
+      "project_count": 8,
+      "candidate_count": 2,
+      "stub_count": 3,
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L729",
-          "file": "src/xmem_mapped_pages.cpp",
-          "line": 729
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L111",
+          "file": "src/xmem_shim.cpp",
+          "line": 111
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1318",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L679",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1318
+          "line": 679
+        },
+        "omonkeyz/xbox-emulator": {
+          "status": "reference",
+          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtfdiaginfo/src/xmemi.rs#L47",
+          "file": "crates/compat/xtfdiaginfo/src/xmemi.rs",
+          "line": 47
         },
         "drycheetah84/TomBox": {
-          "status": "definition_candidate",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xmem/src/lib.rs#L225",
+          "status": "stub_candidate",
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xmem/src/lib.rs#L251",
           "file": "crates/compat/xmem/src/lib.rs",
-          "line": 225
+          "line": 251
         },
         "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xmem/physical_pages.cpp#L105",
-          "file": "runtime/xmem/physical_pages.cpp",
-          "line": 105
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L3102",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 3102
+          "status": "stub_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/xmem.py#L57",
+          "file": "PrototypeScarlett/emu/hle/xmem.py",
+          "line": 57
         },
         "brcly/TuxBox": {
           "status": "reference",
-          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/xmem.h#L69",
+          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/xmem.h#L54",
           "file": "runtime/xmem/xmem.h",
-          "line": 69
+          "line": 54
         },
         "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L912",
+          "status": "stub_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L924",
           "file": "src/shims/xmem/xmem.cpp",
-          "line": 912
+          "line": 924
+        },
+        "Ender-0001/GDKScarlett": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/xmem/DllMain.cpp#L84",
+          "file": "Libraries/xmem/DllMain.cpp",
+          "line": 84
         }
       }
     },
@@ -1128,9 +888,9 @@
       "sources": {
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L238",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L239",
           "file": "crates/xcl/src/hle/d3d12x/mod.rs",
-          "line": 238
+          "line": 239
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -1171,57 +931,6 @@
       }
     },
     {
-      "symbol": "XMemVirtualQuery",
-      "group": "Memory",
-      "project_count": 7,
-      "candidate_count": 4,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L104",
-          "file": "src/xmem_shim.cpp",
-          "line": 104
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L648",
-          "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 648
-        },
-        "omonkeyz/xbox-emulator": {
-          "status": "reference",
-          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtfdiaginfo/src/xmemi.rs#L43",
-          "file": "crates/compat/xtfdiaginfo/src/xmemi.rs",
-          "line": 43
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xmem/xmem.cpp#L124",
-          "file": "runtime/xmem/xmem.cpp",
-          "line": 124
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2761",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2761
-        },
-        "brcly/TuxBox": {
-          "status": "reference",
-          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/xmem.h#L64",
-          "file": "runtime/xmem/xmem.h",
-          "line": 64
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L949",
-          "file": "src/shims/xmem/xmem.cpp",
-          "line": 949
-        }
-      }
-    },
-    {
       "symbol": "XGameSaveCloseContainer",
       "group": "Saved data",
       "project_count": 7,
@@ -1230,9 +939,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L500",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L700",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 500
+          "line": 700
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1332,9 +1041,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L507",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L707",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 507
+          "line": 707
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1383,9 +1092,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L531",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L731",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 531
+          "line": 731
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1434,9 +1143,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L548",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L748",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 548
+          "line": 748
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1477,6 +1186,312 @@
       }
     },
     {
+      "symbol": "XGameSaveInitializeProviderAsync",
+      "group": "Saved data",
+      "project_count": 7,
+      "candidate_count": 4,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L692",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 692
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L201",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 201
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L604",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 604
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L19",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 19
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L170",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 170
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L590",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 590
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L89",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 89
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveInitializeProviderResult",
+      "group": "Saved data",
+      "project_count": 7,
+      "candidate_count": 4,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L695",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 695
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L206",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 206
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L622",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 622
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L350",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 350
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L179",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 179
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L595",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 595
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L134",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 134
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveReadBlobDataAsync",
+      "group": "Saved data",
+      "project_count": 7,
+      "candidate_count": 4,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L742",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 742
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L485",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 485
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L925",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 925
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L22",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 22
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L296",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 296
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L657",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 657
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L350",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 350
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveReadBlobDataResult",
+      "group": "Saved data",
+      "project_count": 7,
+      "candidate_count": 4,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L610",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 610
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L496",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 496
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L992",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 992
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L367",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 367
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L309",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 309
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L662",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 662
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L415",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 415
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveSubmitBlobWrite",
+      "group": "Saved data",
+      "project_count": 7,
+      "candidate_count": 4,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L152",
+          "file": "src/xgameruntime_shim.cpp",
+          "line": 152
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L548",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 548
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L788",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 788
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L370",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 370
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L333",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 333
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L610",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 610
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L223",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 223
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveSubmitUpdateAsync",
+      "group": "Saved data",
+      "project_count": 7,
+      "candidate_count": 4,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L793",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 793
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L599",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 599
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L845",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 845
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L23",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 23
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L362",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 362
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L667",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 667
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L268",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 268
+        }
+      }
+    },
+    {
       "symbol": "XMemTransferMemory",
       "group": "Memory",
       "project_count": 7,
@@ -1491,9 +1506,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L691",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L692",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 691
+          "line": 692
         },
         "drycheetah84/TomBox": {
           "status": "stub_candidate",
@@ -1528,7 +1543,7 @@
       }
     },
     {
-      "symbol": "AcpHalReleaseShapeContexts",
+      "symbol": "AcpHalAllocateShapeContexts",
       "group": "Audio",
       "project_count": 6,
       "candidate_count": 5,
@@ -1536,39 +1551,135 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L11",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L178",
           "file": "src/startup_stubs/acphal.cpp",
-          "line": 11
+          "line": 178
         },
-        "ivall/xcl": {
+        "drycheetah84/TomBox": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/acphal.rs#L466",
-          "file": "crates/xcl/src/hle/acphal.rs",
-          "line": 466
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/acphal/src/lib.rs#L184",
+          "file": "crates/compat/acphal/src/lib.rs",
+          "line": 184
         },
         "Freminet/ScarlettX": {
           "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/acphal_shim.cpp#L208",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/acphal_shim.cpp#L143",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 208
+          "line": 143
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1621",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1456",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 1621
+          "line": 1456
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/acphal/acphal.cpp#L108",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/acphal/acphal.cpp#L96",
           "file": "src/shims/acphal/acphal.cpp",
-          "line": 108
+          "line": 96
         },
         "Ender-0001/GDKScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/AcpHal/DllMain.cpp#L19",
+          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/AcpHal/DllMain.cpp#L13",
           "file": "Libraries/AcpHal/DllMain.cpp",
-          "line": 19
+          "line": 13
+        }
+      }
+    },
+    {
+      "symbol": "AcpHalCreate",
+      "group": "Audio",
+      "project_count": 6,
+      "candidate_count": 5,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L229",
+          "file": "src/startup_stubs/acphal.cpp",
+          "line": 229
+        },
+        "drycheetah84/TomBox": {
+          "status": "definition_candidate",
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/acphal/src/lib.rs#L153",
+          "file": "crates/compat/acphal/src/lib.rs",
+          "line": 153
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/acphal_shim.cpp#L197",
+          "file": "src/shims/acphal_shim.cpp",
+          "line": 197
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "definition_candidate",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1427",
+          "file": "src/shims/acphal_shim.cpp",
+          "line": 1427
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/acphal/acphal.cpp#L68",
+          "file": "src/shims/acphal/acphal.cpp",
+          "line": 68
+        },
+        "Ender-0001/GDKScarlett": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/AcpHal/DllMain.cpp#L6",
+          "file": "Libraries/AcpHal/DllMain.cpp",
+          "line": 6
+        }
+      }
+    },
+    {
+      "symbol": "XGCreateTextureComputer",
+      "group": "Graphics",
+      "project_count": 7,
+      "candidate_count": 3,
+      "stub_count": 1,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/xg_xs.cpp#L373",
+          "file": "src/startup_stubs/xg_xs.cpp",
+          "line": 373
+        },
+        "omonkeyz/xbox-emulator": {
+          "status": "reference",
+          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/xone_tex.rs#L44",
+          "file": "crates/compat/d3d12_xs/src/xone_tex.rs",
+          "line": 44
+        },
+        "drycheetah84/TomBox": {
+          "status": "stub_candidate",
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xg_xs/src/lib.rs#L15",
+          "file": "crates/compat/xg_xs/src/lib.rs",
+          "line": 15
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/xg.cpp#L326",
+          "file": "src/runtime/modules/xg.cpp",
+          "line": 326
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "definition_candidate",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1046",
+          "file": "src/shims/xg_xs_shim.cpp",
+          "line": 1046
+        },
+        "brcly/TuxBox": {
+          "status": "definition_candidate",
+          "source": "https://github.com/brcly/TuxBox/blob/main/tools/reference/xg-proxy/proxy.c#L52",
+          "file": "tools/reference/xg-proxy/proxy.c",
+          "line": 52
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xg_xs/xg_xs.cpp#L826",
+          "file": "src/shims/xg_xs/xg_xs.cpp",
+          "line": 826
         }
       }
     },
@@ -1581,9 +1692,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L418",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L767",
           "file": "src/startup_stubs/gameinput.cpp",
-          "line": 418
+          "line": 767
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1611,15 +1722,66 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L2935",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L3045",
           "file": "src/shims/gameinput_shim.cpp",
-          "line": 2935
+          "line": 3045
         },
         "jadeowaowa/scarlett-layer": {
           "status": "reference",
           "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/gameinput/gameinput.cpp#L530",
           "file": "src/shims/gameinput/gameinput.cpp",
           "line": 530
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveSubmitUpdateResult",
+      "group": "Saved data",
+      "project_count": 7,
+      "candidate_count": 3,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L796",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 796
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L608",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 608
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L857",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 857
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L374",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 374
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "reference",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L419",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 419
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L670",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 670
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L328",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 328
         }
       }
     },
@@ -1632,9 +1794,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L337",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L356",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 337
+          "line": 356
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1683,9 +1845,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L280",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L299",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 280
+          "line": 299
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1734,15 +1896,15 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L628",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L655",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 628
+          "line": 655
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1313",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1314",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1313
+          "line": 1314
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -1779,15 +1941,15 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L651",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L678",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 651
+          "line": 678
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1341",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1342",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1341
+          "line": 1342
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -1816,272 +1978,92 @@
       }
     },
     {
-      "symbol": "XGameSaveInitializeProviderAsync",
-      "group": "Saved data",
+      "symbol": "XMemMapPhysicalPages",
+      "group": "Memory",
       "project_count": 6,
       "candidate_count": 4,
       "stub_count": 0,
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L492",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 492
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L769",
+          "file": "src/xmem_mapped_pages.cpp",
+          "line": 769
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L201",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 201
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1319",
+          "file": "crates/xcl/src/hle/kernelx.rs",
+          "line": 1319
         },
-        "Freminet/ScarlettX": {
+        "drycheetah84/TomBox": {
           "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L604",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 604
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L19",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 19
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xmem/src/lib.rs#L225",
+          "file": "crates/compat/xmem/src/lib.rs",
+          "line": 225
         },
         "LooperSalty/AnyXboxX": {
           "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L170",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 170
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xmem/physical_pages.cpp#L105",
+          "file": "runtime/xmem/physical_pages.cpp",
+          "line": 105
+        },
+        "brcly/TuxBox": {
+          "status": "reference",
+          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/xmem.h#L69",
+          "file": "runtime/xmem/xmem.h",
+          "line": 69
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L89",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 89
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L912",
+          "file": "src/shims/xmem/xmem.cpp",
+          "line": 912
         }
       }
     },
     {
-      "symbol": "XGameSaveInitializeProviderResult",
+      "symbol": "XGameSaveSubmitBlobDelete",
       "group": "Saved data",
       "project_count": 6,
       "candidate_count": 4,
       "stub_count": 0,
       "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L495",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 495
-        },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L206",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L558",
           "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 206
+          "line": 558
         },
         "Freminet/ScarlettX": {
           "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L622",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L804",
           "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 622
+          "line": 804
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L350",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L371",
           "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 350
+          "line": 371
         },
         "LooperSalty/AnyXboxX": {
           "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L179",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L345",
           "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 179
+          "line": 345
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L615",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 615
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L134",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L248",
           "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 134
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveReadBlobDataAsync",
-      "group": "Saved data",
-      "project_count": 6,
-      "candidate_count": 4,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L542",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 542
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L485",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 485
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L925",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 925
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L22",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 22
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L296",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 296
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L350",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 350
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveReadBlobDataResult",
-      "group": "Saved data",
-      "project_count": 6,
-      "candidate_count": 4,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L545",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 545
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L496",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 496
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L992",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 992
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L367",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 367
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L309",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 309
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L415",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 415
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveSubmitBlobWrite",
-      "group": "Saved data",
-      "project_count": 6,
-      "candidate_count": 4,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L152",
-          "file": "src/xgameruntime_shim.cpp",
-          "line": 152
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L548",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 548
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L788",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 788
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L370",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 370
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L333",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 333
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L223",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 223
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveSubmitUpdateAsync",
-      "group": "Saved data",
-      "project_count": 6,
-      "candidate_count": 4,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L593",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 593
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L599",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 599
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L845",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 845
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L23",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 23
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L362",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 362
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L268",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 268
+          "line": 248
         }
       }
     },
@@ -2131,6 +2113,57 @@
       }
     },
     {
+      "symbol": "XAsyncBegin",
+      "group": "Tasking & async",
+      "project_count": 7,
+      "candidate_count": 2,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L548",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 548
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/xasync.rs#L228",
+          "file": "crates/xcl/src/hle/xgameruntime/xasync.rs",
+          "line": 228
+        },
+        "omonkeyz/xbox-emulator": {
+          "status": "reference",
+          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk_user.rs#L19",
+          "file": "crates/compat/compat-common/src/gdk_user.rs",
+          "line": 19
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_task_queue.cpp#L1143",
+          "file": "src/shims/xgr_task_queue.cpp",
+          "line": 1143
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/async.cpp#L388",
+          "file": "src/runtime/modules/gameruntime/async.cpp",
+          "line": 388
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "reference",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/async_call.h#L49",
+          "file": "runtime/xgameruntime/async_call.h",
+          "line": 49
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L206",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 206
+        }
+      }
+    },
+    {
       "symbol": "XUserCompare",
       "group": "Users & identity",
       "project_count": 7,
@@ -2139,9 +2172,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L289",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L308",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 289
+          "line": 308
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2241,9 +2274,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L302",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L321",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 302
+          "line": 321
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2284,6 +2317,51 @@
       }
     },
     {
+      "symbol": "XMemVirtualQuery",
+      "group": "Memory",
+      "project_count": 6,
+      "candidate_count": 3,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L104",
+          "file": "src/xmem_shim.cpp",
+          "line": 104
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L649",
+          "file": "crates/xcl/src/hle/kernelx.rs",
+          "line": 649
+        },
+        "omonkeyz/xbox-emulator": {
+          "status": "reference",
+          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtfdiaginfo/src/xmemi.rs#L43",
+          "file": "crates/compat/xtfdiaginfo/src/xmemi.rs",
+          "line": 43
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xmem/xmem.cpp#L124",
+          "file": "runtime/xmem/xmem.cpp",
+          "line": 124
+        },
+        "brcly/TuxBox": {
+          "status": "reference",
+          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/xmem.h#L64",
+          "file": "runtime/xmem/xmem.h",
+          "line": 64
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L949",
+          "file": "src/shims/xmem/xmem.cpp",
+          "line": 949
+        }
+      }
+    },
+    {
       "symbol": "XGameSaveDeleteContainer",
       "group": "Saved data",
       "project_count": 6,
@@ -2292,9 +2370,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L525",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L725",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 525
+          "line": 725
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2329,7 +2407,7 @@
       }
     },
     {
-      "symbol": "XGameSaveSubmitUpdateResult",
+      "symbol": "XGameSaveGetRemainingQuota",
       "group": "Saved data",
       "project_count": 6,
       "candidate_count": 3,
@@ -2337,39 +2415,174 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L596",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L714",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 596
+          "line": 714
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L608",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L225",
           "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 608
+          "line": 225
         },
         "Freminet/ScarlettX": {
           "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L857",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L653",
           "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 857
+          "line": 653
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L374",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L352",
           "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 374
+          "line": 352
         },
         "LooperSalty/AnyXboxX": {
-          "status": "reference",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L419",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 419
-        },
-        "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L328",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 328
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L192",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 192
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L639",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 639
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveInitializeProvider",
+      "group": "Saved data",
+      "project_count": 6,
+      "candidate_count": 3,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L689",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 689
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L191",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 191
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L579",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 579
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L348",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 348
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L161",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 161
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L585",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 585
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveReadBlobData",
+      "group": "Saved data",
+      "project_count": 6,
+      "candidate_count": 3,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L500",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 500
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L461",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 461
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L864",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 864
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L365",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 365
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L283",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 283
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L622",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 622
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveSubmitUpdate",
+      "group": "Saved data",
+      "project_count": 6,
+      "candidate_count": 3,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L465",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 465
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L592",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 592
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L815",
+          "file": "src/shims/xgameruntime_shim.cpp",
+          "line": 815
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L372",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 372
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L356",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 356
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L618",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 618
         }
       }
     },
@@ -2415,6 +2628,45 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L142",
           "file": "runtime/xgameruntime/user_interface.cpp",
           "line": 142
+        }
+      }
+    },
+    {
+      "symbol": "AcpHalReleaseShapeContexts",
+      "group": "Audio",
+      "project_count": 5,
+      "candidate_count": 4,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L11",
+          "file": "src/startup_stubs/acphal.cpp",
+          "line": 11
+        },
+        "Freminet/ScarlettX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/acphal_shim.cpp#L208",
+          "file": "src/shims/acphal_shim.cpp",
+          "line": 208
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "definition_candidate",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1621",
+          "file": "src/shims/acphal_shim.cpp",
+          "line": 1621
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/acphal/acphal.cpp#L108",
+          "file": "src/shims/acphal/acphal.cpp",
+          "line": 108
+        },
+        "Ender-0001/GDKScarlett": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/AcpHal/DllMain.cpp#L19",
+          "file": "Libraries/AcpHal/DllMain.cpp",
+          "line": 19
         }
       }
     },
@@ -2493,45 +2745,6 @@
           "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/xgameruntime.cpp#L70",
           "file": "src/shims/xgameruntime/xgameruntime.cpp",
           "line": 70
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveSubmitBlobDelete",
-      "group": "Saved data",
-      "project_count": 5,
-      "candidate_count": 4,
-      "stub_count": 0,
-      "sources": {
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L558",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 558
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L804",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 804
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L371",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 371
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L345",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 345
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L248",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 248
         }
       }
     },
@@ -2653,47 +2866,137 @@
       }
     },
     {
-      "symbol": "XAsyncBegin",
-      "group": "Tasking & async",
+      "symbol": "XGameSaveGetRemainingQuotaAsync",
+      "group": "Saved data",
       "project_count": 6,
       "candidate_count": 2,
       "stub_count": 0,
       "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L717",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 717
+        },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/xasync.rs#L228",
-          "file": "crates/xcl/src/hle/xgameruntime/xasync.rs",
-          "line": 228
-        },
-        "omonkeyz/xbox-emulator": {
-          "status": "reference",
-          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk_user.rs#L19",
-          "file": "crates/compat/compat-common/src/gdk_user.rs",
-          "line": 19
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L244",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 244
         },
         "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_task_queue.cpp#L1143",
-          "file": "src/shims/xgr_task_queue.cpp",
-          "line": 1143
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L333",
+          "file": "src/shims/xgr_api_tables.cpp",
+          "line": 333
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/async.cpp#L388",
-          "file": "src/runtime/modules/gameruntime/async.cpp",
-          "line": 388
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L20",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 20
         },
         "LooperSalty/AnyXboxX": {
-          "status": "reference",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/async_call.h#L49",
-          "file": "runtime/xgameruntime/async_call.h",
-          "line": 49
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L199",
+          "file": "runtime/xgameruntime/save_interface.cpp",
+          "line": 199
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L206",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L678",
           "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 678
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveGetRemainingQuotaResult",
+      "group": "Saved data",
+      "project_count": 6,
+      "candidate_count": 2,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L720",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 720
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L250",
+          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
+          "line": 250
+        },
+        "Freminet/ScarlettX": {
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L334",
+          "file": "src/shims/xgr_api_tables.cpp",
+          "line": 334
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L354",
+          "file": "src/runtime/modules/gameruntime/save.cpp",
+          "line": 354
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L206",
+          "file": "runtime/xgameruntime/save_interface.cpp",
           "line": 206
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L681",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 681
+        }
+      }
+    },
+    {
+      "symbol": "XStoreCreateContext",
+      "group": "Store & licensing",
+      "project_count": 6,
+      "candidate_count": 2,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/api_trace.h#L53",
+          "file": "src/startup_stubs/api_trace.h",
+          "line": 53
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/mod.rs#L953",
+          "file": "crates/xcl/src/hle/xgameruntime/mod.rs",
+          "line": 953
+        },
+        "omonkeyz/xbox-emulator": {
+          "status": "reference",
+          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk_store.rs#L38",
+          "file": "crates/compat/compat-common/src/gdk_store.rs",
+          "line": 38
+        },
+        "drycheetah84/TomBox": {
+          "status": "reference",
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/compat-common/src/gdk_store.rs#L52",
+          "file": "crates/compat/compat-common/src/gdk_store.rs",
+          "line": 52
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/store.cpp#L202",
+          "file": "src/runtime/modules/gameruntime/store.cpp",
+          "line": 202
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/store_interface.cpp#L79",
+          "file": "runtime/xgameruntime/store_interface.cpp",
+          "line": 79
         }
       }
     },
@@ -3144,15 +3447,15 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L752",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L796",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 752
+          "line": 796
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1324",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1325",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1324
+          "line": 1325
         },
         "LooperSalty/AnyXboxX": {
           "status": "definition_candidate",
@@ -3253,162 +3556,6 @@
       }
     },
     {
-      "symbol": "XGameSaveGetRemainingQuota",
-      "group": "Saved data",
-      "project_count": 5,
-      "candidate_count": 3,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L514",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 514
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L225",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 225
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L653",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 653
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L352",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 352
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L192",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 192
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveInitializeProvider",
-      "group": "Saved data",
-      "project_count": 5,
-      "candidate_count": 3,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L489",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 489
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L191",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 191
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L579",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 579
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L348",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 348
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L161",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 161
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveReadBlobData",
-      "group": "Saved data",
-      "project_count": 5,
-      "candidate_count": 3,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L539",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 539
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L461",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 461
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L864",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 864
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L365",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 365
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L283",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 283
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveSubmitUpdate",
-      "group": "Saved data",
-      "project_count": 5,
-      "candidate_count": 3,
-      "stub_count": 0,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L446",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 446
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L592",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 592
-        },
-        "Freminet/ScarlettX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L815",
-          "file": "src/shims/xgameruntime_shim.cpp",
-          "line": 815
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L372",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 372
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L356",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 356
-        }
-      }
-    },
-    {
       "symbol": "XUserGetAgeGroup",
       "group": "Users & identity",
       "project_count": 5,
@@ -3417,9 +3564,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L332",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L351",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 332
+          "line": 351
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3456,9 +3603,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L313",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L332",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 313
+          "line": 332
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3585,9 +3732,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L343",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L362",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 343
+          "line": 362
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3618,45 +3765,6 @@
           "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/api_broker.cpp#L475",
           "file": "src/shims/xgameruntime/api_broker.cpp",
           "line": 475
-        }
-      }
-    },
-    {
-      "symbol": "XGSuggestSwizzleMode",
-      "group": "Graphics",
-      "project_count": 5,
-      "candidate_count": 2,
-      "stub_count": 1,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/xg_xs.cpp#L385",
-          "file": "src/startup_stubs/xg_xs.cpp",
-          "line": 385
-        },
-        "ivall/xcl": {
-          "status": "stub_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xg.rs#L516",
-          "file": "crates/xcl/src/hle/xg.rs",
-          "line": 516
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/xg.cpp#L331",
-          "file": "src/runtime/modules/xg.cpp",
-          "line": 331
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1309",
-          "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1309
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xg_xs/xg_xs.cpp#L853",
-          "file": "src/shims/xg_xs/xg_xs.cpp",
-          "line": 853
         }
       }
     },
@@ -3739,80 +3847,80 @@
       }
     },
     {
-      "symbol": "XGameSaveGetRemainingQuotaAsync",
+      "symbol": "XGameSaveEnumerateContainerInfoByName",
       "group": "Saved data",
       "project_count": 5,
       "candidate_count": 2,
       "stub_count": 0,
       "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L517",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 517
-        },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L244",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L377",
           "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 244
+          "line": 377
         },
         "Freminet/ScarlettX": {
           "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L333",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L336",
           "file": "src/shims/xgr_api_tables.cpp",
-          "line": 333
+          "line": 336
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L20",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L360",
           "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 20
+          "line": 360
         },
         "LooperSalty/AnyXboxX": {
           "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L199",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L234",
           "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 199
+          "line": 234
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L642",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 642
         }
       }
     },
     {
-      "symbol": "XGameSaveGetRemainingQuotaResult",
+      "symbol": "XGameSaveGetContainerInfo",
       "group": "Saved data",
       "project_count": 5,
       "candidate_count": 2,
       "stub_count": 0,
       "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L520",
-          "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 520
-        },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L250",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L363",
           "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 250
+          "line": 363
         },
         "Freminet/ScarlettX": {
           "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L334",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L335",
           "file": "src/shims/xgr_api_tables.cpp",
-          "line": 334
+          "line": 335
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L354",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L358",
           "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 354
+          "line": 358
         },
         "LooperSalty/AnyXboxX": {
           "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L206",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L225",
           "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 206
+          "line": 225
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L652",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 652
         }
       }
     },
@@ -3852,45 +3960,6 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/store_interface.cpp#L86",
           "file": "runtime/xgameruntime/store_interface.cpp",
           "line": 86
-        }
-      }
-    },
-    {
-      "symbol": "XStoreCreateContext",
-      "group": "Store & licensing",
-      "project_count": 5,
-      "candidate_count": 2,
-      "stub_count": 0,
-      "sources": {
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/mod.rs#L953",
-          "file": "crates/xcl/src/hle/xgameruntime/mod.rs",
-          "line": 953
-        },
-        "omonkeyz/xbox-emulator": {
-          "status": "reference",
-          "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk_store.rs#L38",
-          "file": "crates/compat/compat-common/src/gdk_store.rs",
-          "line": 38
-        },
-        "drycheetah84/TomBox": {
-          "status": "reference",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/compat-common/src/gdk_store.rs#L52",
-          "file": "crates/compat/compat-common/src/gdk_store.rs",
-          "line": 52
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/store.cpp#L202",
-          "file": "src/runtime/modules/gameruntime/store.cpp",
-          "line": 202
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/store_interface.cpp#L79",
-          "file": "runtime/xgameruntime/store_interface.cpp",
-          "line": 79
         }
       }
     },
@@ -4014,9 +4083,9 @@
       "sources": {
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L708",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L709",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 708
+          "line": 709
         },
         "Freminet/ScarlettX": {
           "status": "definition_candidate",
@@ -4888,68 +4957,35 @@
       }
     },
     {
-      "symbol": "XGameSaveEnumerateContainerInfoByName",
-      "group": "Saved data",
+      "symbol": "XGSuggestSwizzleMode",
+      "group": "Graphics",
       "project_count": 4,
       "candidate_count": 2,
       "stub_count": 0,
       "sources": {
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L377",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 377
-        },
-        "Freminet/ScarlettX": {
+        "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L336",
-          "file": "src/shims/xgr_api_tables.cpp",
-          "line": 336
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/xg_xs.cpp#L416",
+          "file": "src/startup_stubs/xg_xs.cpp",
+          "line": 416
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L360",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 360
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/xg.cpp#L331",
+          "file": "src/runtime/modules/xg.cpp",
+          "line": 331
         },
-        "LooperSalty/AnyXboxX": {
+        "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L234",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 234
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveGetContainerInfo",
-      "group": "Saved data",
-      "project_count": 4,
-      "candidate_count": 2,
-      "stub_count": 0,
-      "sources": {
-        "ivall/xcl": {
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1309",
+          "file": "src/shims/xg_xs_shim.cpp",
+          "line": 1309
+        },
+        "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gamesave.rs#L363",
-          "file": "crates/xcl/src/hle/xgameruntime/gamesave.rs",
-          "line": 363
-        },
-        "Freminet/ScarlettX": {
-          "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L335",
-          "file": "src/shims/xgr_api_tables.cpp",
-          "line": 335
-        },
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/save.cpp#L358",
-          "file": "src/runtime/modules/gameruntime/save.cpp",
-          "line": 358
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/save_interface.cpp#L225",
-          "file": "runtime/xgameruntime/save_interface.cpp",
-          "line": 225
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xg_xs/xg_xs.cpp#L853",
+          "file": "src/shims/xg_xs/xg_xs.cpp",
+          "line": 853
         }
       }
     },
@@ -5358,9 +5394,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L67",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L84",
           "file": "src/startup_stubs/gameinput.cpp",
-          "line": 67
+          "line": 84
         },
         "ivall/xcl": {
           "status": "reference",
@@ -5935,6 +5971,45 @@
       }
     },
     {
+      "symbol": "XAsyncProviderData",
+      "group": "Tasking & async",
+      "project_count": 5,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L508",
+          "file": "src/startup_stubs/runtime_proxy.cpp",
+          "line": 508
+        },
+        "ivall/xcl": {
+          "status": "reference",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/xasync.rs#L46",
+          "file": "crates/xcl/src/hle/xgameruntime/xasync.rs",
+          "line": 46
+        },
+        "Freminet/ScarlettX": {
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L193",
+          "file": "include/scarlettx/gdk/xgameruntime_abi.h",
+          "line": 193
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "reference",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/async_call.h#L23",
+          "file": "runtime/xgameruntime/async_call.h",
+          "line": 23
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L195",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 195
+        }
+      }
+    },
+    {
       "symbol": "XUserResolveIssueWithUiResult",
       "group": "Users & identity",
       "project_count": 5,
@@ -6117,6 +6192,72 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/gdk.py#L82",
           "file": "PrototypeScarlett/emu/hle/gdk.py",
           "line": 82
+        }
+      }
+    },
+    {
+      "symbol": "XUserCloseSignOutDeferralHandle",
+      "group": "Users & identity",
+      "project_count": 4,
+      "candidate_count": 1,
+      "stub_count": 0,
+      "sources": {
+        "ivall/xcl": {
+          "status": "reference",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/api.rs#L727",
+          "file": "crates/xcl/src/hle/xgameruntime/api.rs",
+          "line": 727
+        },
+        "Freminet/ScarlettX": {
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L178",
+          "file": "src/shims/xgr_api_tables.cpp",
+          "line": 178
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L325",
+          "file": "src/runtime/modules/gameruntime/user.cpp",
+          "line": 325
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L285",
+          "file": "runtime/xgameruntime/user_interface.cpp",
+          "line": 285
+        }
+      }
+    },
+    {
+      "symbol": "XUserGetGamerPictureAsync",
+      "group": "Users & identity",
+      "project_count": 4,
+      "candidate_count": 1,
+      "stub_count": 0,
+      "sources": {
+        "ivall/xcl": {
+          "status": "reference",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/api.rs#L738",
+          "file": "crates/xcl/src/hle/xgameruntime/api.rs",
+          "line": 738
+        },
+        "Freminet/ScarlettX": {
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L169",
+          "file": "src/shims/xgr_api_tables.cpp",
+          "line": 169
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L23",
+          "file": "src/runtime/modules/gameruntime/user.cpp",
+          "line": 23
+        },
+        "LooperSalty/AnyXboxX": {
+          "status": "definition_candidate",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L209",
+          "file": "runtime/xgameruntime/user_interface.cpp",
+          "line": 209
         }
       }
     },
@@ -6475,6 +6616,72 @@
       }
     },
     {
+      "symbol": "XGameSaveProviderHandle",
+      "group": "Saved data",
+      "project_count": 4,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L73",
+          "file": "src/xgameruntime_shim.cpp",
+          "line": 73
+        },
+        "Freminet/ScarlettX": {
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L367",
+          "file": "include/scarlettx/gdk/xgameruntime_abi.h",
+          "line": 367
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L555",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 555
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "reference",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/api_broker.cpp#L28",
+          "file": "src/shims/xgameruntime/api_broker.cpp",
+          "line": 28
+        }
+      }
+    },
+    {
+      "symbol": "XGameSaveUpdateHandle",
+      "group": "Saved data",
+      "project_count": 4,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L75",
+          "file": "src/xgameruntime_shim.cpp",
+          "line": 75
+        },
+        "Freminet/ScarlettX": {
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L369",
+          "file": "include/scarlettx/gdk/xgameruntime_abi.h",
+          "line": 369
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L557",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 557
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "reference",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/api_broker.cpp#L32",
+          "file": "src/shims/xgameruntime/api_broker.cpp",
+          "line": 32
+        }
+      }
+    },
+    {
       "symbol": "XSystemAnalyticsInfo",
       "group": "System",
       "project_count": 4,
@@ -6537,39 +6744,6 @@
           "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L202",
           "file": "include/openscarlett/gdk/xgameruntime_abi.h",
           "line": 202
-        }
-      }
-    },
-    {
-      "symbol": "XAsyncProviderData",
-      "group": "Tasking & async",
-      "project_count": 4,
-      "candidate_count": 0,
-      "stub_count": 0,
-      "sources": {
-        "ivall/xcl": {
-          "status": "reference",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/xasync.rs#L46",
-          "file": "crates/xcl/src/hle/xgameruntime/xasync.rs",
-          "line": 46
-        },
-        "Freminet/ScarlettX": {
-          "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L193",
-          "file": "include/scarlettx/gdk/xgameruntime_abi.h",
-          "line": 193
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "reference",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/async_call.h#L23",
-          "file": "runtime/xgameruntime/async_call.h",
-          "line": 23
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L195",
-          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
-          "line": 195
         }
       }
     },
@@ -7279,56 +7453,56 @@
       }
     },
     {
-      "symbol": "XUserCloseSignOutDeferralHandle",
+      "symbol": "XUserAddByIdWithUiAsync",
       "group": "Users & identity",
       "project_count": 3,
       "candidate_count": 1,
       "stub_count": 0,
       "sources": {
-        "Freminet/ScarlettX": {
+        "ivall/xcl": {
           "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L178",
-          "file": "src/shims/xgr_api_tables.cpp",
-          "line": 178
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/api.rs#L728",
+          "file": "crates/xcl/src/hle/xgameruntime/api.rs",
+          "line": 728
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L325",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L281",
           "file": "src/runtime/modules/gameruntime/user.cpp",
-          "line": 325
+          "line": 281
         },
         "LooperSalty/AnyXboxX": {
           "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L285",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L287",
           "file": "runtime/xgameruntime/user_interface.cpp",
-          "line": 285
+          "line": 287
         }
       }
     },
     {
-      "symbol": "XUserGetGamerPictureAsync",
+      "symbol": "XUserAddByIdWithUiResult",
       "group": "Users & identity",
       "project_count": 3,
       "candidate_count": 1,
       "stub_count": 0,
       "sources": {
-        "Freminet/ScarlettX": {
+        "ivall/xcl": {
           "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgr_api_tables.cpp#L169",
-          "file": "src/shims/xgr_api_tables.cpp",
-          "line": 169
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/api.rs#L729",
+          "file": "crates/xcl/src/hle/xgameruntime/api.rs",
+          "line": 729
         },
         "sammwyy/xvalkyrie": {
           "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L23",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L282",
           "file": "src/runtime/modules/gameruntime/user.cpp",
-          "line": 23
+          "line": 282
         },
         "LooperSalty/AnyXboxX": {
           "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L209",
+          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L291",
           "file": "runtime/xgameruntime/user_interface.cpp",
-          "line": 209
+          "line": 291
         }
       }
     },
@@ -7476,9 +7650,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L349",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L357",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 349
+          "line": 357
         }
       }
     },
@@ -7497,9 +7671,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L571",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L579",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 571
+          "line": 579
         }
       }
     },
@@ -7539,9 +7713,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L298",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L306",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 298
+          "line": 306
         }
       }
     },
@@ -7563,48 +7737,6 @@
           "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xmem/xmem.cpp#L117",
           "file": "runtime/xmem/xmem.cpp",
           "line": 117
-        }
-      }
-    },
-    {
-      "symbol": "XMemSize",
-      "group": "Memory",
-      "project_count": 2,
-      "candidate_count": 2,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2734",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2734
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L853",
-          "file": "src/shims/xmem/xmem.cpp",
-          "line": 853
-        }
-      }
-    },
-    {
-      "symbol": "XMemSizeDefault",
-      "group": "Memory",
-      "project_count": 2,
-      "candidate_count": 2,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2741",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2741
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L840",
-          "file": "src/shims/xmem/xmem.cpp",
-          "line": 840
         }
       }
     },
@@ -7842,33 +7974,6 @@
           "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/acphal/acphal.cpp#L12",
           "file": "src/shims/acphal/acphal.cpp",
           "line": 12
-        }
-      }
-    },
-    {
-      "symbol": "XGTextureAddressComputer",
-      "group": "Graphics",
-      "project_count": 3,
-      "candidate_count": 0,
-      "stub_count": 0,
-      "sources": {
-        "ivall/xcl": {
-          "status": "reference",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xg.rs#L500",
-          "file": "crates/xcl/src/hle/xg.rs",
-          "line": 500
-        },
-        "drycheetah84/TomBox": {
-          "status": "reference",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/upload.rs#L118",
-          "file": "crates/compat/d3d12_xs/src/upload.rs",
-          "line": 118
-        },
-        "californiaAlmonds/OpenScarlett": {
-          "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L161",
-          "file": "src/shims/xg_xs_shim.cpp",
-          "line": 161
         }
       }
     },
@@ -8278,56 +8383,56 @@
       }
     },
     {
-      "symbol": "XGameSaveProviderHandle",
+      "symbol": "XGameSaveProvider",
       "group": "Saved data",
       "project_count": 3,
       "candidate_count": 0,
       "stub_count": 0,
       "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L73",
-          "file": "src/xgameruntime_shim.cpp",
-          "line": 73
-        },
         "Freminet/ScarlettX": {
           "status": "reference",
           "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L367",
           "file": "include/scarlettx/gdk/xgameruntime_abi.h",
           "line": 367
         },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L555",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 555
+        },
         "jadeowaowa/scarlett-layer": {
           "status": "reference",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/api_broker.cpp#L28",
-          "file": "src/shims/xgameruntime/api_broker.cpp",
-          "line": 28
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L16",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 16
         }
       }
     },
     {
-      "symbol": "XGameSaveUpdateHandle",
+      "symbol": "XGameSaveUpdate",
       "group": "Saved data",
       "project_count": 3,
       "candidate_count": 0,
       "stub_count": 0,
       "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L75",
-          "file": "src/xgameruntime_shim.cpp",
-          "line": 75
-        },
         "Freminet/ScarlettX": {
           "status": "reference",
           "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L369",
           "file": "include/scarlettx/gdk/xgameruntime_abi.h",
           "line": 369
         },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L557",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 557
+        },
         "jadeowaowa/scarlett-layer": {
           "status": "reference",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/api_broker.cpp#L32",
-          "file": "src/shims/xgameruntime/api_broker.cpp",
-          "line": 32
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L33",
+          "file": "src/shims/xgameruntime/game_save.cpp",
+          "line": 33
         }
       }
     },
@@ -10369,48 +10474,6 @@
       }
     },
     {
-      "symbol": "XUserAddByIdWithUiAsync",
-      "group": "Users & identity",
-      "project_count": 2,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L281",
-          "file": "src/runtime/modules/gameruntime/user.cpp",
-          "line": 281
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L287",
-          "file": "runtime/xgameruntime/user_interface.cpp",
-          "line": 287
-        }
-      }
-    },
-    {
-      "symbol": "XUserAddByIdWithUiResult",
-      "group": "Users & identity",
-      "project_count": 2,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "sammwyy/xvalkyrie": {
-          "status": "reference",
-          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L282",
-          "file": "src/runtime/modules/gameruntime/user.cpp",
-          "line": 282
-        },
-        "LooperSalty/AnyXboxX": {
-          "status": "definition_candidate",
-          "source": "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/user_interface.cpp#L291",
-          "file": "runtime/xgameruntime/user_interface.cpp",
-          "line": 291
-        }
-      }
-    },
-    {
       "symbol": "XUserFindControllerForUserWithUiAsync",
       "group": "Users & identity",
       "project_count": 2,
@@ -10890,6 +10953,27 @@
           "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L29",
           "file": "include/openscarlett/gdk/xgameruntime_abi.h",
           "line": 29
+        }
+      }
+    },
+    {
+      "symbol": "XGTextureAddressComputer",
+      "group": "Graphics",
+      "project_count": 2,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "drycheetah84/TomBox": {
+          "status": "reference",
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/upload.rs#L118",
+          "file": "crates/compat/d3d12_xs/src/upload.rs",
+          "line": 118
+        },
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L161",
+          "file": "src/shims/xg_xs_shim.cpp",
+          "line": 161
         }
       }
     },
@@ -12876,9 +12960,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L62",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L79",
           "file": "src/startup_stubs/gameinput.cpp",
-          "line": 62
+          "line": 79
         },
         "Freminet/ScarlettX": {
           "status": "reference",
@@ -12897,9 +12981,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L60",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L77",
           "file": "src/startup_stubs/gameinput.cpp",
-          "line": 60
+          "line": 77
         },
         "Freminet/ScarlettX": {
           "status": "reference",
@@ -12918,9 +13002,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L61",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L78",
           "file": "src/startup_stubs/gameinput.cpp",
-          "line": 61
+          "line": 78
         },
         "ivall/xcl": {
           "status": "reference",
@@ -13561,48 +13645,6 @@
       }
     },
     {
-      "symbol": "XGameSaveProvider",
-      "group": "Saved data",
-      "project_count": 2,
-      "candidate_count": 0,
-      "stub_count": 0,
-      "sources": {
-        "Freminet/ScarlettX": {
-          "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L367",
-          "file": "include/scarlettx/gdk/xgameruntime_abi.h",
-          "line": 367
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "reference",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L16",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 16
-        }
-      }
-    },
-    {
-      "symbol": "XGameSaveUpdate",
-      "group": "Saved data",
-      "project_count": 2,
-      "candidate_count": 0,
-      "stub_count": 0,
-      "sources": {
-        "Freminet/ScarlettX": {
-          "status": "reference",
-          "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L369",
-          "file": "include/scarlettx/gdk/xgameruntime_abi.h",
-          "line": 369
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "reference",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/game_save.cpp#L33",
-          "file": "src/shims/xgameruntime/game_save.cpp",
-          "line": 33
-        }
-      }
-    },
-    {
       "symbol": "XStoreQuery",
       "group": "Store & licensing",
       "project_count": 2,
@@ -13872,6 +13914,48 @@
           "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L94",
           "file": "include/scarlettx/gdk/xgameruntime_abi.h",
           "line": 94
+        }
+      }
+    },
+    {
+      "symbol": "XUserFindControllerForUserWithUiResult",
+      "group": "Users & identity",
+      "project_count": 2,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "ivall/xcl": {
+          "status": "reference",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/api.rs#L755",
+          "file": "crates/xcl/src/hle/xgameruntime/api.rs",
+          "line": 755
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L290",
+          "file": "src/runtime/modules/gameruntime/user.cpp",
+          "line": 290
+        }
+      }
+    },
+    {
+      "symbol": "XUserGetDefaultAudioEndpointUtf16",
+      "group": "Users & identity",
+      "project_count": 2,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "ivall/xcl": {
+          "status": "reference",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/api.rs#L753",
+          "file": "crates/xcl/src/hle/xgameruntime/api.rs",
+          "line": 753
+        },
+        "sammwyy/xvalkyrie": {
+          "status": "reference",
+          "source": "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/gameruntime/user.cpp#L319",
+          "file": "src/runtime/modules/gameruntime/user.cpp",
+          "line": 319
         }
       }
     },
@@ -14286,9 +14370,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1306",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1718",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 1306
+          "line": 1718
         }
       }
     },
@@ -14301,9 +14385,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1319",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1731",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 1319
+          "line": 1731
         }
       }
     },
@@ -14316,9 +14400,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1289",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1701",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 1289
+          "line": 1701
         }
       }
     },
@@ -14331,9 +14415,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1348",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1778",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 1348
+          "line": 1778
         }
       }
     },
@@ -14346,9 +14430,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1362",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L1792",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 1362
+          "line": 1792
         }
       }
     },
@@ -14436,9 +14520,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L440",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xbox_bvh_builder_shim.cpp#L448",
           "file": "src/shims/xbox_bvh_builder_shim.cpp",
-          "line": 440
+          "line": 448
         }
       }
     },
@@ -14481,9 +14565,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1114",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1224",
           "file": "src/shims/gameinput_shim.cpp",
-          "line": 1114
+          "line": 1224
         }
       }
     },
@@ -14646,9 +14730,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1612",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1722",
           "file": "src/shims/gameinput_shim.cpp",
-          "line": 1612
+          "line": 1722
         }
       }
     },
@@ -14713,126 +14797,6 @@
       }
     },
     {
-      "symbol": "XMemAllocAligned",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2715",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2715
-        }
-      }
-    },
-    {
-      "symbol": "XMemAllocImpl",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L468",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 468
-        }
-      }
-    },
-    {
-      "symbol": "XMemDecodeAllocationAttributes",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2770",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2770
-        }
-      }
-    },
-    {
-      "symbol": "XMemFreeImpl",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L529",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 529
-        }
-      }
-    },
-    {
-      "symbol": "XMemGetAllocationAttributes",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2802",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2802
-        }
-      }
-    },
-    {
-      "symbol": "XMemGetAllocationAttributesImpl",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L726",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 726
-        }
-      }
-    },
-    {
-      "symbol": "XMemGetAuxiliaryTitleMemory",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2748",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2748
-        }
-      }
-    },
-    {
-      "symbol": "XMemReleaseAuxiliaryTitleMemory",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L2755",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 2755
-        }
-      }
-    },
-    {
       "symbol": "XMemShim_GetTelemetryCallCountForTest",
       "group": "Memory",
       "project_count": 1,
@@ -14841,9 +14805,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L690",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L709",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 690
+          "line": 709
         }
       }
     },
@@ -15021,9 +14985,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L642",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L661",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 642
+          "line": 661
         }
       }
     },
@@ -15141,9 +15105,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L651",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L670",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 651
+          "line": 670
         }
       }
     },
@@ -15193,32 +15157,32 @@
       }
     },
     {
-      "symbol": "XMemSizeImpl",
+      "symbol": "XMemSize",
       "group": "Memory",
       "project_count": 1,
       "candidate_count": 1,
       "stub_count": 0,
       "sources": {
-        "californiaAlmonds/OpenScarlett": {
+        "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L555",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 555
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L853",
+          "file": "src/shims/xmem/xmem.cpp",
+          "line": 853
         }
       }
     },
     {
-      "symbol": "XMemUnmapPhysicalPages",
+      "symbol": "XMemSizeDefault",
       "group": "Memory",
       "project_count": 1,
       "candidate_count": 1,
       "stub_count": 0,
       "sources": {
-        "californiaAlmonds/OpenScarlett": {
+        "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L3113",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 3113
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L840",
+          "file": "src/shims/xmem/xmem.cpp",
+          "line": 840
         }
       }
     },
@@ -15234,21 +15198,6 @@
           "source": "https://github.com/Freminet/ScarlettX/blob/main/src/shims/xgameruntime_shim.cpp#L1276",
           "file": "src/shims/xgameruntime_shim.cpp",
           "line": 1276
-        }
-      }
-    },
-    {
-      "symbol": "XMemVirtualQueryImpl",
-      "group": "Memory",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L567",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 567
         }
       }
     },
@@ -15384,51 +15333,6 @@
           "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/taskqueue.rs#L556",
           "file": "crates/xcl/src/hle/xgameruntime/taskqueue.rs",
           "line": 556
-        }
-      }
-    },
-    {
-      "symbol": "XThreadGetPriority",
-      "group": "Threading",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L3317",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 3317
-        }
-      }
-    },
-    {
-      "symbol": "XThreadSetAffinityMask",
-      "group": "Threading",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L3207",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 3207
-        }
-      }
-    },
-    {
-      "symbol": "XThreadSetPriority",
-      "group": "Threading",
-      "project_count": 1,
-      "candidate_count": 1,
-      "stub_count": 0,
-      "sources": {
-        "californiaAlmonds/OpenScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/kernelx_shim.cpp#L3310",
-          "file": "src/shims/kernelx_shim.cpp",
-          "line": 3310
         }
       }
     },
@@ -16356,9 +16260,9 @@
       "sources": {
         "ivall/xcl": {
           "status": "reference",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/mod.rs#L81",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/mod.rs#L82",
           "file": "crates/xcl/src/hle/mod.rs",
-          "line": 81
+          "line": 82
         }
       }
     },
@@ -16386,9 +16290,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1084",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1088",
           "file": "src/xgameruntime_shim.cpp",
-          "line": 1084
+          "line": 1088
         }
       }
     },
@@ -16401,9 +16305,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1085",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1089",
           "file": "src/xgameruntime_shim.cpp",
-          "line": 1085
+          "line": 1089
         }
       }
     },
@@ -16416,9 +16320,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1093",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1097",
           "file": "src/xgameruntime_shim.cpp",
-          "line": 1093
+          "line": 1097
         }
       }
     },
@@ -16431,9 +16335,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1107",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1111",
           "file": "src/xgameruntime_shim.cpp",
-          "line": 1107
+          "line": 1111
         }
       }
     },
@@ -16446,9 +16350,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1100",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1104",
           "file": "src/xgameruntime_shim.cpp",
-          "line": 1100
+          "line": 1104
         }
       }
     },
@@ -16461,9 +16365,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1087",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xgameruntime_shim.cpp#L1091",
           "file": "src/xgameruntime_shim.cpp",
-          "line": 1087
+          "line": 1091
         }
       }
     },
@@ -17231,7 +17135,187 @@
           "line": 60
         }
       }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XDisplay",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L61",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 61
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XError",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L76",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 76
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XGame",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L62",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 62
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XGameInvite",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L63",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 63
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XGameStreaming",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L77",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 77
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XGameUI",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L65",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 65
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XLauncher",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L66",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 66
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XMem",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "Freminet/ScarlettX": {
+          "status": "reference",
+          "source": "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h#L52",
+          "file": "include/scarlettx/gdk/xgameruntime_abi.h",
+          "line": 52
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XNetworking",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L67",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 67
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XPackage",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L68",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 68
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XPersistentLocalStorage",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L69",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 69
+        }
+      }
+    },
+    {
+      "symbol": "XGameRuntimeFeature_XSpeechSynthesizer",
+      "group": "Graphics",
+      "project_count": 1,
+      "candidate_count": 0,
+      "stub_count": 0,
+      "sources": {
+        "californiaAlmonds/OpenScarlett": {
+          "status": "reference",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h#L70",
+          "file": "include/openscarlett/gdk/xgameruntime_abi.h",
+          "line": 70
+        }
+      }
     }
   ],
-  "generated_at": "2026-11-24T10:02:33Z"
+  "generated_at": "2026-11-24T22:34:12Z"
 }
