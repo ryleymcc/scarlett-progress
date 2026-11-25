@@ -316,11 +316,11 @@
         {
           "repo": "R0Y00/Xbox2Windows",
           "name": "Xbox2Windows",
-          "matching_files": 4,
+          "matching_files": 5,
           "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_as.h",
             "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_buffer.h",
-            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_census.h",
-            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_report.h"
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_census.h"
           ]
         },
         {
@@ -354,11 +354,11 @@
         {
           "repo": "brcly/TuxBox",
           "name": "TuxBox",
-          "matching_files": 9,
+          "matching_files": 14,
           "examples": [
             "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/memory_config_guest.cpp",
             "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/copy_memory.rs",
-            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/memory_wait.rs"
+            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/list_memory.rs"
           ]
         },
         {
@@ -639,9 +639,10 @@
         {
           "repo": "R0Y00/Xbox2Windows",
           "name": "Xbox2Windows",
-          "matching_files": 1,
+          "matching_files": 2,
           "examples": [
-            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/input_script.h"
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/input_script.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/startup/ps_input_scan.py"
           ]
         },
         {
@@ -899,7 +900,7 @@
         {
           "repo": "omonkeyz/xbox-emulator",
           "name": "Xbox Emulator",
-          "matching_files": 165,
+          "matching_files": 166,
           "examples": [
             "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/build.rs",
             "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/src/console_x.rs",
@@ -948,7 +949,7 @@
         {
           "repo": "brcly/TuxBox",
           "name": "TuxBox",
-          "matching_files": 134,
+          "matching_files": 154,
           "examples": [
             "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/d3d12_status.py",
             "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/affine.hlsl",
@@ -1007,7 +1008,7 @@
         {
           "repo": "R0Y00/Xbox2Windows",
           "name": "Xbox2Windows",
-          "matching_files": 8,
+          "matching_files": 9,
           "examples": [
             "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/dxil_retarget.py",
             "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/shader_census.py",
@@ -1017,7 +1018,7 @@
         {
           "repo": "ivall/xcl",
           "name": "XCL",
-          "matching_files": 42,
+          "matching_files": 44,
           "examples": [
             "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitreader_tests.rs",
             "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitstream.rs",
@@ -1027,7 +1028,7 @@
         {
           "repo": "omonkeyz/xbox-emulator",
           "name": "Xbox Emulator",
-          "matching_files": 27,
+          "matching_files": 33,
           "examples": [
             "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/shaders/query_accum.hlsl",
             "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/shader_dump.rs",
@@ -1066,11 +1067,11 @@
         {
           "repo": "LooperSalty/AnyXboxX",
           "name": "AnyXboxX",
-          "matching_files": 8,
+          "matching_files": 21,
           "examples": [
             "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl.py",
-            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_ext.py",
-            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_graphics.py"
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_div.py",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_dot.py"
           ]
         },
         {
@@ -1086,7 +1087,7 @@
         {
           "repo": "brcly/TuxBox",
           "name": "TuxBox",
-          "matching_files": 171,
+          "matching_files": 207,
           "examples": [
             "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/dxil_store.py",
             "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_diagnostics.py",
@@ -1135,11 +1136,11 @@
         {
           "repo": "R0Y00/Xbox2Windows",
           "name": "Xbox2Windows",
-          "matching_files": 5,
+          "matching_files": 6,
           "examples": [
             "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/address_texture.h",
-            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/null_texture_view.h",
-            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/small_texture_4k.h"
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/list_copy_texture.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/null_texture_view.h"
           ]
         },
         {
@@ -1214,7 +1215,7 @@
       "title": "Static recompilation",
       "group": "Toolchain",
       "description": "Binary translation, recompilation and disassembly",
-      "project_count": 8,
+      "project_count": 9,
       "projects": [
         {
           "repo": "ItsNotRexed/Leonida",
@@ -1265,6 +1266,14 @@
           "examples": [
             "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/rdna2_disasm.h",
             "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/gpu/rdna2_disasm.cpp"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/tools/check_translator_gpu.py"
           ]
         },
         {
@@ -1323,7 +1332,7 @@
       "projects": []
     }
   ],
-  "generated_at": "2026-11-25T08:47:45Z",
+  "generated_at": "2026-11-25T21:48:51Z",
   "collection": "Xbox Series X|S / Scarlett",
   "methodology": "Fully automated GitHub activity, source-code candidate symbol matrix, source-path categories, and upstream README metrics; no manual compatibility certification",
   "projects": [
@@ -1523,70 +1532,71 @@
       "branch_scanned": "main",
       "description_upstream": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
       "archived": false,
-      "stars": 1931,
-      "forks": 221,
-      "open_prs": 160,
-      "open_issues_estimate": 94,
+      "stars": 1950,
+      "forks": 227,
+      "open_prs": 104,
+      "open_issues_estimate": 98,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
       "commits_30d": 1000,
       "commits_30d_capped": true,
-      "last_commit_at": "2026-11-25T08:45:22Z",
-      "last_commit_sha": "a540a47958df0e700912a16ebbc2319ca983a124",
-      "last_push_at": "2026-11-25T08:45:22Z",
-      "new_commits_since_scan": 456,
+      "last_commit_at": "2026-11-25T21:37:54Z",
+      "last_commit_sha": "8f045aee62143bbfca2e3ba67b60b88b40eba7ef",
+      "last_push_at": "2026-11-25T21:37:54Z",
+      "new_commits_since_scan": 307,
       "latest_release": {
         "tag": "gpu-check-v0.1.0",
         "url": "https://github.com/R0Y00/Xbox2Windows/releases/tag/gpu-check-v0.1.0"
       },
       "recent_commits": [
         {
-          "sha": "a540a47958df0e700912a16ebbc2319ca983a124",
-          "message": "feat: lower group-uniform any-lane SCC branch in mesh programs (#2142)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/a540a47958df0e700912a16ebbc2319ca983a124",
-          "date": "2026-11-25T08:45:22Z"
+          "sha": "8f045aee62143bbfca2e3ba67b60b88b40eba7ef",
+          "message": "shader: lower gfx1013 DWORD buffer atomics (#1684)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/8f045aee62143bbfca2e3ba67b60b88b40eba7ef",
+          "date": "2026-11-25T21:37:54Z"
         },
         {
-          "sha": "99a66ba27f12114a9539e57138023b15c5a9bfba",
-          "message": "textures: honor the Scarlett copy-out signature for BC mip chains (#2257)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/99a66ba27f12114a9539e57138023b15c5a9bfba",
-          "date": "2026-11-25T08:44:46Z"
+          "sha": "2f7fd286e44c96a13830acb050466f7d81ecc92d",
+          "message": "shader: validate input paths and add OSError/struct guards in mesh_loop_census with CLI suite (#2574)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/2f7fd286e44c96a13830acb050466f7d81ecc92d",
+          "date": "2026-11-25T21:36:47Z"
         },
         {
-          "sha": "fbc8fac5484a9f887163f856543ab58b84e10e96",
-          "message": "startup: lower pixel-stage image_store to a typed UAV store (#2155)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/fbc8fac5484a9f887163f856543ab58b84e10e96",
-          "date": "2026-11-25T08:43:45Z"
+          "sha": "8d5f3d789b9a45d77cabdfa23c3f44a669cb8dd6",
+          "message": "shader: lower compute buffer_store_format_d16_x in gfx2hlsl (#2478)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/8d5f3d789b9a45d77cabdfa23c3f44a669cb8dd6",
+          "date": "2026-11-25T21:36:10Z"
         },
         {
-          "sha": "840cbd1054aa26b7c7c16261562ed67c8671b8d5",
-          "message": "startup: count refused slot 70 calls, slot 70 writes and token texture nulls (#2251)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/840cbd1054aa26b7c7c16261562ed67c8671b8d5",
-          "date": "2026-11-25T08:42:24Z"
+          "sha": "b0eb6faadf0b8a4fe1073406e0fc68e85f629ba1",
+          "message": "startup: accept the structured-to-raw descriptor conversion for vertex buffer stores (#2570)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/b0eb6faadf0b8a4fe1073406e0fc68e85f629ba1",
+          "date": "2026-11-25T21:34:57Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 215,
+          "source_files": 244,
           "features": [
             {
               "id": "memory_management",
-              "matching_files": 4,
+              "matching_files": 5,
               "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_as.h",
                 "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_buffer.h",
-                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_census.h",
-                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_report.h"
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_census.h"
               ]
             },
             {
               "id": "input",
-              "matching_files": 1,
+              "matching_files": 2,
               "examples": [
-                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/input_script.h"
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/input_script.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/startup/ps_input_scan.py"
               ]
             },
             {
@@ -1617,7 +1627,7 @@
             },
             {
               "id": "shaders",
-              "matching_files": 8,
+              "matching_files": 9,
               "examples": [
                 "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/dxil_retarget.py",
                 "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/shader_census.py",
@@ -1626,11 +1636,11 @@
             },
             {
               "id": "textures_resources",
-              "matching_files": 5,
+              "matching_files": 6,
               "examples": [
                 "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/address_texture.h",
-                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/null_texture_view.h",
-                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/small_texture_4k.h"
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/list_copy_texture.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/null_texture_view.h"
               ]
             },
             {
@@ -1678,12 +1688,12 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 209,
+        "candidate_files": 238,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
         "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
-        "symbols_found": 119
+        "symbols_found": 126
       }
     },
     {
@@ -1700,52 +1710,52 @@
       "branch_scanned": "main",
       "description_upstream": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
       "archived": false,
-      "stars": 8038,
-      "forks": 1086,
+      "stars": 8287,
+      "forks": 1132,
       "open_prs": null,
       "open_issues_estimate": null,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
       "commits_30d": 1000,
       "commits_30d_capped": true,
-      "last_commit_at": "2026-11-25T06:23:22Z",
-      "last_commit_sha": "568e7db7729c8fa6c8f0f4b32d798faaf11462bb",
-      "last_push_at": "2026-11-25T06:23:22Z",
-      "new_commits_since_scan": 188,
+      "last_commit_at": "2026-11-25T21:36:24Z",
+      "last_commit_sha": "e1d84b7d9153f86a97d2ec5d209d196046fc0bea",
+      "last_push_at": "2026-11-25T21:36:24Z",
+      "new_commits_since_scan": 293,
       "latest_release": null,
       "recent_commits": [
         {
-          "sha": "568e7db7729c8fa6c8f0f4b32d798faaf11462bb",
-          "message": "Merge pull request #2149 from theaustinayers/readme-60",
-          "url": "https://github.com/xcl-dev/xcl/commit/568e7db7729c8fa6c8f0f4b32d798faaf11462bb",
-          "date": "2026-11-25T06:23:22Z"
+          "sha": "e1d84b7d9153f86a97d2ec5d209d196046fc0bea",
+          "message": "Merge pull request #2313 from gefydev/readme-diagnostics-switches",
+          "url": "https://github.com/xcl-dev/xcl/commit/e1d84b7d9153f86a97d2ec5d209d196046fc0bea",
+          "date": "2026-11-25T21:36:24Z"
         },
         {
-          "sha": "f0e1b2f149cc61231d04b838482f2fd5ec05b391",
-          "message": "README: the newer retail game at about 60 %, ~5 fps in its world",
-          "url": "https://github.com/xcl-dev/xcl/commit/f0e1b2f149cc61231d04b838482f2fd5ec05b391",
-          "date": "2026-11-25T06:19:01Z"
+          "sha": "6d12f58a229bc73889878a448c64dc3af25eeba0",
+          "message": "Merge pull request #2368 from coolpersonnn/direct-dxil-flat-loads",
+          "url": "https://github.com/xcl-dev/xcl/commit/6d12f58a229bc73889878a448c64dc3af25eeba0",
+          "date": "2026-11-25T19:59:50Z"
         },
         {
-          "sha": "6ea813a61f7d324e2fcbeb0c6a068edcd37e818b",
-          "message": "Update README.md",
-          "url": "https://github.com/xcl-dev/xcl/commit/6ea813a61f7d324e2fcbeb0c6a068edcd37e818b",
-          "date": "2026-11-25T06:05:08Z"
+          "sha": "e0d93c84ad8253f6e17738d14741c1bab7061127",
+          "message": "Merge pull request #2118 from Royalflamejlh/fix/compute-bind-defer",
+          "url": "https://github.com/xcl-dev/xcl/commit/e0d93c84ad8253f6e17738d14741c1bab7061127",
+          "date": "2026-11-25T19:51:26Z"
         },
         {
-          "sha": "6e1e2befc7430126b1e7b98b5c3fe93813c866b6",
-          "message": "Update Discord link in README.md",
-          "url": "https://github.com/xcl-dev/xcl/commit/6e1e2befc7430126b1e7b98b5c3fe93813c866b6",
-          "date": "2026-11-25T05:39:19Z"
+          "sha": "6d051da51ba3fe7ba7d4ef542da71f544646e3ba",
+          "message": "Merge pull request #2383 from emusynths/verify_heap_windows_correctness",
+          "url": "https://github.com/xcl-dev/xcl/commit/6d051da51ba3fe7ba7d4ef542da71f544646e3ba",
+          "date": "2026-11-25T19:43:36Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 180,
+          "source_files": 187,
           "features": [
             {
               "id": "executable_loader",
@@ -1788,7 +1798,7 @@
             },
             {
               "id": "shaders",
-              "matching_files": 42,
+              "matching_files": 44,
               "examples": [
                 "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitreader_tests.rs",
                 "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitstream.rs",
@@ -1838,7 +1848,7 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 173,
+        "candidate_files": 180,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
@@ -1860,52 +1870,52 @@
       "branch_scanned": "main",
       "description_upstream": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
       "archived": false,
-      "stars": 1831,
+      "stars": 1846,
       "forks": 121,
-      "open_prs": 136,
-      "open_issues_estimate": 27,
+      "open_prs": 23,
+      "open_issues_estimate": 28,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
-      "commits_30d": 359,
+      "commits_30d": 595,
       "commits_30d_capped": false,
-      "last_commit_at": "2026-11-23T11:58:16Z",
-      "last_commit_sha": "f89e4106fe8a1728515afa34ceb5097132cadcda",
-      "last_push_at": "2026-11-23T11:58:17Z",
-      "new_commits_since_scan": 0,
+      "last_commit_at": "2026-11-25T13:19:29Z",
+      "last_commit_sha": "a618736df799d21d9a565d08893355fc3c96fdf5",
+      "last_push_at": "2026-11-25T13:47:56Z",
+      "new_commits_since_scan": 236,
       "latest_release": null,
       "recent_commits": [
         {
-          "sha": "f89e4106fe8a1728515afa34ceb5097132cadcda",
-          "message": "r32l: gpuprof 2 s interval cap + longest events + b014 draw args, passcap 3D/cb dumps, XUser change/device/audio registries with real unregister-wait, gdk_multi_dll test ",
-          "url": "https://github.com/omonkeyz/xbox-emulator/commit/f89e4106fe8a1728515afa34ceb5097132cadcda",
-          "date": "2026-11-23T11:58:16Z"
+          "sha": "a618736df799d21d9a565d08893355fc3c96fdf5",
+          "message": "Merge #347: tombox-xshader: size structured buffer elements from the FSSM stride (stacked on #289)",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/a618736df799d21d9a565d08893355fc3c96fdf5",
+          "date": "2026-11-25T13:19:29Z"
         },
         {
-          "sha": "20f9340820b21b6128aa822202ac9b8ec87ec9b9",
-          "message": "Merge remote-tracking branch 'origin/main'",
-          "url": "https://github.com/omonkeyz/xbox-emulator/commit/20f9340820b21b6128aa822202ac9b8ec87ec9b9",
-          "date": "2026-11-23T11:32:24Z"
+          "sha": "b03b39b23a9152f07312c2f5b3ab30f87c8ba9d9",
+          "message": "tombox-xshader: size structured buffer elements from the FSSM stride",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/b03b39b23a9152f07312c2f5b3ab30f87c8ba9d9",
+          "date": "2026-11-25T13:19:29Z"
         },
         {
-          "sha": "4eec5e8f5192e1f7b807dd6cb3ba372e82d16166",
-          "message": "BLOCKERS: XUser pad association and token requests (r32m)",
-          "url": "https://github.com/omonkeyz/xbox-emulator/commit/4eec5e8f5192e1f7b807dd6cb3ba372e82d16166",
-          "date": "2026-11-23T11:31:51Z"
+          "sha": "b96523a66db9b8194eab2b66ad21278cb0bd9b06",
+          "message": "Merge #330: tombox-xshader: take the user-data base from the FSSM stage slot",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/b96523a66db9b8194eab2b66ad21278cb0bd9b06",
+          "date": "2026-11-25T13:19:29Z"
         },
         {
-          "sha": "fdd426fbf7967dcf69de926acc4dd1945a2e24c5",
-          "message": "docs: BLOCKERS gap for rectlist expansion on stream-built PSOs",
-          "url": "https://github.com/omonkeyz/xbox-emulator/commit/fdd426fbf7967dcf69de926acc4dd1945a2e24c5",
-          "date": "2026-11-23T11:30:37Z"
+          "sha": "4fcfe13eb27a70b2bcac10659f45dd340d6b0ad5",
+          "message": "tombox-xshader: take the user-data base from the FSSM stage slot",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/4fcfe13eb27a70b2bcac10659f45dd340d6b0ad5",
+          "date": "2026-11-25T13:19:29Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 1087,
+          "source_files": 1102,
           "features": [
             {
               "id": "executable_loader",
@@ -1989,7 +1999,7 @@
             },
             {
               "id": "d3d12",
-              "matching_files": 165,
+              "matching_files": 166,
               "examples": [
                 "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/build.rs",
                 "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/src/console_x.rs",
@@ -1998,7 +2008,7 @@
             },
             {
               "id": "shaders",
-              "matching_files": 27,
+              "matching_files": 33,
               "examples": [
                 "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/shaders/query_accum.hlsl",
                 "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/shader_dump.rs",
@@ -2050,12 +2060,12 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 1066,
+        "candidate_files": 1081,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
         "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
-        "symbols_found": 65
+        "symbols_found": 66
       }
     },
     {
@@ -2072,7 +2082,7 @@
       "branch_scanned": "master",
       "description_upstream": "A Xbox Series X|S Emulator Designed to map and shim system apis to run games seamlessly",
       "archived": false,
-      "stars": 100,
+      "stars": 101,
       "forks": 11,
       "open_prs": 1,
       "open_issues_estimate": 3,
@@ -2110,7 +2120,7 @@
           "date": "2026-11-22T02:55:41Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2191,10 +2201,10 @@
       "branch_scanned": "main",
       "description_upstream": "Experimental, clean-room Xbox Series X|S (Scarlett) HLE and compatibility layer for Windows x64.",
       "archived": false,
-      "stars": 266,
+      "stars": 268,
       "forks": 25,
       "open_prs": 26,
-      "open_issues_estimate": 3,
+      "open_issues_estimate": 4,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
       "commits_30d": 57,
       "commits_30d_capped": false,
@@ -2229,7 +2239,7 @@
           "date": "2026-11-22T10:18:33Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2363,55 +2373,55 @@
       "branch_scanned": "main",
       "description_upstream": "Experimental Xbox One (Durango) & Series X|S (Scarlett) compatibility layer for Windows",
       "archived": false,
-      "stars": 228,
-      "forks": 12,
+      "stars": 233,
+      "forks": 14,
       "open_prs": 2,
       "open_issues_estimate": 7,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
-      "commits_30d": 341,
+      "commits_30d": 386,
       "commits_30d_capped": false,
-      "last_commit_at": "2026-11-25T00:34:39Z",
-      "last_commit_sha": "c4c04970930d029a25622743e3ff4ef873ac17a6",
-      "last_push_at": "2026-11-25T00:36:55Z",
-      "new_commits_since_scan": 48,
+      "last_commit_at": "2026-11-25T21:02:17Z",
+      "last_commit_sha": "17407e25b2bd7a8d38a3d1f81b0e38dd73e798d6",
+      "last_push_at": "2026-11-25T21:02:35Z",
+      "new_commits_since_scan": 45,
       "latest_release": {
         "tag": "0.0.8",
         "url": "https://github.com/sammwyy/xvalkyrie/releases/tag/0.0.8"
       },
       "recent_commits": [
         {
-          "sha": "c4c04970930d029a25622743e3ff4ef873ac17a6",
-          "message": "feat(dstorage): build bcpack's tables into the runtime",
-          "url": "https://github.com/sammwyy/xvalkyrie/commit/c4c04970930d029a25622743e3ff4ef873ac17a6",
-          "date": "2026-11-25T00:34:39Z"
+          "sha": "17407e25b2bd7a8d38a3d1f81b0e38dd73e798d6",
+          "message": "docs: the Series table shows a title that reaches its menu in place of one that only boots, so that it shows how far the Series titles go now",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/17407e25b2bd7a8d38a3d1f81b0e38dd73e798d6",
+          "date": "2026-11-25T21:02:17Z"
         },
         {
-          "sha": "3a87be44be42c5e9050f9f8d5313006f5c9f09d5",
-          "message": "docs: where BCPack's tables are and whose they are",
-          "url": "https://github.com/sammwyy/xvalkyrie/commit/3a87be44be42c5e9050f9f8d5313006f5c9f09d5",
-          "date": "2026-11-25T00:19:22Z"
+          "sha": "ec76d7554280f14206872e5c5cb4edebf60c02a6",
+          "message": "Merge pull request #15 from arugerdev/fix/later-kit-titles-2",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/ec76d7554280f14206872e5c5cb4edebf60c02a6",
+          "date": "2026-11-25T20:51:46Z"
         },
         {
-          "sha": "1e06d486ecc651b1b61cad21802f1ebb09fc9e34",
-          "message": "feat(dstorage): the runtime is built with BCPack's tables where the tree has them, and a file beside the executable still comes first",
-          "url": "https://github.com/sammwyy/xvalkyrie/commit/1e06d486ecc651b1b61cad21802f1ebb09fc9e34",
-          "date": "2026-11-25T00:17:24Z"
+          "sha": "72427dd1e9eccf6d538dcfab526788a977431114",
+          "message": "perf(d3d12): pipelines are made on one thread of ours, so that the title's threads making resources wait less on the lock the host's driver holds while it compiles",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/72427dd1e9eccf6d538dcfab526788a977431114",
+          "date": "2026-11-25T20:17:37Z"
         },
         {
-          "sha": "f6a4be6278eaa795d9c5fba457c0ba20fb22924e",
-          "message": "feat(dstorage): bcpack requests are unpacked after zlib, with the format's tables from a file the user provides",
-          "url": "https://github.com/sammwyy/xvalkyrie/commit/f6a4be6278eaa795d9c5fba457c0ba20fb22924e",
-          "date": "2026-11-24T23:51:33Z"
+          "sha": "aa943ca5f598bc82a54499aa0153ca177d7ab09c",
+          "message": "fix(d3d12): a list whose pipeline the host's driver faults on is not executed, so that a console library's ray tracing builds do not take the device down",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/aa943ca5f598bc82a54499aa0153ca177d7ab09c",
+          "date": "2026-11-25T20:02:50Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 187,
+          "source_files": 189,
           "features": [
             {
               "id": "executable_loader",
@@ -2514,7 +2524,7 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 184,
+        "candidate_files": 186,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
@@ -2536,52 +2546,52 @@
       "branch_scanned": "main",
       "description_upstream": "AnyXboxX — prototype d'émulateur Xbox Series X (HLE du GDK sur Unicorn)",
       "archived": false,
-      "stars": 314,
-      "forks": 44,
-      "open_prs": 32,
-      "open_issues_estimate": 30,
+      "stars": 351,
+      "forks": 51,
+      "open_prs": 14,
+      "open_issues_estimate": 4,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
-      "commits_30d": 294,
+      "commits_30d": 546,
       "commits_30d_capped": false,
-      "last_commit_at": "2026-11-25T05:50:30Z",
-      "last_commit_sha": "d02eee01bedefedda48204b798df3002c7e2ffcc",
-      "last_push_at": "2026-11-25T05:50:31Z",
-      "new_commits_since_scan": 23,
+      "last_commit_at": "2026-11-25T21:46:35Z",
+      "last_commit_sha": "affaf151711f21759cc7867b52d6d9a3e2e1f158",
+      "last_push_at": "2026-11-25T21:48:54Z",
+      "new_commits_since_scan": 252,
       "latest_release": null,
       "recent_commits": [
         {
-          "sha": "d02eee01bedefedda48204b798df3002c7e2ffcc",
-          "message": "Merge pull request #200 from Radoudouu/perf/batch-card-rehash",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/d02eee01bedefedda48204b798df3002c7e2ffcc",
-          "date": "2026-11-25T05:50:30Z"
+          "sha": "affaf151711f21759cc7867b52d6d9a3e2e1f158",
+          "message": "Merge pull request #244 from lcg007xd-c/feat/rdna2-f16-compares",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/affaf151711f21759cc7867b52d6d9a3e2e1f158",
+          "date": "2026-11-25T21:46:35Z"
         },
         {
-          "sha": "b06ff900c8bdac82d92b5430e2ea64e8f2455dcd",
-          "message": "feat: proposer le regroupement des hachages GPU au lancement",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/b06ff900c8bdac82d92b5430e2ea64e8f2455dcd",
-          "date": "2026-11-25T05:33:46Z"
+          "sha": "666b242faed40491c577baa21d3bcac9a5fd115d",
+          "message": "Merge pull request #242 from lcg007xd-c/fix/flat-offset-bit11",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/666b242faed40491c577baa21d3bcac9a5fd115d",
+          "date": "2026-11-25T21:46:11Z"
         },
         {
-          "sha": "b92a71b9308e76f8ec9059c01d6e18f21611dc20",
-          "message": "Merge pull request #198 from loftymocha/fix/lanceur-victory-recompile",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/b92a71b9308e76f8ec9059c01d6e18f21611dc20",
-          "date": "2026-11-25T03:12:23Z"
+          "sha": "e71fea21b6ae2c88db785a935533e657146edc68",
+          "message": "Merge pull request #236 from Lewandox/fix/launcher-ps51-stderr",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/e71fea21b6ae2c88db785a935533e657146edc68",
+          "date": "2026-11-25T21:45:37Z"
         },
         {
-          "sha": "e2339381363e68a039411201c510b68fa848c300",
-          "message": "Merge origin/main dans fix/lanceur-victory-recompile",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/e2339381363e68a039411201c510b68fa848c300",
-          "date": "2026-11-25T03:04:58Z"
+          "sha": "ff121581a03f4c4daaf190f86852f662f177238a",
+          "message": "feat: half-precision compares (v_cmp[x]_*_f16, v_cmp[x]_class_f16) in the RDNA 2 interpreter — 1,206/1,490",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/ff121581a03f4c4daaf190f86852f662f177238a",
+          "date": "2026-11-25T21:14:04Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 126,
+          "source_files": 157,
           "features": [
             {
               "id": "executable_loader",
@@ -2647,11 +2657,11 @@
             },
             {
               "id": "shaders",
-              "matching_files": 8,
+              "matching_files": 21,
               "examples": [
                 "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl.py",
-                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_ext.py",
-                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_graphics.py"
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_div.py",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_dot.py"
               ]
             },
             {
@@ -2688,7 +2698,7 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 123,
+        "candidate_files": 154,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
@@ -2710,10 +2720,10 @@
       "branch_scanned": "main",
       "description_upstream": "Open-source MIT C++20 Xbox Series X|S (Scarlett) translation layer for Windows 10/11 — D3D12, Vulkan 1.4, RDNA2 shader lifting, GDK shims, and real-binary telemetry",
       "archived": false,
-      "stars": 99,
-      "forks": 11,
-      "open_prs": 1,
-      "open_issues_estimate": 18,
+      "stars": 101,
+      "forks": 12,
+      "open_prs": 2,
+      "open_issues_estimate": 21,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
       "commits_30d": 347,
       "commits_30d_capped": false,
@@ -2751,7 +2761,7 @@
           "date": "2026-11-24T13:57:12Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2913,52 +2923,52 @@
       "branch_scanned": "main",
       "description_upstream": "TuxBox is a new, native-first compatibility layer for running unpacked, decrypted Xbox Series X|S games on x86-64 Linux and Windows.",
       "archived": false,
-      "stars": 339,
-      "forks": 33,
-      "open_prs": 6,
-      "open_issues_estimate": 3,
+      "stars": 371,
+      "forks": 39,
+      "open_prs": 12,
+      "open_issues_estimate": 6,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
-      "commits_30d": 439,
+      "commits_30d": 588,
       "commits_30d_capped": false,
-      "last_commit_at": "2026-11-25T08:34:38Z",
-      "last_commit_sha": "53bb4d6e9d66c68a827a9ec7851a128f28df1214",
-      "last_push_at": "2026-11-25T08:34:38Z",
-      "new_commits_since_scan": 106,
+      "last_commit_at": "2026-11-25T19:20:30Z",
+      "last_commit_sha": "1b32189250f75b0aed983ef71c9c4d2eebafce23",
+      "last_push_at": "2026-11-25T19:20:33Z",
+      "new_commits_since_scan": 149,
       "latest_release": null,
       "recent_commits": [
         {
-          "sha": "53bb4d6e9d66c68a827a9ec7851a128f28df1214",
-          "message": "Merge pull request #150 from NathansDomainSolutions/fix/mesh-pixel-link",
-          "url": "https://github.com/brcly/TuxBox/commit/53bb4d6e9d66c68a827a9ec7851a128f28df1214",
-          "date": "2026-11-25T08:34:38Z"
+          "sha": "1b32189250f75b0aed983ef71c9c4d2eebafce23",
+          "message": "Merge pull request #190 from smith-3/lanes-gpu-indirect",
+          "url": "https://github.com/brcly/TuxBox/commit/1b32189250f75b0aed983ef71c9c4d2eebafce23",
+          "date": "2026-11-25T19:20:30Z"
         },
         {
-          "sha": "3d24d979e8841df7b4d8ccd0786d2dc7da4bfb67",
-          "message": "d3d12: fall back to an earlier page for buffer imports, name failed lookups",
-          "url": "https://github.com/brcly/TuxBox/commit/3d24d979e8841df7b4d8ccd0786d2dc7da4bfb67",
-          "date": "2026-11-25T08:30:45Z"
+          "sha": "552e09991f7841c4c70af2e410125c00f00c5961",
+          "message": "Merge pull request #189 from gtb-sbe/evidence-nixos-rx9060xt",
+          "url": "https://github.com/brcly/TuxBox/commit/552e09991f7841c4c70af2e410125c00f00c5961",
+          "date": "2026-11-25T19:20:30Z"
         },
         {
-          "sha": "e8af9fd0e5c945d40dce2253b1a04e80233de670",
-          "message": "d3d12: record title fence writes and stop one command failing a whole list",
-          "url": "https://github.com/brcly/TuxBox/commit/e8af9fd0e5c945d40dce2253b1a04e80233de670",
-          "date": "2026-11-25T08:30:45Z"
+          "sha": "b5ed5264f480209311d211a679ed1ea009587d93",
+          "message": "Merge pull request #188 from Vladimir-Human/d3d12/castable-packed-uavs",
+          "url": "https://github.com/brcly/TuxBox/commit/b5ed5264f480209311d211a679ed1ea009587d93",
+          "date": "2026-11-25T19:20:30Z"
         },
         {
-          "sha": "8a2c01ec5f8428b196644f11a6dd30703ea0b364",
-          "message": "d3d12: translate a mesh pipeline's pixel stage against the guest root",
-          "url": "https://github.com/brcly/TuxBox/commit/8a2c01ec5f8428b196644f11a6dd30703ea0b364",
-          "date": "2026-11-25T08:00:43Z"
+          "sha": "f489d3c664ab7bd53c6892815213541e21513ec9",
+          "message": "Merge pull request #184 from DrArroway/fix/radv-inline-descriptor-stride",
+          "url": "https://github.com/brcly/TuxBox/commit/f489d3c664ab7bd53c6892815213541e21513ec9",
+          "date": "2026-11-25T19:03:13Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 715,
+          "source_files": 791,
           "features": [
             {
               "id": "executable_loader",
@@ -2969,11 +2979,11 @@
             },
             {
               "id": "memory_management",
-              "matching_files": 9,
+              "matching_files": 14,
               "examples": [
                 "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/memory_config_guest.cpp",
                 "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/copy_memory.rs",
-                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/memory_wait.rs"
+                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/list_memory.rs"
               ]
             },
             {
@@ -2987,7 +2997,7 @@
             },
             {
               "id": "d3d12",
-              "matching_files": 134,
+              "matching_files": 154,
               "examples": [
                 "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/d3d12_status.py",
                 "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/affine.hlsl",
@@ -2996,7 +3006,7 @@
             },
             {
               "id": "shaders",
-              "matching_files": 171,
+              "matching_files": 207,
               "examples": [
                 "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/dxil_store.py",
                 "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_diagnostics.py",
@@ -3011,6 +3021,13 @@
                 "https://github.com/brcly/TuxBox/blob/main/runtime/xg/texture_64k16_control.cpp",
                 "https://github.com/brcly/TuxBox/blob/main/runtime/xg/texture_64k2d_control.cpp"
               ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/tools/check_translator_gpu.py"
+              ]
             }
           ],
           "note": "File-path matches are candidate code signals only, not confirmed implementations"
@@ -3022,12 +3039,12 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 668,
+        "candidate_files": 740,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
         "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
-        "symbols_found": 42
+        "symbols_found": 39
       }
     },
     {
@@ -3044,7 +3061,7 @@
       "branch_scanned": "main",
       "description_upstream": "Experimental Windows x64 / D3D12 compatibility layer for unpacked, unencrypted Xbox Series X|S (GDK) executables",
       "archived": false,
-      "stars": 45,
+      "stars": 46,
       "forks": 3,
       "open_prs": 2,
       "open_issues_estimate": 0,
@@ -3082,7 +3099,7 @@
           "date": "2026-11-23T23:02:36Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -3197,7 +3214,7 @@
           "date": "2026-11-21T18:22:40Z"
         }
       ],
-      "last_successful_scan": "2026-11-25T08:47:45Z",
+      "last_successful_scan": "2026-11-25T21:48:51Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
