@@ -15,9 +15,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L68",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L69",
           "file": "src/xmem_shim.cpp",
-          "line": 68
+          "line": 69
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -129,9 +129,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L95",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L97",
           "file": "src/xmem_shim.cpp",
-          "line": 95
+          "line": 97
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -243,9 +243,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L866",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L884",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 866
+          "line": 884
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -300,9 +300,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L697",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L709",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 697
+          "line": 709
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -426,9 +426,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_shim.cpp#L244",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_shim.cpp#L245",
           "file": "src/d3d12_xs_shim.cpp",
-          "line": 244
+          "line": 245
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -483,9 +483,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L701",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L713",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 701
+          "line": 713
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -540,9 +540,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L689",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L701",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 689
+          "line": 701
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -597,9 +597,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L731",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L743",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 731
+          "line": 743
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -711,9 +711,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L705",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L717",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 705
+          "line": 717
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -768,9 +768,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L726",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L738",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 726
+          "line": 738
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -825,9 +825,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L111",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L114",
           "file": "src/xmem_shim.cpp",
-          "line": 111
+          "line": 114
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -933,9 +933,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1127",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1139",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1127
+          "line": 1139
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1035,9 +1035,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1134",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1146",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1134
+          "line": 1146
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1086,9 +1086,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1158",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1170",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1158
+          "line": 1170
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1137,9 +1137,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1175",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1187",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1175
+          "line": 1187
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1188,9 +1188,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1119",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1131",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1119
+          "line": 1131
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1239,9 +1239,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1122",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1134",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1122
+          "line": 1134
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1290,9 +1290,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1169",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1181",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1169
+          "line": 1181
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1341,9 +1341,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1034",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1046",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1034
+          "line": 1046
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1443,9 +1443,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1220",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1235",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1220
+          "line": 1235
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1494,9 +1494,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L137",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L140",
           "file": "src/xmem_shim.cpp",
-          "line": 137
+          "line": 140
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1545,9 +1545,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L178",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L224",
           "file": "src/startup_stubs/acphal.cpp",
-          "line": 178
+          "line": 224
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -1563,9 +1563,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1456",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1806",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 1456
+          "line": 1806
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -1590,9 +1590,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L229",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/acphal.cpp#L278",
           "file": "src/startup_stubs/acphal.cpp",
-          "line": 229
+          "line": 278
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -1608,9 +1608,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1427",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1774",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 1427
+          "line": 1774
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -1665,9 +1665,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L3045",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L3145",
           "file": "src/shims/gameinput_shim.cpp",
-          "line": 3045
+          "line": 3145
         },
         "jadeowaowa/scarlett-layer": {
           "status": "reference",
@@ -1686,9 +1686,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1223",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1238",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1223
+          "line": 1238
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1737,9 +1737,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L745",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L757",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 745
+          "line": 757
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1788,9 +1788,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L684",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L696",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 684
+          "line": 696
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1839,9 +1839,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1016",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1038",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 1016
+          "line": 1038
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1884,9 +1884,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1039",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1061",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 1039
+          "line": 1061
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1929,9 +1929,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L126",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L129",
           "file": "src/xmem_shim.cpp",
-          "line": 126
+          "line": 129
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1974,9 +1974,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1662",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1694",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 1662
+          "line": 1694
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2199,9 +2199,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L971",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L983",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 971
+          "line": 983
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2301,9 +2301,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L693",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L705",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 693
+          "line": 705
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2403,9 +2403,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L710",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L722",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 710
+          "line": 722
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2472,9 +2472,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1046",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1054",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1046
+          "line": 1054
         },
         "brcly/TuxBox": {
           "status": "definition_candidate",
@@ -2499,9 +2499,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L104",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L107",
           "file": "src/xmem_shim.cpp",
-          "line": 104
+          "line": 107
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2544,9 +2544,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1152",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1164",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1152
+          "line": 1164
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2634,9 +2634,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1141",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1153",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1141
+          "line": 1153
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2679,9 +2679,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1116",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1128",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1116
+          "line": 1128
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2724,9 +2724,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L923",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L935",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 923
+          "line": 935
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2769,9 +2769,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L857",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L869",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 857
+          "line": 869
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -2871,9 +2871,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1621",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1974",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 1621
+          "line": 1974
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -3060,9 +3060,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1144",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1156",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1144
+          "line": 1156
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3105,9 +3105,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1147",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L1159",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 1147
+          "line": 1159
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3510,9 +3510,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1688",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_mapped_pages.cpp#L1720",
           "file": "src/xmem_mapped_pages.cpp",
-          "line": 1688
+          "line": 1720
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3588,9 +3588,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L740",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L752",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 740
+          "line": 752
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3627,9 +3627,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L721",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L733",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 721
+          "line": 733
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -3756,9 +3756,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L751",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L763",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 751
+          "line": 763
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -4041,9 +4041,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1227",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1235",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1227
+          "line": 1235
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -5931,9 +5931,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L931",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/runtime_proxy.cpp#L943",
           "file": "src/startup_stubs/runtime_proxy.cpp",
-          "line": 931
+          "line": 943
         },
         "ivall/xcl": {
           "status": "reference",
@@ -6288,9 +6288,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1297",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1305",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1297
+          "line": 1305
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -6321,9 +6321,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1309",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1317",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1309
+          "line": 1317
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -8031,9 +8031,9 @@
         },
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L116",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L123",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 116
+          "line": 123
         },
         "jadeowaowa/scarlett-layer": {
           "status": "reference",
@@ -14271,9 +14271,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1701",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1709",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1701
+          "line": 1709
         }
       }
     },
@@ -14286,9 +14286,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1603",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1611",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1603
+          "line": 1611
         }
       }
     },
@@ -14301,9 +14301,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1675",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1683",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1675
+          "line": 1683
         }
       }
     },
@@ -14316,9 +14316,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1549",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1557",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1549
+          "line": 1557
         }
       }
     },
@@ -14331,9 +14331,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1565",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1573",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1565
+          "line": 1573
         }
       }
     },
@@ -14376,9 +14376,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1651",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1659",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1651
+          "line": 1659
         }
       }
     },
@@ -14391,9 +14391,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1182",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1190",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1182
+          "line": 1190
         }
       }
     },
@@ -14406,9 +14406,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1262",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1270",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1262
+          "line": 1270
         }
       }
     },
@@ -14421,9 +14421,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1747",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1755",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1747
+          "line": 1755
         }
       }
     },
@@ -14436,9 +14436,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1727",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1735",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1727
+          "line": 1735
         }
       }
     },
@@ -14451,9 +14451,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1376",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1384",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1376
+          "line": 1384
         }
       }
     },
@@ -14466,9 +14466,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1398",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1406",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1398
+          "line": 1406
         }
       }
     },
@@ -14481,9 +14481,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1392",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1400",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1392
+          "line": 1400
         }
       }
     },
@@ -14496,9 +14496,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1634",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1642",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1634
+          "line": 1642
         }
       }
     },
@@ -14526,9 +14526,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L908",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L916",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 908
+          "line": 916
         }
       }
     },
@@ -14541,9 +14541,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1415",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1423",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1415
+          "line": 1423
         }
       }
     },
@@ -14556,9 +14556,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1459",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1467",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1459
+          "line": 1467
         }
       }
     },
@@ -14571,9 +14571,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1505",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1513",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1505
+          "line": 1513
         }
       }
     },
@@ -14586,9 +14586,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1437",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1445",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1437
+          "line": 1445
         }
       }
     },
@@ -14601,9 +14601,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1482",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1490",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1482
+          "line": 1490
         }
       }
     },
@@ -14616,9 +14616,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1527",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1535",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1527
+          "line": 1535
         }
       }
     },
@@ -14631,9 +14631,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1768",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xg_xs_shim.cpp#L1776",
           "file": "src/shims/xg_xs_shim.cpp",
-          "line": 1768
+          "line": 1776
         }
       }
     },
@@ -14841,9 +14841,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1224",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1303",
           "file": "src/shims/gameinput_shim.cpp",
-          "line": 1224
+          "line": 1303
         }
       }
     },
@@ -15006,9 +15006,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1722",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/gameinput_shim.cpp#L1801",
           "file": "src/shims/gameinput_shim.cpp",
-          "line": 1722
+          "line": 1801
         }
       }
     },
@@ -15081,9 +15081,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L709",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L703",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 709
+          "line": 703
         }
       }
     },
@@ -15141,9 +15141,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L372",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L396",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 372
+          "line": 396
         }
       }
     },
@@ -15216,9 +15216,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L401",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L434",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 401
+          "line": 434
         }
       }
     },
@@ -15261,9 +15261,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L661",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L655",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 661
+          "line": 655
         }
       }
     },
@@ -15276,9 +15276,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L519",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L492",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 519
+          "line": 492
         }
       }
     },
@@ -15306,9 +15306,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L409",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L442",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 409
+          "line": 442
         }
       }
     },
@@ -15381,9 +15381,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L670",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L664",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 670
+          "line": 664
         }
       }
     },
@@ -15396,9 +15396,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L364",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L379",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 364
+          "line": 379
         }
       }
     },
@@ -15411,9 +15411,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "definition_candidate",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L605",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/xmem_shim.cpp#L599",
           "file": "src/shims/xmem_shim.cpp",
-          "line": 605
+          "line": 599
         }
       }
     },
@@ -15696,9 +15696,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L159",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L166",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 159
+          "line": 166
         }
       }
     },
@@ -15711,9 +15711,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L204",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L211",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 204
+          "line": 211
         }
       }
     },
@@ -15726,9 +15726,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L203",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L210",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 203
+          "line": 210
         }
       }
     },
@@ -15741,9 +15741,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L207",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L214",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 207
+          "line": 214
         }
       }
     },
@@ -15756,9 +15756,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L218",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L225",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 218
+          "line": 225
         }
       }
     },
@@ -15771,9 +15771,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L58",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L65",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 58
+          "line": 65
         }
       }
     },
@@ -15786,9 +15786,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1457",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L1807",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 1457
+          "line": 1807
         }
       }
     },
@@ -15801,9 +15801,9 @@
       "sources": {
         "californiaAlmonds/OpenScarlett": {
           "status": "reference",
-          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L62",
+          "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/shims/acphal_shim.cpp#L69",
           "file": "src/shims/acphal_shim.cpp",
-          "line": 62
+          "line": 69
         }
       }
     },
@@ -17413,5 +17413,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-25T21:48:51Z"
+  "generated_at": "2026-11-26T08:33:18Z"
 }
