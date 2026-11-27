@@ -375,9 +375,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L120",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L130",
           "file": "crates/xcl/src/hle/d3d12x/mod.rs",
-          "line": 120
+          "line": 130
         },
         "omonkeyz/xbox-emulator": {
           "status": "reference",
@@ -591,9 +591,9 @@
       "sources": {
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L241",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L251",
           "file": "crates/xcl/src/hle/d3d12x/mod.rs",
-          "line": 241
+          "line": 251
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -16141,5 +16141,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-26T21:41:40Z"
+  "generated_at": "2026-11-27T08:46:32Z"
 }

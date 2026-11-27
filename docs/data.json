@@ -967,7 +967,7 @@
         {
           "repo": "brcly/TuxBox",
           "name": "TuxBox",
-          "matching_files": 163,
+          "matching_files": 165,
           "examples": [
             "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/d3d12_status.py",
             "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/affine.hlsl",
@@ -1105,7 +1105,7 @@
         {
           "repo": "brcly/TuxBox",
           "name": "TuxBox",
-          "matching_files": 210,
+          "matching_files": 212,
           "examples": [
             "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/dxil_store.py",
             "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_diagnostics.py",
@@ -1350,7 +1350,7 @@
       "projects": []
     }
   ],
-  "generated_at": "2026-11-26T21:41:40Z",
+  "generated_at": "2026-11-27T08:46:32Z",
   "collection": "Xbox Series X|S / Scarlett",
   "methodology": "Fully automated GitHub activity, source-code candidate symbol matrix, source-path categories, and upstream README metrics; no manual compatibility certification",
   "projects": [
@@ -1550,55 +1550,55 @@
       "branch_scanned": "main",
       "description_upstream": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
       "archived": false,
-      "stars": 1964,
-      "forks": 234,
-      "open_prs": 111,
-      "open_issues_estimate": 114,
+      "stars": 1975,
+      "forks": 237,
+      "open_prs": 107,
+      "open_issues_estimate": 127,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
       "commits_30d": 1000,
       "commits_30d_capped": true,
-      "last_commit_at": "2026-11-26T17:08:04Z",
-      "last_commit_sha": "6ee878d8cd500d3a0b2eabe36d652775488ae25d",
-      "last_push_at": "2026-11-26T21:37:05Z",
-      "new_commits_since_scan": 50,
+      "last_commit_at": "2026-11-27T08:34:49Z",
+      "last_commit_sha": "0e7044687d84983b502d8a1562fc5b914092b504",
+      "last_push_at": "2026-11-27T08:34:49Z",
+      "new_commits_since_scan": 34,
       "latest_release": {
         "tag": "gpu-check-v0.1.0",
         "url": "https://github.com/R0Y00/Xbox2Windows/releases/tag/gpu-check-v0.1.0"
       },
       "recent_commits": [
         {
-          "sha": "6ee878d8cd500d3a0b2eabe36d652775488ae25d",
-          "message": "fix(startup): reuse upload ring chunks after GPU completion (#2849)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/6ee878d8cd500d3a0b2eabe36d652775488ae25d",
-          "date": "2026-11-26T17:08:04Z"
+          "sha": "0e7044687d84983b502d8a1562fc5b914092b504",
+          "message": "textures: validate block geometry and padding inputs (#2884)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/0e7044687d84983b502d8a1562fc5b914092b504",
+          "date": "2026-11-27T08:34:49Z"
         },
         {
-          "sha": "b505c32b20fee62bafd51f86a87a26a6f48b5ecb",
-          "message": "cpu: lower ENDBR64 and ENDBR32 as no-ops in the shared lowering (#2856)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/b505c32b20fee62bafd51f86a87a26a6f48b5ecb",
-          "date": "2026-11-26T14:47:17Z"
+          "sha": "3b6c38a83bbb28d4371711808bae37fb94ba8239",
+          "message": "test: cover slot 35 table selection and invalidation at Dispatch (#2874)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/3b6c38a83bbb28d4371711808bae37fb94ba8239",
+          "date": "2026-11-27T08:02:36Z"
         },
         {
-          "sha": "52905a32c61c72fb95da73801623a656a980c8f4",
-          "message": "startup: lower the first active lane of a pixel stage in gfx2hlsl (Refs #2618) (#2854)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/52905a32c61c72fb95da73801623a656a980c8f4",
-          "date": "2026-11-26T14:30:47Z"
+          "sha": "30272027f359791e4c54afb10462fa9d97b19824",
+          "message": "startup: read the literal data directory manifest (#2870)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/30272027f359791e4c54afb10462fa9d97b19824",
+          "date": "2026-11-27T08:01:59Z"
         },
         {
-          "sha": "5a41adbaeb4396bedb9c76c19fe96ae84d79bb32",
-          "message": "fix(shader): identify compute loop exits that cross a backward SCC branch (#2852)",
-          "url": "https://github.com/R0Y00/Xbox2Windows/commit/5a41adbaeb4396bedb9c76c19fe96ae84d79bb32",
-          "date": "2026-11-26T14:04:20Z"
+          "sha": "221079324b8080603760f1b27dafaf009df1274e",
+          "message": "docs: record RX 9070 XT results for the four MinLod bridge fixtures (#2865)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/221079324b8080603760f1b27dafaf009df1274e",
+          "date": "2026-11-27T07:40:12Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 274,
+          "source_files": 278,
           "features": [
             {
               "id": "memory_management",
@@ -1706,7 +1706,7 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 267,
+        "candidate_files": 271,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
@@ -1728,52 +1728,52 @@
       "branch_scanned": "main",
       "description_upstream": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
       "archived": false,
-      "stars": 8581,
-      "forks": 1198,
+      "stars": 8648,
+      "forks": 1207,
       "open_prs": null,
       "open_issues_estimate": null,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
       "commits_30d": 1000,
       "commits_30d_capped": true,
-      "last_commit_at": "2026-11-26T15:02:04Z",
-      "last_commit_sha": "8b957bec6f82495aec940944c6bf47faa02db590",
-      "last_push_at": "2026-11-26T18:26:53Z",
-      "new_commits_since_scan": 13,
+      "last_commit_at": "2026-11-27T06:41:22Z",
+      "last_commit_sha": "83b008188efbf954b846667f48d75e3fa9310a01",
+      "last_push_at": "2026-11-27T08:38:33Z",
+      "new_commits_since_scan": 8,
       "latest_release": null,
       "recent_commits": [
         {
-          "sha": "8b957bec6f82495aec940944c6bf47faa02db590",
-          "message": "Merge pull request #2555 from bmjask/shaders/startup-preparation",
-          "url": "https://github.com/xcl-dev/xcl/commit/8b957bec6f82495aec940944c6bf47faa02db590",
-          "date": "2026-11-26T15:02:04Z"
+          "sha": "83b008188efbf954b846667f48d75e3fa9310a01",
+          "message": "Merge pull request #2976 from Prime1997/contrib/prepare-off-switch",
+          "url": "https://github.com/xcl-dev/xcl/commit/83b008188efbf954b846667f48d75e3fa9310a01",
+          "date": "2026-11-27T06:41:22Z"
         },
         {
-          "sha": "813302f38326c854862ee6b0ade6a612688ac549",
-          "message": "xcl run: merge main and retain both shader preparation notes",
-          "url": "https://github.com/xcl-dev/xcl/commit/813302f38326c854862ee6b0ade6a612688ac549",
-          "date": "2026-11-26T14:59:23Z"
+          "sha": "8617577b67c3b2c67542ff3d47d6e631967c16c6",
+          "message": "xcl run: XCL_PREPARE=0 starts the title without the shader preparation",
+          "url": "https://github.com/xcl-dev/xcl/commit/8617577b67c3b2c67542ff3d47d6e631967c16c6",
+          "date": "2026-11-27T05:41:30Z"
         },
         {
-          "sha": "e120925e3abc9956a8b9bae631969d32e8ccd43c",
-          "message": "Merge pull request #1942 from ZekkJJ/upstream/two-pass-driver-cache",
-          "url": "https://github.com/xcl-dev/xcl/commit/e120925e3abc9956a8b9bae631969d32e8ccd43c",
-          "date": "2026-11-26T14:57:57Z"
+          "sha": "c2ee10e4e905eb736e56953c52b749e18bcc7ede",
+          "message": "Merge pull request #2924 from thehollowedone/tests/ttpf-generic-707",
+          "url": "https://github.com/xcl-dev/xcl/commit/c2ee10e4e905eb736e56953c52b749e18bcc7ede",
+          "date": "2026-11-27T05:02:19Z"
         },
         {
-          "sha": "8d5fde3c4ab67d3f78aedbdc63c324799c750324",
-          "message": "Merge pull request #565 from ZekkJJ/codex/gameinput-reading-history",
-          "url": "https://github.com/xcl-dev/xcl/commit/8d5fde3c4ab67d3f78aedbdc63c324799c750324",
-          "date": "2026-11-26T14:57:32Z"
+          "sha": "fa671a2fb2fd8b394ec678bd24dd04a17c415365",
+          "message": "Merge pull request #2844 from Kalmarv/pr/uma-driver-window",
+          "url": "https://github.com/xcl-dev/xcl/commit/fa671a2fb2fd8b394ec678bd24dd04a17c415365",
+          "date": "2026-11-27T04:50:31Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 190,
+          "source_files": 191,
           "features": [
             {
               "id": "executable_loader",
@@ -1866,7 +1866,7 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 183,
+        "candidate_files": 184,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
@@ -1888,7 +1888,7 @@
       "branch_scanned": "main",
       "description_upstream": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
       "archived": false,
-      "stars": 1849,
+      "stars": 1853,
       "forks": 126,
       "open_prs": 26,
       "open_issues_estimate": 28,
@@ -1926,7 +1926,7 @@
           "date": "2026-11-25T13:19:29Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2100,7 +2100,7 @@
       "branch_scanned": "master",
       "description_upstream": "A Xbox Series X|S Emulator Designed to map and shim system apis to run games seamlessly",
       "archived": false,
-      "stars": 100,
+      "stars": 101,
       "forks": 12,
       "open_prs": 1,
       "open_issues_estimate": 3,
@@ -2138,7 +2138,7 @@
           "date": "2026-11-22T02:55:41Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2220,7 +2220,7 @@
       "description_upstream": "Experimental, clean-room Xbox Series X|S (Scarlett) HLE and compatibility layer for Windows x64.",
       "archived": false,
       "stars": 267,
-      "forks": 27,
+      "forks": 26,
       "open_prs": 35,
       "open_issues_estimate": 4,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
@@ -2257,7 +2257,7 @@
           "date": "2026-11-22T10:18:33Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2391,17 +2391,17 @@
       "branch_scanned": "main",
       "description_upstream": "Experimental Xbox One (Durango) & Series X|S (Scarlett) compatibility layer for Windows",
       "archived": false,
-      "stars": 235,
+      "stars": 236,
       "forks": 14,
       "open_prs": 2,
       "open_issues_estimate": 7,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
-      "commits_30d": 421,
+      "commits_30d": 416,
       "commits_30d_capped": false,
       "last_commit_at": "2026-11-26T21:06:37Z",
       "last_commit_sha": "f348dd155c7f5e0594c68911746bb114112a53da",
       "last_push_at": "2026-11-26T21:35:38Z",
-      "new_commits_since_scan": 20,
+      "new_commits_since_scan": 0,
       "latest_release": {
         "tag": "0.0.8",
         "url": "https://github.com/sammwyy/xvalkyrie/releases/tag/0.0.8"
@@ -2432,7 +2432,7 @@
           "date": "2026-11-26T21:05:06Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2564,45 +2564,48 @@
       "branch_scanned": "main",
       "description_upstream": "AnyXboxX — prototype d'émulateur Xbox Series X (HLE du GDK sur Unicorn)",
       "archived": false,
-      "stars": 416,
-      "forks": 72,
+      "stars": 461,
+      "forks": 85,
       "open_prs": 100,
-      "open_issues_estimate": 13,
+      "open_issues_estimate": 19,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
       "commits_30d": 1000,
       "commits_30d_capped": true,
-      "last_commit_at": "2026-11-26T20:34:08Z",
-      "last_commit_sha": "15024d54e690743604a67287f0e3f3f30adbaba8",
-      "last_push_at": "2026-11-26T20:34:11Z",
-      "new_commits_since_scan": 412,
-      "latest_release": null,
+      "last_commit_at": "2026-11-27T01:19:26Z",
+      "last_commit_sha": "b62053fe70078deac140ec43039d7ce0af3c6b17",
+      "last_push_at": "2026-11-27T02:51:06Z",
+      "new_commits_since_scan": 51,
+      "latest_release": {
+        "tag": "launcher-v0.2.1",
+        "url": "https://github.com/LooperSalty/AnyXboxX/releases/tag/launcher-v0.2.1"
+      },
       "recent_commits": [
         {
-          "sha": "15024d54e690743604a67287f0e3f3f30adbaba8",
-          "message": "Merge pull request #452 from LooperSalty/revert/victory-combined-base",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/15024d54e690743604a67287f0e3f3f30adbaba8",
-          "date": "2026-11-26T20:34:08Z"
+          "sha": "b62053fe70078deac140ec43039d7ce0af3c6b17",
+          "message": "Merge pull request #471 from LooperSalty/docs/readme-nvidia-focus",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/b62053fe70078deac140ec43039d7ce0af3c6b17",
+          "date": "2026-11-27T01:19:26Z"
         },
         {
-          "sha": "47b51abcb9ac36e8360ea3d98a8192f51e6e4888",
-          "message": "revert: restore the Neptune VIctory base on main until the combined base holds on NVIDIA",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/47b51abcb9ac36e8360ea3d98a8192f51e6e4888",
-          "date": "2026-11-26T20:28:28Z"
+          "sha": "12c47faf372be0b1e3b9bd7422d129c222924d38",
+          "message": "Merge branch 'main' into docs/readme-nvidia-focus",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/12c47faf372be0b1e3b9bd7422d129c222924d38",
+          "date": "2026-11-27T01:12:48Z"
         },
         {
-          "sha": "37d4686711bbb04c2cc3825f3f13bbff7c140fb0",
-          "message": "Merge pull request #409 from Exorion1er/feat/victory-combined-base",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/37d4686711bbb04c2cc3825f3f13bbff7c140fb0",
-          "date": "2026-11-26T19:03:50Z"
+          "sha": "81734aa5933d6445b928ee4a10afbe83435202be",
+          "message": "Merge pull request #470 from LooperSalty/feat/vehicle-keys",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/81734aa5933d6445b928ee4a10afbe83435202be",
+          "date": "2026-11-27T01:12:40Z"
         },
         {
-          "sha": "b488e5141274706e06003103861e15418b001996",
-          "message": "docs: README headline for the combined base (15-20 fps, ray tracing on)",
-          "url": "https://github.com/LooperSalty/AnyXboxX/commit/b488e5141274706e06003103861e15418b001996",
-          "date": "2026-11-26T18:56:24Z"
+          "sha": "c77731bcf4fdc20dab0bf6feaa5edf4d563276cf",
+          "message": "Merge branch 'main' into feat/vehicle-keys",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/c77731bcf4fdc20dab0bf6feaa5edf4d563276cf",
+          "date": "2026-11-27T01:07:03Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2732,7 +2735,7 @@
       "branch_scanned": "main",
       "description_upstream": "Open-source MIT C++20 Xbox Series X|S (Scarlett) translation layer for Windows 10/11 — D3D12, Vulkan 1.4, RDNA2 shader lifting, GDK shims, and real-binary telemetry",
       "archived": false,
-      "stars": 106,
+      "stars": 108,
       "forks": 12,
       "open_prs": 1,
       "open_issues_estimate": 7,
@@ -2742,7 +2745,7 @@
       "last_commit_at": "2026-11-26T16:17:33Z",
       "last_commit_sha": "48a98fcd31a9f5d6c8ba344592215c1539d6e7dc",
       "last_push_at": "2026-11-26T16:17:31Z",
-      "new_commits_since_scan": 8,
+      "new_commits_since_scan": 0,
       "latest_release": {
         "tag": "v0.6.0-alpha",
         "url": "https://github.com/californiaAlmonds/OpenScarlett/releases/tag/v0.6.0-alpha"
@@ -2773,7 +2776,7 @@
           "date": "2026-11-26T13:03:04Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -2925,52 +2928,52 @@
       "branch_scanned": "main",
       "description_upstream": "TuxBox is a new, native-first compatibility layer for running unpacked, decrypted Xbox Series X|S games on x86-64 Linux and Windows.",
       "archived": false,
-      "stars": 386,
-      "forks": 47,
-      "open_prs": 20,
-      "open_issues_estimate": 8,
+      "stars": 393,
+      "forks": 48,
+      "open_prs": 9,
+      "open_issues_estimate": 9,
       "issues_note": "Repository open_issues_count minus open PRs; approximate",
-      "commits_30d": 745,
+      "commits_30d": 805,
       "commits_30d_capped": false,
-      "last_commit_at": "2026-11-26T21:26:54Z",
-      "last_commit_sha": "e76ff6a244abb572dc6480705899133d91553f26",
-      "last_push_at": "2026-11-26T21:27:15Z",
-      "new_commits_since_scan": 113,
+      "last_commit_at": "2026-11-27T08:25:23Z",
+      "last_commit_sha": "5eb11159b5908667bf7bcbb3f035b3d550e1458f",
+      "last_push_at": "2026-11-27T08:25:29Z",
+      "new_commits_since_scan": 60,
       "latest_release": null,
       "recent_commits": [
         {
-          "sha": "e76ff6a244abb572dc6480705899133d91553f26",
-          "message": "Merge pull request #268 from NickStallman/fix/xshader-mesh-launch-2",
-          "url": "https://github.com/brcly/TuxBox/commit/e76ff6a244abb572dc6480705899133d91553f26",
-          "date": "2026-11-26T21:26:54Z"
+          "sha": "5eb11159b5908667bf7bcbb3f035b3d550e1458f",
+          "message": "Merge branch 'perf/simpler-hlsl': faster shader compilation",
+          "url": "https://github.com/brcly/TuxBox/commit/5eb11159b5908667bf7bcbb3f035b3d550e1458f",
+          "date": "2026-11-27T08:25:23Z"
         },
         {
-          "sha": "e56f9ee48cba1e85153801493f54600891a70a84",
-          "message": "xshader: a guarded mesh half result does not read the launch bits no reader takes",
-          "url": "https://github.com/brcly/TuxBox/commit/e56f9ee48cba1e85153801493f54600891a70a84",
-          "date": "2026-11-26T21:02:39Z"
+          "sha": "6edb4b78f73fd423a1950b59c1da8dfc44768020",
+          "message": "Merge pull request #303 from NickStallman/fix/215-heap-writes",
+          "url": "https://github.com/brcly/TuxBox/commit/6edb4b78f73fd423a1950b59c1da8dfc44768020",
+          "date": "2026-11-27T08:25:23Z"
         },
         {
-          "sha": "60497284779851f9371eaf52151a166a4e402c5e",
-          "message": "Merge pull request #256 from Valdi320/work/pixel-buffer-offset-20261126",
-          "url": "https://github.com/brcly/TuxBox/commit/60497284779851f9371eaf52151a166a4e402c5e",
-          "date": "2026-11-26T20:52:28Z"
+          "sha": "4c0ac0edf68d404c7ca3fbd739fe107f7dfc7b10",
+          "message": "Merge pull request #301 from NickStallman/fix/232-unwritten-descriptors",
+          "url": "https://github.com/brcly/TuxBox/commit/4c0ac0edf68d404c7ca3fbd739fe107f7dfc7b10",
+          "date": "2026-11-27T08:25:23Z"
         },
         {
-          "sha": "fcfcabdc3b963e6b9bf751fc8cf4c3c78e5679be",
-          "message": "Merge pull request #269 from Valdi320/work/retain-reflected-root-extents-20261126",
-          "url": "https://github.com/brcly/TuxBox/commit/fcfcabdc3b963e6b9bf751fc8cf4c3c78e5679be",
-          "date": "2026-11-26T20:52:24Z"
+          "sha": "23b5253531d9572a0818baba36cf67cff0650055",
+          "message": "Merge pull request #298 from NickStallman/fix/232-indirect-argument-order",
+          "url": "https://github.com/brcly/TuxBox/commit/23b5253531d9572a0818baba36cf67cff0650055",
+          "date": "2026-11-27T08:25:22Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
         "inventory": {
           "status": "ok",
           "truncated": false,
-          "source_files": 817,
+          "source_files": 828,
           "features": [
             {
               "id": "executable_loader",
@@ -3006,7 +3009,7 @@
             },
             {
               "id": "d3d12",
-              "matching_files": 163,
+              "matching_files": 165,
               "examples": [
                 "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/d3d12_status.py",
                 "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/affine.hlsl",
@@ -3015,7 +3018,7 @@
             },
             {
               "id": "shaders",
-              "matching_files": 210,
+              "matching_files": 212,
               "examples": [
                 "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/dxil_store.py",
                 "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_diagnostics.py",
@@ -3048,7 +3051,7 @@
       "api_scan": {
         "status": "partial",
         "files_scanned": 48,
-        "candidate_files": 766,
+        "candidate_files": 777,
         "files_failed": 0,
         "truncated_tree": false,
         "limited": true,
@@ -3108,7 +3111,7 @@
           "date": "2026-11-23T23:02:36Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
@@ -3223,7 +3226,7 @@
           "date": "2026-11-21T18:22:40Z"
         }
       ],
-      "last_successful_scan": "2026-11-26T21:41:40Z",
+      "last_successful_scan": "2026-11-27T08:46:32Z",
       "scan_error": null,
       "coverage": {
         "catalog_total": 20,
