@@ -1,0 +1,3502 @@
+{
+  "api_matrix_feed": "api_matrix.json",
+  "catalog": {
+    "version": 1,
+    "scope_note": "Reference taxonomy of 20 research areas, not an exhaustive count of Xbox Series APIs, features, or work remaining in any one project.",
+    "features": [
+      {
+        "id": "executable_loader",
+        "title": "Executable loader",
+        "group": "Runtime",
+        "description": "Load and map console executables and modules"
+      },
+      {
+        "id": "kernel_services",
+        "title": "Kernel services",
+        "group": "Runtime",
+        "description": "Kernel calls, native APIs and exception handling"
+      },
+      {
+        "id": "memory_management",
+        "title": "Memory management",
+        "group": "Runtime",
+        "description": "Address spaces, virtual memory, allocation and mapping"
+      },
+      {
+        "id": "threads_scheduling",
+        "title": "Threads and scheduling",
+        "group": "Runtime",
+        "description": "Threads, scheduling and fibers"
+      },
+      {
+        "id": "synchronization",
+        "title": "Synchronization",
+        "group": "Runtime",
+        "description": "Locks, waits, semaphores and events"
+      },
+      {
+        "id": "file_system",
+        "title": "File system",
+        "group": "Runtime",
+        "description": "Virtual file system, mounts and file I/O"
+      },
+      {
+        "id": "gdk_services",
+        "title": "GDK / GameCore",
+        "group": "Services",
+        "description": "Xbox GDK and GameCore runtime services"
+      },
+      {
+        "id": "users_accounts",
+        "title": "Users and accounts",
+        "group": "Services",
+        "description": "Identity, profile and user services"
+      },
+      {
+        "id": "input",
+        "title": "Input",
+        "group": "Services",
+        "description": "Gamepad, controllers and other input"
+      },
+      {
+        "id": "audio",
+        "title": "Audio",
+        "group": "Services",
+        "description": "XAudio and audio playback pipelines"
+      },
+      {
+        "id": "networking",
+        "title": "Networking",
+        "group": "Services",
+        "description": "Socket, multiplayer and networking support"
+      },
+      {
+        "id": "save_storage",
+        "title": "Saved data",
+        "group": "Services",
+        "description": "Save games, storage and persistence"
+      },
+      {
+        "id": "d3d12",
+        "title": "D3D12 interface",
+        "group": "Graphics",
+        "description": "D3D12 or console graphics API translation"
+      },
+      {
+        "id": "shaders",
+        "title": "Shader translation",
+        "group": "Graphics",
+        "description": "Shader formats, IR and translation"
+      },
+      {
+        "id": "textures_resources",
+        "title": "Textures and resources",
+        "group": "Graphics",
+        "description": "GPU resources, tiled textures and memory layouts"
+      },
+      {
+        "id": "gpu_sync",
+        "title": "GPU commands and sync",
+        "group": "Graphics",
+        "description": "Command buffers, GPU fences and synchronization"
+      },
+      {
+        "id": "media_decode",
+        "title": "Media decoding",
+        "group": "Graphics",
+        "description": "Video and media codecs"
+      },
+      {
+        "id": "recompilation",
+        "title": "Static recompilation",
+        "group": "Toolchain",
+        "description": "Binary translation, recompilation and disassembly"
+      },
+      {
+        "id": "conformance_tests",
+        "title": "Compatibility tests",
+        "group": "Toolchain",
+        "description": "Conformance tests and repeatable compatibility test harnesses"
+      },
+      {
+        "id": "game_boot",
+        "title": "Commercial game boot",
+        "group": "Validation",
+        "description": "Observed boot and gameplay milestones, requires independent evidence"
+      }
+    ]
+  },
+  "overlap": [
+    {
+      "id": "executable_loader",
+      "title": "Executable loader",
+      "group": "Runtime",
+      "description": "Load and map console executables and modules",
+      "project_count": 11,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/library_loader.cpp",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/pe_loader.cpp",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/pe_loader.h"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/loader.rs"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tombox-loader/src/win32.rs"
+          ]
+        },
+        {
+          "repo": "drycheetah84/TomBox",
+          "name": "TomBox",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-loader/src/win32.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 15,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/game_config.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/package_vfs.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/pe_loader.h"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/loader/image.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/loader/image.hpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/loader.py"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 18,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/apc_injector.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/game_config.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/pe_forwarder.h"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/tools/check_loader_trace.py"
+          ]
+        },
+        {
+          "repo": "jadeowaowa/scarlett-layer",
+          "name": "scarlett-layer",
+          "matching_files": 7,
+          "examples": [
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/loader/auto_stub.hpp",
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/loader/game_config.hpp",
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/loader/main.cpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/vulkan_loader.hpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kernel_services",
+      "title": "Kernel services",
+      "group": "Runtime",
+      "description": "Kernel calls, native APIs and exception handling",
+      "project_count": 6,
+      "projects": [
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/kernel.rs"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 4,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/ntdll/build.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/ntdll/src/lib.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/ntdll/src/ums.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 6,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/kernel/xmemory.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/kernel/xruntime.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/kernel/xstorage.h"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/kernel.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/kernel.hpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/kernel.py",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/kernel_misc.py"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 12,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/kernel/console_lsa_policy.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/kernel/gpu_tile_pool.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/kernel/kernelx_abi.h"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memory_management",
+      "title": "Memory management",
+      "group": "Runtime",
+      "description": "Address spaces, virtual memory, allocation and mapping",
+      "project_count": 8,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/vulkan_memory.h"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 5,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_as.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_buffer.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_census.h"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/memory_report.rs"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/vmem_x.rs"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/host/memory.hpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/memory.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/memory.hpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 7,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/memory.py",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_exec_memory.py",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_memory.py"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 16,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/memory_config_guest.cpp",
+            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/copy_memory.rs",
+            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/list_memory.rs"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 27,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/allocator/PeImportFirst.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/allocator/PeImportFirst.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/allocator/PeImportFirstMain.cpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "threads_scheduling",
+      "title": "Threads and scheduling",
+      "group": "Runtime",
+      "description": "Threads, scheduling and fibers",
+      "project_count": 2,
+      "projects": [
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/host/threading.hpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Pthread/Posix/Thread.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Pthread/src/Thread.cpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "synchronization",
+      "title": "Synchronization",
+      "group": "Runtime",
+      "description": "Locks, waits, semaphores and events",
+      "project_count": 4,
+      "projects": [
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/tools/progress/sync.py"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/tools/sync_voisins.py"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/audio_sync.h"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 21,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Acb/include/Sync.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Acb/src/Sync.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Cb/include/Sync.hpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file_system",
+      "title": "File system",
+      "group": "Runtime",
+      "description": "Virtual file system, mounts and file I/O",
+      "project_count": 8,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/file_system.cpp",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/file_system.h"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/vfs.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/vfs_hooks.rs"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 5,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtffileio/src/fileio_b.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtffileio/src/fileio_b_diff.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtffileio/src/fileio_b_stream.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/package_vfs.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/src/loader/package_vfs.cpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-xgameruntime/src/package_mount.rs"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/vfs_mounts.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/loader/vfs_mounts.cpp"
+          ]
+        },
+        {
+          "repo": "jadeowaowa/scarlett-layer",
+          "name": "scarlett-layer",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/common/vfs.hpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceLibcInternal/Filesystem.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libScePosixForWebKit/Filesystem.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libc/src/Filesystem.cpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gdk_services",
+      "title": "GDK / GameCore",
+      "group": "Services",
+      "description": "Xbox GDK and GameCore runtime services",
+      "project_count": 10,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/gdk_runtime_calls.py",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/gen_gdk_runtime_classes.py"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/gdk_abi_probe.py",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/gdk_layouts.py",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/gdk_platform_profiles.py"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gdk_table.rs",
+            "https://github.com/ivall/xcl/blob/main/scripts/gen_gdk_table.py"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 31,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk/access.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk/basic.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk/capture.rs"
+          ]
+        },
+        {
+          "repo": "drycheetah84/TomBox",
+          "name": "TomBox",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/compat-common/src/gdk_store.rs",
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/compat-common/src/gdk_user.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/formats/gdk/game_config.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/formats/gdk/game_config.hpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/gdk.py",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-report/src/gdk.rs",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/tools/gdk_interfaces.py"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h"
+          ]
+        },
+        {
+          "repo": "jadeowaowa/scarlett-layer",
+          "name": "scarlett-layer",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/gdk_types.hpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "users_accounts",
+      "title": "Users and accounts",
+      "group": "Services",
+      "description": "Identity, profile and user services",
+      "project_count": 1,
+      "projects": [
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/online/fortnite/account.rs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "input",
+      "title": "Input",
+      "group": "Services",
+      "description": "Gamepad, controllers and other input",
+      "project_count": 8,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/active_input.h",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/scripts/vs_input_survey.py"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/input_script.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/startup/ps_input_scan.py"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 5,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gamepad.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gamepad/history.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gamepad/host.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/input/gameinput_abi.h"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 5,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/input/input.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/input/input.hpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/input/xinput/direct.cpp"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/input/gameinput_abi.h"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 5,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/tools/check_frosty_keyboard_gamepad.py",
+            "https://github.com/brcly/TuxBox/blob/main/tools/check_frosty_xinput.py",
+            "https://github.com/brcly/TuxBox/blob/main/tools/check_lanes_input.py"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 10,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/input-mapper/app.js",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/input-mapper/capture.js",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/input-mapper/dropdown.js"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "title": "Audio",
+      "group": "Services",
+      "description": "XAudio and audio playback pipelines",
+      "project_count": 8,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/audio_config.py",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/audio_wav.py",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/rsc8_audio.py"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 4,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/audio_sink.cpp",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/audio_sink.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/audio_telemetry.h"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tools/audio-replay/src/main.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tools/xhost/src/audio.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/audio/acphal_abi.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/audio/xaudio2_abi.h"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/audio/audio.hpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/audio/wasapi/mute.cpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-audio/src/lib.rs",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-audio/src/main.rs"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 11,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/acphal_abi.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/audio_sync.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/audio_trace.h"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/title_audio.rs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "group": "Services",
+      "description": "Socket, multiplayer and networking support",
+      "project_count": 2,
+      "projects": [
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/network.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/network.hpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 15,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Socket/include/SocketBorrow.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Socket/include/SocketConnect.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Socket/include/SocketError.hpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "save_storage",
+      "title": "Saved data",
+      "group": "Services",
+      "description": "Save games, storage and persistence",
+      "project_count": 5,
+      "projects": [
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/storage_root.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/storage_root_utf8.h"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xcrdapi/src/xcrd2_storage.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xcrdapi/src/xcrd_storage.rs"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 4,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/durango/winrt/storage.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/durango/winrt/storage.hpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/storage.cpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-xgameruntime/src/local_storage.rs",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/local_storage_interface.cpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceSaveData.native/SaveData.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/xgr/runtime/impl_storage.cpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3d12",
+      "title": "D3D12 interface",
+      "group": "Graphics",
+      "description": "D3D12 or console graphics API translation",
+      "project_count": 12,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 15,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/d3d12_com.cpp",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/d3d12_com.h",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/d3d12_com_object.h"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 6,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_iids.cpp",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_range.cpp",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_range.h"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 4,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/lower_gfx.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12_layout.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/gfx_records.rs"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 166,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/build.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/src/console_x.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/src/driver_call.rs"
+          ]
+        },
+        {
+          "repo": "drycheetah84/TomBox",
+          "name": "TomBox",
+          "matching_files": 12,
+          "examples": [
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/bindtrace.rs",
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/cmdlist_wrap.rs",
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/device_wrap.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 5,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gpu/d3d12_backend.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gpu/d3d12_xs_abi.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/src/gpu/d3d12_backend.cpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-d3d12-xs/build.rs",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-d3d12-xs/src/lib.rs"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 14,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/d3d12_adapter.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/d3d12_xs_abi.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/gpu/d3d12_adapter.cpp"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 175,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/d3d12_status.py",
+            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/affine.hlsl",
+            "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/buffer_import_guest.cpp"
+          ]
+        },
+        {
+          "repo": "jadeowaowa/scarlett-layer",
+          "name": "scarlett-layer",
+          "matching_files": 12,
+          "examples": [
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/command_list_x.cpp",
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/command_queue_x.cpp",
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/d3d12_xs.cpp"
+          ]
+        },
+        {
+          "repo": "Ender-0001/GDKScarlett",
+          "name": "GDKScarlett",
+          "matching_files": 29,
+          "examples": [
+            "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/d3d12_x/DllMain.cpp",
+            "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/d3d12_x/DxbcUtil.cpp",
+            "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/d3d12_x/DxbcUtil.h"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/d3d12_xs.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/d3d12_xs_device.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/d3d12_xs_test.cpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shaders",
+      "title": "Shader translation",
+      "group": "Graphics",
+      "description": "Shader formats, IR and translation",
+      "project_count": 12,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 25,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/binary_occlusion_spirv.h",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/occlusion_sum_spirv.h",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/shader_library.h"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 22,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/dxil_module.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/guest_shader_container.cpp",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/guest_shader_container.h"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 45,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitreader_tests.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitstream.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/cfg.rs"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 33,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/shaders/query_accum.hlsl",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/shader_dump.rs",
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/shader_xlat.rs"
+          ]
+        },
+        {
+          "repo": "drycheetah84/TomBox",
+          "name": "TomBox",
+          "matching_files": 4,
+          "examples": [
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/shader_xlat.rs",
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-xshader/src/hlsl.rs",
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-xshader/src/hlsl/bindings.rs"
+          ]
+        },
+        {
+          "repo": "Freminet/ScarlettX",
+          "name": "ScarlettX",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gpu/shader_ir.h",
+            "https://github.com/Freminet/ScarlettX/blob/main/src/gpu/shader_ir.cpp"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 4,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/console_shader.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/console_shader.hpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/console_shader_rdna.cpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 26,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl.py",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_clamp.py",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_cmpf16.py"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/shader_cache.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/shader_ir.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/gpu/shader_cache.cpp"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 224,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/dxil_store.py",
+            "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_blob.py",
+            "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_diagnostics.py"
+          ]
+        },
+        {
+          "repo": "jadeowaowa/scarlett-layer",
+          "name": "scarlett-layer",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_inspector.hpp",
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_stripper.hpp",
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_translator.hpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 273,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Shader/include/CreateShader.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Shader/include/GsOversubscription.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Shader/include/GsPrimPayload.hpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "textures_resources",
+      "title": "Textures and resources",
+      "group": "Graphics",
+      "description": "GPU resources, tiled textures and memory layouts",
+      "project_count": 7,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/gfx10_tiling.h",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/resource_tiling.h",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/calibrated_texture.py"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 7,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/native_texture_store_view.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/address_texture.h",
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/list_copy_texture.h"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 4,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/texture.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/tiling.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/tiling_tables.rs"
+          ]
+        },
+        {
+          "repo": "sammwyy/xvalkyrie",
+          "name": "xvalkyrie",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/texture_layout.cpp",
+            "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/texture_layout.hpp"
+          ]
+        },
+        {
+          "repo": "LooperSalty/AnyXboxX",
+          "name": "AnyXboxX",
+          "matching_files": 5,
+          "examples": [
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-texture/src/bc7.rs",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-texture/src/lib.rs",
+            "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-texture/src/main.rs"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 34,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/runtime/xg/src/tiling.rs",
+            "https://github.com/brcly/TuxBox/blob/main/runtime/xg/texture_64k16_control.cpp",
+            "https://github.com/brcly/TuxBox/blob/main/runtime/xg/texture_64k2d_control.cpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 3,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgcDriver/Graphics/include/Texture.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgcDriver/Graphics/src/Texture.cpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/texture_test.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpu_sync",
+      "title": "GPU commands and sync",
+      "group": "Graphics",
+      "description": "Command buffers, GPU fences and synchronization",
+      "project_count": 0,
+      "projects": []
+    },
+    {
+      "id": "media_decode",
+      "title": "Media decoding",
+      "group": "Graphics",
+      "description": "Video and media codecs",
+      "project_count": 0,
+      "projects": []
+    },
+    {
+      "id": "recompilation",
+      "title": "Static recompilation",
+      "group": "Toolchain",
+      "description": "Binary translation, recompilation and disassembly",
+      "project_count": 9,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/shader_disasm.py"
+          ]
+        },
+        {
+          "repo": "R0Y00/Xbox2Windows",
+          "name": "Xbox2Windows",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/disasm_rdna2.py"
+          ]
+        },
+        {
+          "repo": "ivall/xcl",
+          "name": "XCL",
+          "matching_files": 23,
+          "examples": [
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/disasm.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/recomp/cfg.rs",
+            "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/recomp/dxc.rs"
+          ]
+        },
+        {
+          "repo": "omonkeyz/xbox-emulator",
+          "name": "Xbox Emulator",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tombox-disasm/src/main.rs"
+          ]
+        },
+        {
+          "repo": "drycheetah84/TomBox",
+          "name": "TomBox",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-disasm/src/main.rs"
+          ]
+        },
+        {
+          "repo": "californiaAlmonds/OpenScarlett",
+          "name": "OpenScarlett",
+          "matching_files": 2,
+          "examples": [
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/rdna2_disasm.h",
+            "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/gpu/rdna2_disasm.cpp"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/tools/check_translator_gpu.py"
+          ]
+        },
+        {
+          "repo": "jadeowaowa/scarlett-layer",
+          "name": "scarlett-layer",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_translator.hpp"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 252,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/shader/recompiler/BdaAbi.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/shader/recompiler/CacheKey.hpp",
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/core/shader/recompiler/CompiledVariant.hpp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conformance_tests",
+      "title": "Compatibility tests",
+      "group": "Toolchain",
+      "description": "Conformance tests and repeatable compatibility test harnesses",
+      "project_count": 3,
+      "projects": [
+        {
+          "repo": "ItsNotRexed/Leonida",
+          "name": "Leonida",
+          "matching_files": 20,
+          "examples": [
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/conformance/compare.py",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/conformance/native/src/diagnostics.cpp",
+            "https://github.com/ItsNotRexed/Leonida/blob/main/tools/conformance/native/src/diagnostics.h"
+          ]
+        },
+        {
+          "repo": "brcly/TuxBox",
+          "name": "TuxBox",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/brcly/TuxBox/blob/main/tools/shader_harness.py"
+          ]
+        },
+        {
+          "repo": "realdody/americas-recomp",
+          "name": "americas-recomp",
+          "matching_files": 1,
+          "examples": [
+            "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/harness_guard.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "game_boot",
+      "title": "Commercial game boot",
+      "group": "Validation",
+      "description": "Observed boot and gameplay milestones, requires independent evidence",
+      "project_count": 0,
+      "projects": []
+    }
+  ],
+  "generated_at": "2026-11-28T08:00:06Z",
+  "collection": "Xbox Series X|S / Scarlett",
+  "methodology": "Fully automated GitHub activity, source-code candidate symbol matrix, source-path categories, and upstream README metrics; no manual compatibility certification",
+  "projects": [
+    {
+      "repo": "ItsNotRexed/Leonida",
+      "name": "Leonida",
+      "kind": "GTA VI recompilation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "GTA VI-specific native PC recompilation research",
+      "priority": "GTA VI direct",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "branch_scanned": "main",
+      "description_upstream": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "archived": false,
+      "stars": 17313,
+      "forks": 1472,
+      "open_prs": null,
+      "open_issues_estimate": null,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-23T06:20:06Z",
+      "last_commit_sha": "3faac557b1584d39004357918e60325b4d4ff0fe",
+      "last_push_at": "2026-11-23T06:20:06Z",
+      "new_commits_since_scan": 929,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "3faac557b1584d39004357918e60325b4d4ff0fe",
+          "message": "rdna2spirv: one bounds branch per s_buffer_load, not one per dword (cascade-shadow CS: 17,346 -> 7,710 blocks)",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/3faac557b1584d39004357918e60325b4d4ff0fe",
+          "date": "2026-11-23T06:20:06Z"
+        },
+        {
+          "sha": "d974c88a54d7bd5158fd5a31ff74d7606cd74a43",
+          "message": "saves.py import: warn when a container name breaks XGameSaveCreateContainer's rule",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/d974c88a54d7bd5158fd5a31ff74d7606cd74a43",
+          "date": "2026-11-23T06:01:24Z"
+        },
+        {
+          "sha": "902358c8aa88f290cb2c272cac8630f70002e7d6",
+          "message": "tools/exe_checklist.py: every ASSUMPTION / UNVERIFIED / VERIFY note in one list for the exe's first look",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/902358c8aa88f290cb2c272cac8630f70002e7d6",
+          "date": "2026-11-23T06:00:14Z"
+        },
+        {
+          "sha": "64b45d07ac15dc9a9f9a8b036eb71aa6dfa7a64e",
+          "message": "Runtime: offline XDisplayImpl (HDR off, LEONIDA_HDR=1 on) and XUserDeviceImpl",
+          "url": "https://github.com/ItsNotRexed/Leonida/commit/64b45d07ac15dc9a9f9a8b036eb71aa6dfa7a64e",
+          "date": "2026-11-23T05:56:45Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-23T07:51:00Z",
+      "scan_error": "GitHub API HTTP 404 for /repos/ItsNotRexed/Leonida",
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 327,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/library_loader.cpp",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/pe_loader.cpp",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/pe_loader.h"
+              ]
+            },
+            {
+              "id": "memory_management",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/vulkan_memory.h"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/file_system.cpp",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/file_system.h"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/gdk_runtime_calls.py",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/gen_gdk_runtime_classes.py"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/active_input.h",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/scripts/vs_input_survey.py"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/audio_config.py",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/audio_wav.py",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/rsc8_audio.py"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 15,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/d3d12_com.cpp",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/d3d12_com.h",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/shims/d3d12_com_object.h"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 25,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/binary_occlusion_spirv.h",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/occlusion_sum_spirv.h",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/shader_library.h"
+              ]
+            },
+            {
+              "id": "textures_resources",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/gfx10_tiling.h",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/runtime/src/resource_tiling.h",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/calibrated_texture.py"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/shader_disasm.py"
+              ]
+            },
+            {
+              "id": "conformance_tests",
+              "matching_files": 20,
+              "examples": [
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/conformance/compare.py",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/conformance/native/src/diagnostics.cpp",
+                "https://github.com/ItsNotRexed/Leonida/blob/main/tools/conformance/native/src/diagnostics.h"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [
+          {
+            "id": "translated_shader_count",
+            "label": "RDNA2 shaders translated (all known shader records)",
+            "implemented": 26503,
+            "total": 26503,
+            "status": "upstream_reported",
+            "source": "https://github.com/ItsNotRexed/Leonida/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          }
+        ],
+        "metric_forecasts": {
+          "translated_shader_count": {
+            "status": "scope_complete",
+            "reason": "Upstream reports 100% of this declared scope; this does not establish game compatibility"
+          }
+        }
+      },
+      "api_scan": {
+        "status": "stale",
+        "files_scanned": 0,
+        "error": "Upstream metadata scan failed",
+        "symbols_found": 0
+      }
+    },
+    {
+      "repo": "R0Y00/Xbox2Windows",
+      "name": "Xbox2Windows",
+      "kind": "GTA VI recompilation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "GTA VI-specific Xbox Series to Windows recompilation research",
+      "priority": "GTA VI direct",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "branch_scanned": "main",
+      "description_upstream": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+      "archived": false,
+      "stars": 2052,
+      "forks": 247,
+      "open_prs": 86,
+      "open_issues_estimate": 127,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-28T07:06:47Z",
+      "last_commit_sha": "c3204a9c2ad8289db93fff9d567c3a26b967c531",
+      "last_push_at": "2026-11-28T07:51:21Z",
+      "new_commits_since_scan": 107,
+      "latest_release": {
+        "tag": "gpu-check-v0.1.0",
+        "url": "https://github.com/R0Y00/Xbox2Windows/releases/tag/gpu-check-v0.1.0"
+      },
+      "recent_commits": [
+        {
+          "sha": "c3204a9c2ad8289db93fff9d567c3a26b967c531",
+          "message": "compute: treat scalar min, max and absdiff as SCC writers (#3301)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/c3204a9c2ad8289db93fff9d567c3a26b967c531",
+          "date": "2026-11-28T07:06:47Z"
+        },
+        {
+          "sha": "336e1206b027409e791d506da70909a358891ccd",
+          "message": "runtime: bind published D16 buffer stores to typed UAVs (#3302)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/336e1206b027409e791d506da70909a358891ccd",
+          "date": "2026-11-28T07:04:41Z"
+        },
+        {
+          "sha": "ba70822363448da08f09a4a992bbd2470626f660",
+          "message": "compile_dxil: add --rekey mode matching shader_cache_rekey.py (#3014)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/ba70822363448da08f09a4a992bbd2470626f660",
+          "date": "2026-11-28T07:02:04Z"
+        },
+        {
+          "sha": "bbf4687b9dc4e6f175b8d5eb8de53a961b982700",
+          "message": "bcpack: add standalone BC2/BC6H and exact BC1 reconstruction (#3293)",
+          "url": "https://github.com/R0Y00/Xbox2Windows/commit/bbf4687b9dc4e6f175b8d5eb8de53a961b982700",
+          "date": "2026-11-28T06:44:08Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 334,
+          "features": [
+            {
+              "id": "memory_management",
+              "matching_files": 5,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_as.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_buffer.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/memory_srv_census.h"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/gdk_abi_probe.py",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/gdk_layouts.py",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/gdk_platform_profiles.py"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/input_script.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/startup/ps_input_scan.py"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 4,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/audio_sink.cpp",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/audio_sink.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/audio_telemetry.h"
+              ]
+            },
+            {
+              "id": "save_storage",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/storage_root.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/storage_root_utf8.h"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 6,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_iids.cpp",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_range.cpp",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/d3d12_xs_range.h"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 22,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/dxil_module.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/guest_shader_container.cpp",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/guest_shader_container.h"
+              ]
+            },
+            {
+              "id": "textures_resources",
+              "matching_files": 7,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/native_texture_store_view.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/address_texture.h",
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/list_copy_texture.h"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/R0Y00/Xbox2Windows/blob/main/tools/disasm_rdna2.py"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [
+          {
+            "id": "ps_compiled",
+            "label": "Pixel shader records compiled and checked",
+            "implemented": 851,
+            "total": 12101,
+            "status": "upstream_reported",
+            "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          },
+          {
+            "id": "cs_executed",
+            "label": "Compute shader records executed under tested bindings",
+            "implemented": 12,
+            "total": 2689,
+            "status": "upstream_reported",
+            "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          }
+        ],
+        "metric_forecasts": {
+          "ps_compiled": {
+            "status": "insufficient_data",
+            "reason": "Less than 10% of declared scope observed"
+          },
+          "cs_executed": {
+            "status": "insufficient_data",
+            "reason": "Less than 10% of declared scope observed"
+          }
+        }
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 327,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 121
+      }
+    },
+    {
+      "repo": "ivall/xcl",
+      "name": "XCL",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Xbox Series GDK runtime and RDNA2 shader translation",
+      "priority": "Core runtime",
+      "url": "https://github.com/xcl-dev/xcl",
+      "branch_scanned": "main",
+      "description_upstream": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "archived": false,
+      "stars": 8769,
+      "forks": 1223,
+      "open_prs": null,
+      "open_issues_estimate": null,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-28T03:27:04Z",
+      "last_commit_sha": "e429936c10a5b8aa09470ff99dfc8c8d3d8c56fd",
+      "last_push_at": "2026-11-28T04:12:53Z",
+      "new_commits_since_scan": 378,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "e429936c10a5b8aa09470ff99dfc8c8d3d8c56fd",
+          "message": "Merge pull request #3086 from Royalflamejlh/fix/prepare-compute-receipts",
+          "url": "https://github.com/xcl-dev/xcl/commit/e429936c10a5b8aa09470ff99dfc8c8d3d8c56fd",
+          "date": "2026-11-28T03:27:04Z"
+        },
+        {
+          "sha": "392db2cfe026554881baaa593ab797b7c56ac763",
+          "message": "Merge pull request #3068 from RodrigoTorreao/pr/coherent-auto-cap",
+          "url": "https://github.com/xcl-dev/xcl/commit/392db2cfe026554881baaa593ab797b7c56ac763",
+          "date": "2026-11-28T03:26:25Z"
+        },
+        {
+          "sha": "5d2ea8f846a2de290fec1a51ede750e09563cfe2",
+          "message": "Merge pull request #2872 from Royalflamejlh/shader/quad-ballot-unrolled",
+          "url": "https://github.com/xcl-dev/xcl/commit/5d2ea8f846a2de290fec1a51ede750e09563cfe2",
+          "date": "2026-11-28T03:24:16Z"
+        },
+        {
+          "sha": "336fdddafbcb3c3db753629f5f79a9f44b6c4b9d",
+          "message": "Merge pull request #2965 from bmjask/stack/314-gpu-completion-receipts",
+          "url": "https://github.com/xcl-dev/xcl/commit/336fdddafbcb3c3db753629f5f79a9f44b6c4b9d",
+          "date": "2026-11-28T03:22:53Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 217,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/loader.rs"
+              ]
+            },
+            {
+              "id": "kernel_services",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/kernel.rs"
+              ]
+            },
+            {
+              "id": "memory_management",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/memory_report.rs"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/vfs.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/vfs_hooks.rs"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/xgameruntime/gdk_table.rs",
+                "https://github.com/ivall/xcl/blob/main/scripts/gen_gdk_table.py"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 4,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/lower_gfx.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12_layout.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/gfx_records.rs"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 45,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitreader_tests.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/bitstream.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/dxil/cfg.rs"
+              ]
+            },
+            {
+              "id": "textures_resources",
+              "matching_files": 4,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/texture.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/tiling.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/tiling_tables.rs"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 23,
+              "examples": [
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/disasm.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/recomp/cfg.rs",
+                "https://github.com/ivall/xcl/blob/main/crates/xcl/src/gpu/recomp/dxc.rs"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [
+          {
+            "id": "shader_pack",
+            "label": "Retail shader programs translated (developer-reported)",
+            "implemented": 26698,
+            "total": 26698,
+            "status": "upstream_reported",
+            "source": "https://github.com/ivall/xcl/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          }
+        ],
+        "metric_forecasts": {
+          "shader_pack": {
+            "status": "scope_complete",
+            "reason": "Upstream reports 100% of this declared scope; this does not establish game compatibility"
+          }
+        }
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 203,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 400
+      }
+    },
+    {
+      "repo": "omonkeyz/xbox-emulator",
+      "name": "Xbox Emulator",
+      "kind": "Emulator / research",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Progress research for Xbox Series titles on PC",
+      "priority": "Core runtime",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
+      "branch_scanned": "main",
+      "description_upstream": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "archived": false,
+      "stars": 1848,
+      "forks": 124,
+      "open_prs": 25,
+      "open_issues_estimate": 28,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 595,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-25T13:19:29Z",
+      "last_commit_sha": "a618736df799d21d9a565d08893355fc3c96fdf5",
+      "last_push_at": "2026-11-25T13:47:56Z",
+      "new_commits_since_scan": 0,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "a618736df799d21d9a565d08893355fc3c96fdf5",
+          "message": "Merge #347: tombox-xshader: size structured buffer elements from the FSSM stride (stacked on #289)",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/a618736df799d21d9a565d08893355fc3c96fdf5",
+          "date": "2026-11-25T13:19:29Z"
+        },
+        {
+          "sha": "b03b39b23a9152f07312c2f5b3ab30f87c8ba9d9",
+          "message": "tombox-xshader: size structured buffer elements from the FSSM stride",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/b03b39b23a9152f07312c2f5b3ab30f87c8ba9d9",
+          "date": "2026-11-25T13:19:29Z"
+        },
+        {
+          "sha": "b96523a66db9b8194eab2b66ad21278cb0bd9b06",
+          "message": "Merge #330: tombox-xshader: take the user-data base from the FSSM stage slot",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/b96523a66db9b8194eab2b66ad21278cb0bd9b06",
+          "date": "2026-11-25T13:19:29Z"
+        },
+        {
+          "sha": "4fcfe13eb27a70b2bcac10659f45dd340d6b0ad5",
+          "message": "tombox-xshader: take the user-data base from the FSSM stage slot",
+          "url": "https://github.com/omonkeyz/xbox-emulator/commit/4fcfe13eb27a70b2bcac10659f45dd340d6b0ad5",
+          "date": "2026-11-25T13:19:29Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 1102,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tombox-loader/src/win32.rs"
+              ]
+            },
+            {
+              "id": "kernel_services",
+              "matching_files": 4,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/ntdll/build.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/ntdll/src/lib.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/ntdll/src/ums.rs"
+              ]
+            },
+            {
+              "id": "memory_management",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/vmem_x.rs"
+              ]
+            },
+            {
+              "id": "synchronization",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/tools/progress/sync.py"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 5,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtffileio/src/fileio_b.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtffileio/src/fileio_b_diff.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xtffileio/src/fileio_b_stream.rs"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 31,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk/access.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk/basic.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gdk/capture.rs"
+              ]
+            },
+            {
+              "id": "users_accounts",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/online/fortnite/account.rs"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 5,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gamepad.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gamepad/history.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/compat-common/src/gamepad/host.rs"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tools/audio-replay/src/main.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tools/xhost/src/audio.rs"
+              ]
+            },
+            {
+              "id": "save_storage",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xcrdapi/src/xcrd2_storage.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/xcrdapi/src/xcrd_storage.rs"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 166,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/build.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/src/console_x.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_x/src/driver_call.rs"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 33,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/shaders/query_accum.hlsl",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/shader_dump.rs",
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/compat/d3d12_xs/src/shader_xlat.rs"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/omonkeyz/xbox-emulator/blob/main/crates/tombox-disasm/src/main.rs"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [
+          {
+            "id": "system_imports",
+            "label": "Imported system functions covered",
+            "implemented": 671,
+            "total": 671,
+            "status": "upstream_reported",
+            "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          },
+          {
+            "id": "shader_sweep",
+            "label": "Shader records translated in examined title",
+            "implemented": 105506,
+            "total": 105506,
+            "status": "upstream_reported",
+            "source": "https://github.com/omonkeyz/xbox-emulator/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          }
+        ],
+        "metric_forecasts": {
+          "system_imports": {
+            "status": "scope_complete",
+            "reason": "Upstream reports 100% of this declared scope; this does not establish game compatibility"
+          },
+          "shader_sweep": {
+            "status": "scope_complete",
+            "reason": "Upstream reports 100% of this declared scope; this does not establish game compatibility"
+          }
+        }
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 1081,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 66
+      }
+    },
+    {
+      "repo": "drycheetah84/TomBox",
+      "name": "TomBox",
+      "kind": "Emulator / compatibility",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Xbox Series system API mapping and shims",
+      "priority": "Core runtime",
+      "url": "https://github.com/drycheetah84/TomBox",
+      "branch_scanned": "master",
+      "description_upstream": "A Xbox Series X|S Emulator Designed to map and shim system apis to run games seamlessly",
+      "archived": false,
+      "stars": 101,
+      "forks": 12,
+      "open_prs": 1,
+      "open_issues_estimate": 3,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 142,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T22:42:06Z",
+      "last_commit_sha": "4f66ea98423e02e1cbb1d6d068e55e3a98d408fd",
+      "last_push_at": "2026-11-22T22:42:07Z",
+      "new_commits_since_scan": 0,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "4f66ea98423e02e1cbb1d6d068e55e3a98d408fd",
+          "message": "Merge pull request #3 from RonLogic/shader-compute-readback",
+          "url": "https://github.com/drycheetah84/TomBox/commit/4f66ea98423e02e1cbb1d6d068e55e3a98d408fd",
+          "date": "2026-11-22T22:42:06Z"
+        },
+        {
+          "sha": "4c5bff9ee23c07e8604a6ed18ded2203948f8594",
+          "message": "Merge latest upstream master into shader-compute-readback",
+          "url": "https://github.com/drycheetah84/TomBox/commit/4c5bff9ee23c07e8604a6ed18ded2203948f8594",
+          "date": "2026-11-22T16:54:36Z"
+        },
+        {
+          "sha": "fae89a9fc5be4ed2ce3cb1eef1709174eb3029ba",
+          "message": "tools/dev: syms2pdb.py - symbol database to PDB (publics + section headers + matching GUID) via llvm-pdbutil",
+          "url": "https://github.com/drycheetah84/TomBox/commit/fae89a9fc5be4ed2ce3cb1eef1709174eb3029ba",
+          "date": "2026-11-22T03:08:48Z"
+        },
+        {
+          "sha": "6b6e23866bb4d5135c3d25975c164bfb28cbe947",
+          "message": "Runtime CPU: input-keyed shader cache (skips translation), texture-pump backoff",
+          "url": "https://github.com/drycheetah84/TomBox/commit/6b6e23866bb4d5135c3d25975c164bfb28cbe947",
+          "date": "2026-11-22T02:55:41Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 89,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-loader/src/win32.rs"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/compat-common/src/gdk_store.rs",
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/compat-common/src/gdk_user.rs"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 12,
+              "examples": [
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/bindtrace.rs",
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/cmdlist_wrap.rs",
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/device_wrap.rs"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 4,
+              "examples": [
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/d3d12_xs/src/shader_xlat.rs",
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-xshader/src/hlsl.rs",
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-xshader/src/hlsl/bindings.rs"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/drycheetah84/TomBox/blob/master/crates/tombox-disasm/src/main.rs"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [],
+        "metric_forecasts": {}
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 78,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 71
+      }
+    },
+    {
+      "repo": "Freminet/ScarlettX",
+      "name": "ScarlettX",
+      "kind": "High-level emulator",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Clean-room Scarlett high-level emulation and compatibility layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/Freminet/ScarlettX",
+      "branch_scanned": "main",
+      "description_upstream": "Experimental, clean-room Xbox Series X|S (Scarlett) HLE and compatibility layer for Windows x64.",
+      "archived": false,
+      "stars": 269,
+      "forks": 26,
+      "open_prs": 34,
+      "open_issues_estimate": 4,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 57,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-22T10:38:04Z",
+      "last_commit_sha": "01c642cf62a6d9978f535e2c438c488ebcb4cd39",
+      "last_push_at": "2026-11-22T10:38:07Z",
+      "new_commits_since_scan": 0,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "01c642cf62a6d9978f535e2c438c488ebcb4cd39",
+          "message": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
+          "url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
+          "date": "2026-11-22T10:38:04Z"
+        },
+        {
+          "sha": "7cfc38cb9ea0fdf1fd271da4af0dcfddb814f3ca",
+          "message": "Merge pull request #3",
+          "url": "https://github.com/Freminet/ScarlettX/commit/7cfc38cb9ea0fdf1fd271da4af0dcfddb814f3ca",
+          "date": "2026-11-22T10:32:26Z"
+        },
+        {
+          "sha": "0ea46efc1db3c68e586e9dd400c68dcd5e89e0b4",
+          "message": "Borderless fullscreen on Alt+Enter and controller rumble: follow-ups and status refresh",
+          "url": "https://github.com/Freminet/ScarlettX/commit/0ea46efc1db3c68e586e9dd400c68dcd5e89e0b4",
+          "date": "2026-11-22T10:19:27Z"
+        },
+        {
+          "sha": "8e825a8be406a66cc1ef6846d1d59b7021defac1",
+          "message": "Merge pull request #4",
+          "url": "https://github.com/Freminet/ScarlettX/commit/8e825a8be406a66cc1ef6846d1d59b7021defac1",
+          "date": "2026-11-22T10:18:33Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 70,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 15,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/game_config.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/package_vfs.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/pe_loader.h"
+              ]
+            },
+            {
+              "id": "kernel_services",
+              "matching_files": 6,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/kernel/xmemory.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/kernel/xruntime.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/kernel/xstorage.h"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/loader/package_vfs.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/src/loader/package_vfs.cpp"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gdk/xgameruntime_abi.h"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/input/gameinput_abi.h"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/audio/acphal_abi.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/audio/xaudio2_abi.h"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 5,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gpu/d3d12_backend.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gpu/d3d12_xs_abi.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/src/gpu/d3d12_backend.cpp"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/Freminet/ScarlettX/blob/main/include/scarlettx/gpu/shader_ir.h",
+                "https://github.com/Freminet/ScarlettX/blob/main/src/gpu/shader_ir.cpp"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [
+          {
+            "id": "tracked_functions",
+            "label": "Functions in its declared emulator status catalog",
+            "implemented": 281,
+            "total": 422,
+            "status": "upstream_reported",
+            "source": "https://github.com/Freminet/ScarlettX/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          },
+          {
+            "id": "game_milestones",
+            "label": "Concept Destruction bring-up milestones",
+            "implemented": 42,
+            "total": 46,
+            "status": "upstream_reported",
+            "source": "https://github.com/Freminet/ScarlettX/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          }
+        ],
+        "metric_forecasts": {
+          "tracked_functions": {
+            "status": "insufficient_data",
+            "reason": "Need at least 4 daily observations over 28 days with a stable denominator"
+          },
+          "game_milestones": {
+            "status": "insufficient_data",
+            "reason": "Need at least 4 daily observations over 28 days with a stable denominator"
+          }
+        }
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 69,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 318
+      }
+    },
+    {
+      "repo": "sammwyy/xvalkyrie",
+      "name": "xvalkyrie",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S + Xbox One",
+      "description": "Experimental Scarlett and Durango compatibility layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/sammwyy/xvalkyrie",
+      "branch_scanned": "main",
+      "description_upstream": "Experimental Xbox One (Durango) & Series X|S (Scarlett) compatibility layer for Windows",
+      "archived": false,
+      "stars": 237,
+      "forks": 15,
+      "open_prs": 4,
+      "open_issues_estimate": 8,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 433,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-28T07:57:28Z",
+      "last_commit_sha": "ce5df84f151a14da388304bd523fbadc8340a51e",
+      "last_push_at": "2026-11-28T07:57:46Z",
+      "new_commits_since_scan": 22,
+      "latest_release": {
+        "tag": "0.0.8",
+        "url": "https://github.com/sammwyy/xvalkyrie/releases/tag/0.0.8"
+      },
+      "recent_commits": [
+        {
+          "sha": "ce5df84f151a14da388304bd523fbadc8340a51e",
+          "message": "docs(compatibility): record hands-on verification states and regressions",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/ce5df84f151a14da388304bd523fbadc8340a51e",
+          "date": "2026-11-28T07:57:28Z"
+        },
+        {
+          "sha": "db95d227eba097bea0ba4a7d31e4dd418a340dd7",
+          "message": "fix(d3d11x,memory): populate placement buffer +0x30 base, expand UP templates, and use DiscardVirtualMemory",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/db95d227eba097bea0ba4a7d31e4dd418a340dd7",
+          "date": "2026-11-28T06:56:49Z"
+        },
+        {
+          "sha": "83e15fda850daf99a7000512db6f890155a01cf6",
+          "message": "feat(d3d11x,winrt): clamp SRV mip levels, support instanced context draws and multi-slot CE packets, and queue off-thread RunAsync",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/83e15fda850daf99a7000512db6f890155a01cf6",
+          "date": "2026-11-28T06:25:26Z"
+        },
+        {
+          "sha": "c341d861a6db09d158058a5af85d949c1a3a8107",
+          "message": "feat(d3d11x,kernel): rebind null-base placement buffers, honor context dirty bits, and throttle GetProcAddress logs",
+          "url": "https://github.com/sammwyy/xvalkyrie/commit/c341d861a6db09d158058a5af85d949c1a3a8107",
+          "date": "2026-11-28T05:29:24Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 194,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/loader/image.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/loader/image.hpp"
+              ]
+            },
+            {
+              "id": "kernel_services",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/kernel.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/kernel.hpp"
+              ]
+            },
+            {
+              "id": "memory_management",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/host/memory.hpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/memory.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/memory.hpp"
+              ]
+            },
+            {
+              "id": "threads_scheduling",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/host/threading.hpp"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/formats/gdk/game_config.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/formats/gdk/game_config.hpp"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 5,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/input/input.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/input/input.hpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/input/xinput/direct.cpp"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/audio/audio.hpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/backends/audio/wasapi/mute.cpp"
+              ]
+            },
+            {
+              "id": "networking",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/network.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/network.hpp"
+              ]
+            },
+            {
+              "id": "save_storage",
+              "matching_files": 4,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/durango/winrt/storage.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/durango/winrt/storage.hpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/storage.cpp"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 4,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/console_shader.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/console_shader.hpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/console_shader_rdna.cpp"
+              ]
+            },
+            {
+              "id": "textures_resources",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/texture_layout.cpp",
+                "https://github.com/sammwyy/xvalkyrie/blob/main/src/runtime/modules/texture_layout.hpp"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [],
+        "metric_forecasts": {}
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 191,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 237
+      }
+    },
+    {
+      "repo": "LooperSalty/AnyXboxX",
+      "name": "AnyXboxX",
+      "kind": "High-level emulator",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X",
+      "description": "Unicorn-based GDK high-level emulation prototype",
+      "priority": "Core runtime",
+      "url": "https://github.com/LooperSalty/AnyXboxX",
+      "branch_scanned": "main",
+      "description_upstream": "AnyXboxX — prototype d'émulateur Xbox Series X (HLE du GDK sur Unicorn)",
+      "archived": false,
+      "stars": 541,
+      "forks": 105,
+      "open_prs": 77,
+      "open_issues_estimate": 31,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-28T00:01:45Z",
+      "last_commit_sha": "132da61504cc2c2d086796c468a8ace1759aba22",
+      "last_push_at": "2026-11-28T03:54:45Z",
+      "new_commits_since_scan": 29,
+      "latest_release": {
+        "tag": "launcher-v0.3.1",
+        "url": "https://github.com/LooperSalty/AnyXboxX/releases/tag/launcher-v0.3.1"
+      },
+      "recent_commits": [
+        {
+          "sha": "132da61504cc2c2d086796c468a8ace1759aba22",
+          "message": "Merge pull request #564 from LooperSalty/perf/memory-stack",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/132da61504cc2c2d086796c468a8ace1759aba22",
+          "date": "2026-11-28T00:01:45Z"
+        },
+        {
+          "sha": "e5db9fe7b2d847ae458ef146378b0688e2fd9d01",
+          "message": "Merge branch 'main' of https://github.com/LooperSalty/AnyXboxX into perf/memory-stack",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/e5db9fe7b2d847ae458ef146378b0688e2fd9d01",
+          "date": "2026-11-27T23:54:52Z"
+        },
+        {
+          "sha": "4079f2b50b073935a8c64bf575b15f87ec91989b",
+          "message": "Merge pull request #563 from LooperSalty/feat/victory-vicetay-4f15f09",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/4079f2b50b073935a8c64bf575b15f87ec91989b",
+          "date": "2026-11-27T23:54:16Z"
+        },
+        {
+          "sha": "d0e126197cc99dbd8b34ebe64dcca613eb1df1e1",
+          "message": "Merge branch 'feat/victory-vicetay-4f15f09' into perf/memory-stack",
+          "url": "https://github.com/LooperSalty/AnyXboxX/commit/d0e126197cc99dbd8b34ebe64dcca613eb1df1e1",
+          "date": "2026-11-27T23:36:16Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 359,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/loader.py"
+              ]
+            },
+            {
+              "id": "kernel_services",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/kernel.py",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/kernel_misc.py"
+              ]
+            },
+            {
+              "id": "memory_management",
+              "matching_files": 7,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/memory.py",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_exec_memory.py",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_memory.py"
+              ]
+            },
+            {
+              "id": "synchronization",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/tools/sync_voisins.py"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-xgameruntime/src/package_mount.rs"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/hle/gdk.py",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-report/src/gdk.rs",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/tools/gdk_interfaces.py"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-audio/src/lib.rs",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-audio/src/main.rs"
+              ]
+            },
+            {
+              "id": "save_storage",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-xgameruntime/src/local_storage.rs",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/runtime/xgameruntime/local_storage_interface.cpp"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-d3d12-xs/build.rs",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-d3d12-xs/src/lib.rs"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 26,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl.py",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_clamp.py",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/PrototypeScarlett/emu/rdna2_hlsl_cmpf16.py"
+              ]
+            },
+            {
+              "id": "textures_resources",
+              "matching_files": 5,
+              "examples": [
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-texture/src/bc7.rs",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-texture/src/lib.rs",
+                "https://github.com/LooperSalty/AnyXboxX/blob/main/crates/anyxboxx-texture/src/main.rs"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [],
+        "metric_forecasts": {}
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 358,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 74
+      }
+    },
+    {
+      "repo": "californiaAlmonds/OpenScarlett",
+      "name": "OpenScarlett",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "D3D12/Vulkan translation and Scarlett GDK shims",
+      "priority": "Core runtime",
+      "url": "https://github.com/californiaAlmonds/OpenScarlett",
+      "branch_scanned": "main",
+      "description_upstream": "Open-source MIT C++20 Xbox Series X|S (Scarlett) translation layer for Windows 10/11 — D3D12, Vulkan 1.4, RDNA2 shader lifting, GDK shims, and real-binary telemetry",
+      "archived": false,
+      "stars": 108,
+      "forks": 13,
+      "open_prs": 2,
+      "open_issues_estimate": 9,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 378,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-26T16:17:33Z",
+      "last_commit_sha": "48a98fcd31a9f5d6c8ba344592215c1539d6e7dc",
+      "last_push_at": "2026-11-26T16:17:31Z",
+      "new_commits_since_scan": 0,
+      "latest_release": {
+        "tag": "v0.6.0-alpha",
+        "url": "https://github.com/californiaAlmonds/OpenScarlett/releases/tag/v0.6.0-alpha"
+      },
+      "recent_commits": [
+        {
+          "sha": "48a98fcd31a9f5d6c8ba344592215c1539d6e7dc",
+          "message": "fix(d3d12_xs): fix Mesh PSO root sig v1.0/1.2/fallback, bound 4GB VRAM/lazy textures, and guard streaming RVAs",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/48a98fcd31a9f5d6c8ba344592215c1539d6e7dc",
+          "date": "2026-11-26T16:17:33Z"
+        },
+        {
+          "sha": "d33419c02d2fd27ce03d136040529d0dd7dee07a",
+          "message": "fix(gpu,d3d12_xs): add VOP3 0x347/0x371, acyclic DAG & mesh epilogue HLSL, and CmdList Slot 85",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/d33419c02d2fd27ce03d136040529d0dd7dee07a",
+          "date": "2026-11-26T15:11:29Z"
+        },
+        {
+          "sha": "30e2405df8cd97955d92d880e22695773addb495",
+          "message": "fix(kernelx,d3d12_xs,loader): reclaim unmapped placed VRAM, enable <40-bit sparse commit and guard paged fwPool",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/30e2405df8cd97955d92d880e22695773addb495",
+          "date": "2026-11-26T14:18:43Z"
+        },
+        {
+          "sha": "0bc6c5d1cc001806d36ac4008c5b5537dd4aa91c",
+          "message": "fix(d3d12_xs): guard unplaced polymorphic extension vtable clones at +0x17ABCA1",
+          "url": "https://github.com/californiaAlmonds/OpenScarlett/commit/0bc6c5d1cc001806d36ac4008c5b5537dd4aa91c",
+          "date": "2026-11-26T13:03:04Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 156,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 18,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/apc_injector.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/game_config.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/pe_forwarder.h"
+              ]
+            },
+            {
+              "id": "kernel_services",
+              "matching_files": 12,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/kernel/console_lsa_policy.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/kernel/gpu_tile_pool.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/kernel/kernelx_abi.h"
+              ]
+            },
+            {
+              "id": "synchronization",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/audio_sync.h"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/loader/vfs_mounts.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/loader/vfs_mounts.cpp"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gdk/xgameruntime_abi.h"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/input/gameinput_abi.h"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 11,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/acphal_abi.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/audio_sync.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/audio/audio_trace.h"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 14,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/d3d12_adapter.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/d3d12_xs_abi.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/gpu/d3d12_adapter.cpp"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/shader_cache.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/shader_ir.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/gpu/shader_cache.cpp"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/include/openscarlett/gpu/rdna2_disasm.h",
+                "https://github.com/californiaAlmonds/OpenScarlett/blob/main/src/gpu/rdna2_disasm.cpp"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [
+          {
+            "id": "rdna2_opcode_decoding",
+            "label": "RDNA2/GFX10.3 opcode forms decoded",
+            "implemented": 779,
+            "total": 779,
+            "status": "upstream_reported",
+            "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          },
+          {
+            "id": "shipping_gdk_thunks",
+            "label": "Shipping GDK thunks in upstream test catalog",
+            "implemented": 292,
+            "total": 292,
+            "status": "upstream_reported",
+            "source": "https://github.com/californiaAlmonds/OpenScarlett/blob/main/README.md",
+            "note": "README-reported count; denominator is limited to the upstream project's stated scope"
+          }
+        ],
+        "metric_forecasts": {
+          "rdna2_opcode_decoding": {
+            "status": "scope_complete",
+            "reason": "Upstream reports 100% of this declared scope; this does not establish game compatibility"
+          },
+          "shipping_gdk_thunks": {
+            "status": "scope_complete",
+            "reason": "Upstream reports 100% of this declared scope; this does not establish game compatibility"
+          }
+        }
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 135,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 400
+      }
+    },
+    {
+      "repo": "brcly/TuxBox",
+      "name": "TuxBox",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Native-first Xbox Series compatibility layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/brcly/TuxBox",
+      "branch_scanned": "main",
+      "description_upstream": "Open-source Xbox Series X|S runtime and RDNA 2 shader translator for running unpacked console titles on Linux (via Proton) and Windows.",
+      "archived": false,
+      "stars": 400,
+      "forks": 55,
+      "open_prs": 21,
+      "open_issues_estimate": 16,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-28T05:59:12Z",
+      "last_commit_sha": "cba382c4545575dc23e296e70c0e4a3de5608026",
+      "last_push_at": "2026-11-28T05:59:14Z",
+      "new_commits_since_scan": 120,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "cba382c4545575dc23e296e70c0e4a3de5608026",
+          "message": "d3d12: compare placed textures by digest instead of keeping a copy",
+          "url": "https://github.com/brcly/TuxBox/commit/cba382c4545575dc23e296e70c0e4a3de5608026",
+          "date": "2026-11-28T05:59:12Z"
+        },
+        {
+          "sha": "607106672941ea14894581079140e7ee581829a5",
+          "message": "d3d12: remove the splash code the repaint left unused",
+          "url": "https://github.com/brcly/TuxBox/commit/607106672941ea14894581079140e7ee581829a5",
+          "date": "2026-11-28T05:59:12Z"
+        },
+        {
+          "sha": "acaacf3cfc3e90ce64a0fb97bab374b5450e9c2e",
+          "message": "launcher: limit glibc arenas for Proton and Wine launches",
+          "url": "https://github.com/brcly/TuxBox/commit/acaacf3cfc3e90ce64a0fb97bab374b5450e9c2e",
+          "date": "2026-11-28T05:36:04Z"
+        },
+        {
+          "sha": "dd147122373e1876ce82bf86d39424201d4f474b",
+          "message": "launcher: rotate the NVIDIA cache on whichever of its files is full",
+          "url": "https://github.com/brcly/TuxBox/commit/dd147122373e1876ce82bf86d39424201d4f474b",
+          "date": "2026-11-28T05:33:16Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 889,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/tools/check_loader_trace.py"
+              ]
+            },
+            {
+              "id": "memory_management",
+              "matching_files": 16,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/memory_config_guest.cpp",
+                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/copy_memory.rs",
+                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/commands/list_memory.rs"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 5,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/tools/check_frosty_keyboard_gamepad.py",
+                "https://github.com/brcly/TuxBox/blob/main/tools/check_frosty_xinput.py",
+                "https://github.com/brcly/TuxBox/blob/main/tools/check_lanes_input.py"
+              ]
+            },
+            {
+              "id": "audio",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/src/title_audio.rs"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 175,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/d3d12_status.py",
+                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/affine.hlsl",
+                "https://github.com/brcly/TuxBox/blob/main/runtime/d3d12/buffer_import_guest.cpp"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 224,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/dxil_store.py",
+                "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_blob.py",
+                "https://github.com/brcly/TuxBox/blob/main/project_tuxbox/shader_diagnostics.py"
+              ]
+            },
+            {
+              "id": "textures_resources",
+              "matching_files": 34,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/runtime/xg/src/tiling.rs",
+                "https://github.com/brcly/TuxBox/blob/main/runtime/xg/texture_64k16_control.cpp",
+                "https://github.com/brcly/TuxBox/blob/main/runtime/xg/texture_64k2d_control.cpp"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/tools/check_translator_gpu.py"
+              ]
+            },
+            {
+              "id": "conformance_tests",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/brcly/TuxBox/blob/main/tools/shader_harness.py"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [],
+        "metric_forecasts": {}
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 837,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 36
+      }
+    },
+    {
+      "repo": "jadeowaowa/scarlett-layer",
+      "name": "scarlett-layer",
+      "kind": "Compatibility layer",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Experimental Windows x64 and D3D12 GDK layer",
+      "priority": "Core runtime",
+      "url": "https://github.com/jadeowaowa/scarlett-layer",
+      "branch_scanned": "main",
+      "description_upstream": "Experimental Windows x64 / D3D12 compatibility layer for unpacked, unencrypted Xbox Series X|S (GDK) executables",
+      "archived": false,
+      "stars": 46,
+      "forks": 3,
+      "open_prs": 2,
+      "open_issues_estimate": 0,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 161,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-24T00:30:33Z",
+      "last_commit_sha": "0e436b3e1c654765b193c1cb705918fbf101b10b",
+      "last_push_at": "2026-11-24T00:30:36Z",
+      "new_commits_since_scan": 0,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "0e436b3e1c654765b193c1cb705918fbf101b10b",
+          "message": "fix(tests): align ILocalGameInputReading and ILocalGIRead vtables with GDK v0 IGameInputReading",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/0e436b3e1c654765b193c1cb705918fbf101b10b",
+          "date": "2026-11-24T00:30:33Z"
+        },
+        {
+          "sha": "de01a07e14a2e1bdef0aaeb61fa516c88568880a",
+          "message": "fix(d3d12_xs): remove duplicate shadowDst mirror blocks in CBV/UAV creation",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/de01a07e14a2e1bdef0aaeb61fa516c88568880a",
+          "date": "2026-11-24T00:09:14Z"
+        },
+        {
+          "sha": "7e6e684222ffd81c5b06627183806599042e9c7b",
+          "message": "fix(d3d12_xs): 4KiB inline command-list pad, shadow descriptor heaps, UAV/RTV guards, and default topology fallback",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/7e6e684222ffd81c5b06627183806599042e9c7b",
+          "date": "2026-11-24T00:07:36Z"
+        },
+        {
+          "sha": "83fd0508cc4de7b1c9392bb0e6659485586e82fb",
+          "message": "Fix CI: echo 0x20000 GameInputKind bit in GetCurrentReading when requested",
+          "url": "https://github.com/jadeowaowa/scarlett-layer/commit/83fd0508cc4de7b1c9392bb0e6659485586e82fb",
+          "date": "2026-11-23T23:02:36Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 64,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 7,
+              "examples": [
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/loader/auto_stub.hpp",
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/loader/game_config.hpp",
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/loader/main.cpp"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/common/vfs.hpp"
+              ]
+            },
+            {
+              "id": "gdk_services",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xgameruntime/gdk_types.hpp"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 12,
+              "examples": [
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/command_list_x.cpp",
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/command_queue_x.cpp",
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/d3d12_xs.cpp"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_inspector.hpp",
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_stripper.hpp",
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_translator.hpp"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/d3d12_xs/shader_translator.hpp"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [],
+        "metric_forecasts": {}
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 63,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 155
+      }
+    },
+    {
+      "repo": "Ender-0001/GDKScarlett",
+      "name": "GDKScarlett",
+      "kind": "GDK reimplementation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S",
+      "description": "Scarlett GDK API implementation",
+      "priority": "Supporting technology",
+      "url": "https://github.com/Ender-0001/GDKScarlett",
+      "branch_scanned": "main",
+      "description_upstream": null,
+      "archived": false,
+      "stars": 17,
+      "forks": 0,
+      "open_prs": 0,
+      "open_issues_estimate": 1,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 2,
+      "commits_30d_capped": false,
+      "last_commit_at": "2026-11-21T18:55:26Z",
+      "last_commit_sha": "e703bc3a11ad2780c9167f98c25b9867c7b08797",
+      "last_push_at": "2026-11-21T18:55:25Z",
+      "new_commits_since_scan": 0,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "e703bc3a11ad2780c9167f98c25b9867c7b08797",
+          "message": "init d3d12_xs",
+          "url": "https://github.com/Ender-0001/GDKScarlett/commit/e703bc3a11ad2780c9167f98c25b9867c7b08797",
+          "date": "2026-11-21T18:55:26Z"
+        },
+        {
+          "sha": "f016f6f08874216c50a5554b2af246c55ddee445",
+          "message": "Revise README",
+          "url": "https://github.com/Ender-0001/GDKScarlett/commit/f016f6f08874216c50a5554b2af246c55ddee445",
+          "date": "2026-11-21T18:22:40Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-28T08:00:06Z",
+      "scan_error": null,
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 53,
+          "features": [
+            {
+              "id": "d3d12",
+              "matching_files": 29,
+              "examples": [
+                "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/d3d12_x/DllMain.cpp",
+                "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/d3d12_x/DxbcUtil.cpp",
+                "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/d3d12_x/DxbcUtil.h"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [],
+        "metric_forecasts": {}
+      },
+      "api_scan": {
+        "status": "partial",
+        "files_scanned": 48,
+        "candidate_files": 53,
+        "files_failed": 0,
+        "truncated_tree": false,
+        "limited": true,
+        "note": "Bounded static scan. Definitions are syntactic candidates, not proven implementations. Unseen means not detected in sampled files.",
+        "symbols_found": 19
+      }
+    },
+    {
+      "repo": "realdody/americas-recomp",
+      "branch": "xbox-series",
+      "name": "americas-recomp",
+      "kind": "Shader recompilation",
+      "platforms": [
+        "Windows"
+      ],
+      "scope": "Xbox Series X|S (branch)",
+      "description": "Xbox Series-specific GPU shader translation research branch",
+      "priority": "Supporting technology",
+      "url": "https://github.com/realdody/americas-recomp",
+      "branch_scanned": "xbox-series",
+      "description_upstream": null,
+      "archived": false,
+      "stars": 536,
+      "forks": 85,
+      "open_prs": 7,
+      "open_issues_estimate": 12,
+      "issues_note": "Repository open_issues_count minus open PRs; approximate",
+      "commits_30d": 1000,
+      "commits_30d_capped": true,
+      "last_commit_at": "2026-11-22T17:34:03Z",
+      "last_commit_sha": "f1c25d729f54bc4b2fbd10c2eac1f6ee234174ff",
+      "last_push_at": "2026-11-22T17:34:04Z",
+      "new_commits_since_scan": 0,
+      "latest_release": null,
+      "recent_commits": [
+        {
+          "sha": "f1c25d729f54bc4b2fbd10c2eac1f6ee234174ff",
+          "message": "Relicense 3 more files under MIT: replies in #179 (88 in total)",
+          "url": "https://github.com/realdody/americas-recomp/commit/f1c25d729f54bc4b2fbd10c2eac1f6ee234174ff",
+          "date": "2026-11-22T17:34:03Z"
+        },
+        {
+          "sha": "498a06a12d77d29f176872b21024e066c1f07dc2",
+          "message": "Relicense 21 more files under MIT: replies in #179 (85 in total)",
+          "url": "https://github.com/realdody/americas-recomp/commit/498a06a12d77d29f176872b21024e066c1f07dc2",
+          "date": "2026-11-22T15:50:45Z"
+        },
+        {
+          "sha": "8df05a4aa95d503056b474ca473bc2df30d9ff5a",
+          "message": "Relicense 14 more files under MIT: replies in #179 (64 in total)",
+          "url": "https://github.com/realdody/americas-recomp/commit/8df05a4aa95d503056b474ca473bc2df30d9ff5a",
+          "date": "2026-11-22T15:13:54Z"
+        },
+        {
+          "sha": "73136eb14522b3ca4e84820bf3b6b680784c066e",
+          "message": "Relicense 50 files under MIT: every author agreed in #179",
+          "url": "https://github.com/realdody/americas-recomp/commit/73136eb14522b3ca4e84820bf3b6b680784c066e",
+          "date": "2026-11-22T14:37:22Z"
+        }
+      ],
+      "last_successful_scan": "2026-11-23T07:51:00Z",
+      "scan_error": "GitHub API HTTP 404 for /repos/realdody/americas-recomp",
+      "coverage": {
+        "catalog_total": 20,
+        "inventory": {
+          "status": "ok",
+          "truncated": false,
+          "source_files": 4335,
+          "features": [
+            {
+              "id": "executable_loader",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/vulkan_loader.hpp"
+              ]
+            },
+            {
+              "id": "memory_management",
+              "matching_files": 27,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/allocator/PeImportFirst.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/allocator/PeImportFirst.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/allocator/PeImportFirstMain.cpp"
+              ]
+            },
+            {
+              "id": "threads_scheduling",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Pthread/Posix/Thread.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Pthread/src/Thread.cpp"
+              ]
+            },
+            {
+              "id": "synchronization",
+              "matching_files": 21,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Acb/include/Sync.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Acb/src/Sync.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Cb/include/Sync.hpp"
+              ]
+            },
+            {
+              "id": "file_system",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceLibcInternal/Filesystem.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libScePosixForWebKit/Filesystem.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libc/src/Filesystem.cpp"
+              ]
+            },
+            {
+              "id": "input",
+              "matching_files": 10,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/input-mapper/app.js",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/input-mapper/capture.js",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/input-mapper/dropdown.js"
+              ]
+            },
+            {
+              "id": "networking",
+              "matching_files": 15,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Socket/include/SocketBorrow.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Socket/include/SocketConnect.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libkernel/Socket/include/SocketError.hpp"
+              ]
+            },
+            {
+              "id": "save_storage",
+              "matching_files": 2,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceSaveData.native/SaveData.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/xgr/runtime/impl_storage.cpp"
+              ]
+            },
+            {
+              "id": "d3d12",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/d3d12_xs.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/d3d12_xs_device.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/platform/d3d12_xs_test.cpp"
+              ]
+            },
+            {
+              "id": "shaders",
+              "matching_files": 273,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Shader/include/CreateShader.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Shader/include/GsOversubscription.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgc/Shader/include/GsPrimPayload.hpp"
+              ]
+            },
+            {
+              "id": "textures_resources",
+              "matching_files": 3,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgcDriver/Graphics/include/Texture.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/libs/prx/libSceAgcDriver/Graphics/src/Texture.cpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/texture_test.py"
+              ]
+            },
+            {
+              "id": "recompilation",
+              "matching_files": 252,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/shader/recompiler/BdaAbi.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/shader/recompiler/CacheKey.hpp",
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/core/shader/recompiler/CompiledVariant.hpp"
+              ]
+            },
+            {
+              "id": "conformance_tests",
+              "matching_files": 1,
+              "examples": [
+                "https://github.com/realdody/americas-recomp/blob/xbox-series/tools/xbox/harness_guard.py"
+              ]
+            }
+          ],
+          "note": "File-path matches are candidate code signals only, not confirmed implementations"
+        },
+        "checklist": null,
+        "reported_metrics": [],
+        "metric_forecasts": {}
+      },
+      "api_scan": {
+        "status": "stale",
+        "files_scanned": 0,
+        "error": "Upstream metadata scan failed",
+        "symbols_found": 0
+      }
+    }
+  ]
+}

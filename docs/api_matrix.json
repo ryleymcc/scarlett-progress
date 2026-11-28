@@ -1,7 +1,7 @@
 {
   "method": "Automatic regex-based source-body/mention scan; not actual runtime compatibility",
   "files_per_repo_limit": 48,
-  "total_symbols": 964,
+  "total_symbols": 962,
   "display_limit": 700,
   "truncated": true,
   "repositories_scanned": 11,
@@ -21,9 +21,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L599",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L639",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 599
+          "line": 639
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -78,9 +78,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L606",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L646",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 606
+          "line": 646
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -135,9 +135,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L560",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L600",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 560
+          "line": 600
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -192,9 +192,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L583",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L623",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 583
+          "line": 623
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -375,9 +375,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L130",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L140",
           "file": "crates/xcl/src/hle/d3d12x/mod.rs",
-          "line": 130
+          "line": 140
         },
         "omonkeyz/xbox-emulator": {
           "status": "reference",
@@ -432,9 +432,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L661",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L701",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 661
+          "line": 701
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -483,9 +483,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L776",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L816",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 776
+          "line": 816
         },
         "omonkeyz/xbox-emulator": {
           "status": "reference",
@@ -591,9 +591,9 @@
       "sources": {
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L251",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/d3d12x/mod.rs#L261",
           "file": "crates/xcl/src/hle/d3d12x/mod.rs",
-          "line": 251
+          "line": 261
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -642,9 +642,9 @@
       "sources": {
         "R0Y00/Xbox2Windows": {
           "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L882",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/startup_stubs/gameinput.cpp#L962",
           "file": "src/startup_stubs/gameinput.cpp",
-          "line": 882
+          "line": 962
         },
         "ivall/xcl": {
           "status": "definition_candidate",
@@ -1302,51 +1302,6 @@
           "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/AcpHal/DllMain.cpp#L6",
           "file": "Libraries/AcpHal/DllMain.cpp",
           "line": 6
-        }
-      }
-    },
-    {
-      "symbol": "XMemTransferMemory",
-      "group": "Memory",
-      "project_count": 6,
-      "candidate_count": 3,
-      "stub_count": 1,
-      "sources": {
-        "R0Y00/Xbox2Windows": {
-          "status": "reference",
-          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L159",
-          "file": "src/xmem_shim.cpp",
-          "line": 159
-        },
-        "ivall/xcl": {
-          "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L789",
-          "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 789
-        },
-        "drycheetah84/TomBox": {
-          "status": "stub_candidate",
-          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xmem/src/lib.rs#L245",
-          "file": "crates/compat/xmem/src/lib.rs",
-          "line": 245
-        },
-        "brcly/TuxBox": {
-          "status": "reference",
-          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/src/partitions.rs#L32",
-          "file": "runtime/xmem/src/partitions.rs",
-          "line": 32
-        },
-        "jadeowaowa/scarlett-layer": {
-          "status": "definition_candidate",
-          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L938",
-          "file": "src/shims/xmem/xmem.cpp",
-          "line": 938
-        },
-        "Ender-0001/GDKScarlett": {
-          "status": "definition_candidate",
-          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/xmem/DllMain.cpp#L74",
-          "file": "Libraries/xmem/DllMain.cpp",
-          "line": 74
         }
       }
     },
@@ -2227,6 +2182,45 @@
       }
     },
     {
+      "symbol": "XMemTransferMemory",
+      "group": "Memory",
+      "project_count": 5,
+      "candidate_count": 3,
+      "stub_count": 1,
+      "sources": {
+        "R0Y00/Xbox2Windows": {
+          "status": "reference",
+          "source": "https://github.com/R0Y00/Xbox2Windows/blob/main/src/xmem_shim.cpp#L159",
+          "file": "src/xmem_shim.cpp",
+          "line": 159
+        },
+        "ivall/xcl": {
+          "status": "definition_candidate",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L829",
+          "file": "crates/xcl/src/hle/kernelx.rs",
+          "line": 829
+        },
+        "drycheetah84/TomBox": {
+          "status": "stub_candidate",
+          "source": "https://github.com/drycheetah84/TomBox/blob/master/crates/compat/xmem/src/lib.rs#L245",
+          "file": "crates/compat/xmem/src/lib.rs",
+          "line": 245
+        },
+        "jadeowaowa/scarlett-layer": {
+          "status": "definition_candidate",
+          "source": "https://github.com/jadeowaowa/scarlett-layer/blob/main/src/shims/xmem/xmem.cpp#L938",
+          "file": "src/shims/xmem/xmem.cpp",
+          "line": 938
+        },
+        "Ender-0001/GDKScarlett": {
+          "status": "definition_candidate",
+          "source": "https://github.com/Ender-0001/GDKScarlett/blob/main/Libraries/xmem/DllMain.cpp#L74",
+          "file": "Libraries/xmem/DllMain.cpp",
+          "line": 74
+        }
+      }
+    },
+    {
       "symbol": "XAsyncBlock",
       "group": "Tasking & async",
       "project_count": 7,
@@ -2331,9 +2325,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1444",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1484",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1444
+          "line": 1484
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -2370,9 +2364,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1479",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1519",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1479
+          "line": 1519
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -2409,15 +2403,15 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L881",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L921",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 881
+          "line": 921
         },
         "brcly/TuxBox": {
           "status": "reference",
-          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/src/diagnostics.rs#L8",
-          "file": "runtime/xmem/src/diagnostics.rs",
-          "line": 8
+          "source": "https://github.com/brcly/TuxBox/blob/main/runtime/xmem/xmem.h#L31",
+          "file": "runtime/xmem/xmem.h",
+          "line": 31
         },
         "jadeowaowa/scarlett-layer": {
           "status": "definition_candidate",
@@ -2448,9 +2442,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1449",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1489",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1449
+          "line": 1489
         },
         "drycheetah84/TomBox": {
           "status": "definition_candidate",
@@ -2739,9 +2733,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L741",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L781",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 741
+          "line": 781
         },
         "omonkeyz/xbox-emulator": {
           "status": "reference",
@@ -3795,9 +3789,9 @@
         },
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1457",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L1497",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 1457
+          "line": 1497
         },
         "brcly/TuxBox": {
           "status": "reference",
@@ -4722,9 +4716,9 @@
       "sources": {
         "ivall/xcl": {
           "status": "definition_candidate",
-          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L806",
+          "source": "https://github.com/ivall/xcl/blob/main/crates/xcl/src/hle/kernelx.rs#L846",
           "file": "crates/xcl/src/hle/kernelx.rs",
-          "line": 806
+          "line": 846
         },
         "Freminet/ScarlettX": {
           "status": "definition_candidate",
@@ -16123,5 +16117,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-27T21:26:08Z"
+  "generated_at": "2026-11-28T08:00:06Z"
 }
